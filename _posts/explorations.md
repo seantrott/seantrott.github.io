@@ -1,4 +1,10 @@
-
+---
+layout: post
+mathjax: true
+title:  "Awesome Data Visualization"
+date:   2017-10-10 12:07:25 +0000
+categories: data
+---
 
 ```python
 import spacy
