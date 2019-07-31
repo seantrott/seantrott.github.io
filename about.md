@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+
+I am a Cognitive Science PhD student at University of California, San Diego, where I work with Dr. Benjamin Bergen. I'm interested in how humans understand and produce language, what constraints on these processes can tell us about language evolution, and how to leverage insights from psycholinguistics to improve natural language understanding.
+
+I also like to make food, write music, read books, and do things outdoors (climb, tennis, soccer).
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I also like to [write music](https://soundcloud.com/seantrott), [make food](https://seanmakesfood.wordpress.com/), [read books](https://www.goodreads.com/review/list/9359693), and do things outdoors (climb, tennis, soccer).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[sttrott@ucsd.edu](mailto:sttrott@ucsd.com)
