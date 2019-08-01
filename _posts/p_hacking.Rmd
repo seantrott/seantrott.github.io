@@ -7,7 +7,7 @@ output: rmarkdown::github_document
 library(tidyverse)
 ```
 
-```{r}
+```{r produce_data}
 set.seed(1)
 
 NUM_HACKS = 1000
@@ -19,9 +19,17 @@ Y_SD = sample(1:10, 1)
 
 x = rnorm(1000, mean=X_MEAN, sd=X_SD)
 y = rnorm(1000, mean=Y_MEAN, sd=Y_SD)
+
+og_data = data.frame(x=x, y=y)
+
+og_data %>%
+  ggplot(aes(x = x,
+             y = y)) +
+  geom_point() +
+  theme_minimal()
 ```
 
-```{r}
+```{r produce_hacked_plot}
 test_coef = c()
 test_p = c()
 size_v = c()

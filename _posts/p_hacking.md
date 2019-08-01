@@ -13,7 +13,17 @@ Y_SD = sample(1:10, 1)
 
 x = rnorm(1000, mean=X_MEAN, sd=X_SD)
 y = rnorm(1000, mean=Y_MEAN, sd=Y_SD)
+
+og_data = data.frame(x=x, y=y)
+
+og_data %>%
+  ggplot(aes(x = x,
+             y = y)) +
+  geom_point() +
+  theme_minimal()
 ```
+
+![](p_hacking_files/figure-markdown_github-ascii_identifiers/produce_data-1.png)
 
 ``` r
 test_coef = c()
@@ -41,4 +51,4 @@ d %>%
   theme_minimal()
 ```
 
-![](p_hacking_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png)
+![](p_hacking_files/figure-markdown_github-ascii_identifiers/produce_hacked_plot-1.png)
