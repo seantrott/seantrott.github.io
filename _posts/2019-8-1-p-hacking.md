@@ -26,8 +26,6 @@ og_data %>%
 
 ![Test]({{ site.baseurl }}/images/produce_data-1.png =400x)
 
-[<img src="{{ site.baseurl }}/images/produce_data-1.png" alt="Test" style="width: 400px;"/>]({{ site.baseurl }}/)
-
 ```r
 test_coef = c()
 test_p = c()
@@ -54,3 +52,6 @@ d %>%
 ```
 
 ![Produce plot of p-hacked coefficients](p_hacking_files/figure-html/produce_hacked_plot-1.png)
+
+
+[test](({{ site.baseurl }}/code/p_hacking_example.R))
