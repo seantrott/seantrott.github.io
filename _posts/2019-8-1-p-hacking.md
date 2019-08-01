@@ -23,6 +23,7 @@ og_data %>%
   geom_point() +
   theme_minimal()
 ```
+![Test]({{ site.baseurl }}/images/produce_data-1.png)
 
 [<img src="{{ site.baseurl }}/images/produce_data-1.png" alt="Test" style="width: 400px;"/>]({{ site.baseurl }}/)
 
