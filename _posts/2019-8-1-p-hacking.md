@@ -24,7 +24,7 @@ og_data %>%
   theme_minimal()
 ```
 
-[<img src="{{ site.baseurl }}/_posts/p_hacking_files/figure-html/produce_data-1.png" alt="Produce original data" style="width: 400px;"/>]({{ site.baseurl }}/)
+![Produce plot of p-hacked coefficients]({{site.baseurl}}/_posts/p_hacking_files/figure-html/produce_hacked_plot-1.png)
 
 
 ```r
