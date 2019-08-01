@@ -24,8 +24,7 @@ og_data %>%
   theme_minimal()
 ```
 
-![Produce data]({{site.baseurl}}/_posts/p_hacking_files/figure-html/produce_hacked_plot-1.png)
-
+[<img src="{{ site.baseurl }}/images/produce_data-1.png" alt="Test" style="width: 400px;"/>]({{ site.baseurl }}/)
 
 ```r
 test_coef = c()
