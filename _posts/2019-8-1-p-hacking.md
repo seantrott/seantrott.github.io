@@ -24,7 +24,7 @@ og_data %>%
   theme_minimal()
 ```
 
-![](p_hacking_files/figure-html/produce_data-1.png)
+![Produce data](p_hacking_files/figure-html/produce_data-1.png)
 
 
 ```r
@@ -52,4 +52,4 @@ d %>%
   theme_minimal()
 ```
 
-![](p_hacking_files/figure-html/produce_hacked_plot-1.png)
+![Produce plot of p-hacked coefficients](p_hacking_files/figure-html/produce_hacked_plot-1.png)
