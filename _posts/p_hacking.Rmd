@@ -1,9 +1,13 @@
 ---
-layout: post
-title: P-hacking in R
+title: "P-hacking in R"
+output: rmarkdown::github_document
 ---
 
-``` r
+```{r include=FALSE}
+library(tidyverse)
+```
+
+```{r}
 set.seed(1)
 
 NUM_HACKS = 1000
@@ -17,7 +21,7 @@ x = rnorm(1000, mean=X_MEAN, sd=X_SD)
 y = rnorm(1000, mean=Y_MEAN, sd=Y_SD)
 ```
 
-``` r
+```{r}
 test_coef = c()
 test_p = c()
 size_v = c()
@@ -42,5 +46,3 @@ d %>%
   xlim(-.5, .5) +
   theme_minimal()
 ```
-
-![](p_hacking_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png)

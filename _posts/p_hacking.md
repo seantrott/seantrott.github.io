@@ -1,7 +1,5 @@
----
-layout: post
-title: P-hacking in R
----
+P-hacking in R
+================
 
 ``` r
 set.seed(1)
