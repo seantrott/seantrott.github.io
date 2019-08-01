@@ -24,7 +24,7 @@ og_data %>%
   theme_minimal()
 ```
 
-![Produce data](p_hacking_files/figure-html/produce_data-1.png)
+![Produce data](_posts/p_hacking_files/figure-html/produce_data-1.png)
 
 
 ```r
