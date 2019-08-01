@@ -1,7 +1,9 @@
-P-hacking in R
-================
+# P-hacking in R
 
-``` r
+
+
+
+```r
 set.seed(1)
 
 NUM_HACKS = 1000
@@ -23,9 +25,10 @@ og_data %>%
   theme_minimal()
 ```
 
-![](p_hacking_files/figure-markdown_github-ascii_identifiers/produce_data-1.png)
+![](p_hacking_files/figure-html/produce_data-1.png)<!-- -->
 
-``` r
+
+```r
 test_coef = c()
 test_p = c()
 size_v = c()
@@ -47,8 +50,7 @@ d %>%
   labs(x = "Coefficient",
        y = "P-value",
        title = "Statistics for randomly shuffled splits") +
-  xlim(-.5, .5) +
   theme_minimal()
 ```
 
-![](p_hacking_files/figure-markdown_github-ascii_identifiers/produce_hacked_plot-1.png)
+![](p_hacking_files/figure-html/produce_hacked_plot-1.png)<!-- -->

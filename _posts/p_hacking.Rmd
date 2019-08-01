@@ -1,6 +1,8 @@
 ---
 title: "P-hacking in R"
-output: rmarkdown::github_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r include=FALSE}
@@ -51,6 +53,5 @@ d %>%
   labs(x = "Coefficient",
        y = "P-value",
        title = "Statistics for randomly shuffled splits") +
-  xlim(-.5, .5) +
   theme_minimal()
 ```
