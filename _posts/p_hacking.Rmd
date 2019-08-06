@@ -5,14 +5,6 @@ output:
     keep_md: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(readr)
-# Set data/output directories
-output_dir <- "../images"
-
-```
-
 # Introduction
 
 The goal of most scientific research is knowledge construction. This typically involves investigating potential relationships between variables of interest (does `A` relate to `B`?), especially *causal* relationships (does `A` *cause* `B`?).
@@ -78,7 +70,7 @@ og_data = data.frame(x=x, y=y)
 
 We can then plot this data. It's pretty clear that there's no relationship between `X` and `Y`.
 
-```{r plot_data}
+```{r plot_data, dpi=300}
 og_data %>%
   ggplot(aes(x = x,
              y = y)) +
