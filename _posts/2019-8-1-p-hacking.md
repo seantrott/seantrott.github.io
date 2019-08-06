@@ -82,7 +82,7 @@ og_data %>%
 
 ![]({{ site.baseurl }}/images/404.jpg)
 
-![]({{ site.baseurl }}images/p_hacking_files/figure-html/plot_data-1.png)
+![]({{ site.baseurl }}/images/p_hacking_files/figure-html/plot_data-1.png)
 
 ![Test3]({{ site.baseurl }}/images/produce_data-1.png)
 
