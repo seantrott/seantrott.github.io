@@ -131,6 +131,11 @@ Of course, we know---having simulated the data---that these results are simply t
 
 # Potential solutions
 
+Above, I 
+
+[link to shiny](https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_shiny.Rmd)
+
+
 
 # References
 
