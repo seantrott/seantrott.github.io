@@ -49,8 +49,6 @@ Fortunately, it's pretty simple to demonstrate this empirically. We can simulate
 First, we set up our two random datasets. Here, `X` and `Y` are constructed as normal distributions centered around some means (`X_MEAN`, `Y_MEAN`), each with standard deviations falling between `[1, 10]`. 
 
 
-
-
 ```r
 set.seed(1)
 
@@ -121,10 +119,6 @@ d %>%
 
 ```r
 nrow(filter(d, test_p < .05))/nrow(d)
-```
-
-```
-## Warning: package 'bindrcpp' was built under R version 3.4.4
 ```
 
 ```
