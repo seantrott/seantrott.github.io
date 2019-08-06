@@ -77,7 +77,7 @@ og_data %>%
   labs(title = "Random Y by Random X")
 ```
 
-![](images/p_hacking_files/figure-html/plot_data-1.png)<!-- -->
+![]({{ site.baseurl }}images/p_hacking_files/figure-html/plot_data-1.png)<!-- -->
 
 ## Hacking the data
 
@@ -117,7 +117,7 @@ d %>%
   theme_minimal()
 ```
 
-![](/Users/seantrott/Dropbox/UCSD/Website/seantrott.github.io/images/p_hacking_files/figure-html/produce_hacked_plot-1.png)<!-- -->
+![]({{ site.baseurl }}images/p_hacking_files/figure-html/produce_hacked_plot-1.png)<!-- -->
 
 ```r
 nrow(filter(d, test_p < .05))/nrow(d)
