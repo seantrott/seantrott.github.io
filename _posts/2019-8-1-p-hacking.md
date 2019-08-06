@@ -3,12 +3,6 @@ layout: post
 title: P-hacking in R
 ---
 
----
-layout: post
-title: P-hacking in R
----
-
-
 # Introduction
 
 The goal of most scientific research is knowledge construction. This typically involves investigating potential relationships between variables of interest (does `A` relate to `B`?), especially *causal* relationships (does `A` *cause* `B`?).
