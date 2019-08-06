@@ -146,16 +146,26 @@ I encourage you to try varying any and all of them. You can find the full code s
 
 Also, if you have [R Studio with shiny equipped](https://shiny.rstudio.com/), you can also download a [shiny script here](https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_shiny.Rmd), which you can run interactively in your browser to dynamically change the parameters above.
 
+# Potential solutions
+
+Researcher degrees of freedom pose a serious problem for ethical, trustworthy science. Many researchers can even fool themselves into thinking a post-hoc analysis was planned all along, simply because the motive is so strong---after all, a significant result is more likely to be published, and publications are critical for career development in academia. 
+
+Fortunately, there's a large (and growing) community of scientists, journalists, and others who are invested in solving this problem. There's the [Center for Open Science](https://cos.io/), the [Society for the Improvement of Psychological Science](https://improvingpsych.org/), the Open Science Framework, or [OSF](https://osf.io/), and more. P-hacking is far from the only issue of concern in this community, but it is one that people have thought seriously about.
+
+Two of the solutions that most appeal to me are:  
+
+1. **Pre-registration**: basically, a researcher can "pre-register" all the relevant details of their intended analysis, even including the script they plan to use to analyze the data, using a site like [OSF](https://osf.io/). This doesn't preclude the researcher from conducting later exploratory analyses, but it's clear to both the researcher and possible reviewers which analyses were planned, and which were conducted during post-hoc exploration of the data.  
+2. **Multiverse analysis**: as [Steegen et al (2019)]https://journals.sagepub.com/doi/pdf/10.1177/1745691616658637) describe, each step of the analysis pipeline involves a series of (sometimes arbitrary) decisions made by the researchers. This effectively creates a "multiverse" of possible analyses. The authors suggest committing to this multiversality; instead of only testing *one* operationalization, *one* analysis, researchers can test many, and ask about how robust a given result is *across* all of these analyses. This approach can reveal that particular results are very *fragile*, e.g., very dependent on a particular choice of statistical model or subset of the data.
+
+In my view, these solutions are mutually compatible. Pre-registration is a concrete mechanism to hold researchers accountable, both to the community and to themselves. And a multiverse analysis acknowledges the probabilistic and contingent nature of scientific truth. Ultimately, our goal is to construct useful models that explain the world around us, and it's important that we do so honestly and transparently.
+
 
 # References
 
 Benjamin, D. J., Berger, J. O., Johannesson, M., Nosek, B. A., Wagenmakers, E. J., Berk, R., ... & Cesarini, D. (2018). Redefine statistical significance. Nature Human Behaviour, 2(1), 6.
 
-McShane, B. B., Gal, D., Gelman, A., Robert, C., & Tackett, J. L. (2019). Abandon statistical significance. The American Statistician, 73(sup1), 235-245.
-
 Pernet, C. (2015). Null hypothesis significance testing: a short tutorial. F1000Research, 4.
 
+McShane, B. B., Gal, D., Gelman, A., Robert, C., & Tackett, J. L. (2019). Abandon statistical significance. The American Statistician, 73(sup1), 235-245.
 
-This can result in the phenomenon of **p-hacking**: essentially, a researcher runs many different analyses ("hypothesis tests") on a dataset until they find results that appear to be "significant"; when reporting their results, they report only the significant results, and act as if those were the only hypotheses they had actually tested. In other words, they conduct [exploratory research](https://en.wikipedia.org/wiki/Research_design#Confirmatory_versus_exploratory_research), but present it as if it were confirmatory. This is a big problem, because a fundamental assumption of [null hypothesis significance testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing#Null_hypothesis_statistical_significance_testing) is that a researcher developed a hypothesis *before* collecting and analyzing the data.
-
-
+Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science, 11(5), 702-712.
