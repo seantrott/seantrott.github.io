@@ -159,6 +159,8 @@ Two of the solutions that most appeal to me are:
 
 In my view, these solutions are mutually compatible. Pre-registration is a concrete mechanism to hold researchers accountable, both to the community and to themselves. And a multiverse analysis acknowledges the probabilistic and contingent nature of scientific truth. Ultimately, our goal is to construct useful models that explain the world around us, and it's important that we do so honestly and transparently.
 
+As always, if you have questions, comments, or criticisms about this post, you can contact me at [sttrott at ucsd dot edu](mailto:sttrott@ucsd.com)
+
 
 # References
 

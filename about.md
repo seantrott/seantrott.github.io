@@ -19,4 +19,4 @@ I also like to [write music](https://soundcloud.com/seantrott), [make food](http
 
 ### Contact me
 
-[sttrott@ucsd.edu](mailto:sttrott@ucsd.com)
+[sttrott at ucsd dot edu](mailto:sttrott@ucsd.com)
