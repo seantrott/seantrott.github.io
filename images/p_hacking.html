@@ -206,9 +206,26 @@ d = data.frame(coef = test_coef,
 <p>Looking at the plot above, we see that while most of our p-values fall above the dotted line (<em>p=.05</em>), some do not. Specifically, almost 4% have a p-value below .05. According to the standard significance threshold, these values are “significant”.</p>
 <p>Of course, we know—having simulated the data—that these results are simply the result of random shuffling. The vast majority of these 1000 random shuffles produced uncorrelated data. If we reported <em>all</em> of these tests, there wouldn’t be a problem; it’d be clear that the few “significant” findings were due to random chance. But if we reported only the 4% with <em>p&lt;.05</em>, it would appear to readers that these were the only tests we ran, and thus that these findings really were meaningful.</p>
 </div>
+<div id="brief-note-on-the-code" class="section level2">
+<h2>Brief note on the code</h2>
+<p>The code above is a simulation-based demonstration that the more randomly-generated datasets you compare, the more likely you are to find <em>something</em> that’s correlated.</p>
+<p>Of course, there are a number of parameters that can be adjusted in the code above, including:</p>
+<ul>
+<li>The random seed (currently set to 1)<br />
+</li>
+<li>Both <code>X_MEAN</code> and <code>Y_MEAN</code><br />
+</li>
+<li>Both <code>X_SD</code> and <code>Y_SD</code><br />
+</li>
+<li>The number of comparisons (<code>NUM_HACKS=1000</code>)<br />
+</li>
+<li>The kind of distribution you’re sampling from for both <code>X</code> and <code>Y</code> (currently a normal distribution)<br />
+</li>
+<li>The decision to either <em>shuffle</em> the original <code>X</code> or <em>generate</em> a new <code>X</code> each time</li>
+</ul>
+<p>I encourage you to try varying any and all of them. You can find the full code sample <a href="https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_example.R">here</a>, which you can run in R. Note that this code <em>also</em> includes a parameter called <code>SUBGROUP_SIZE</code>; in addition to running <code>NUM_HACKS</code> comparisons, this code <em>sub-samples</em> from <code>X</code> and <code>Y</code> for each comparison, which is meant to be analogous to splitting one’s data.</p>
+<p>Also, if you have <a href="https://shiny.rstudio.com/">R Studio with shiny equipped</a>, you can also download a <a href="https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_shiny.Rmd">shiny script here</a>, which you can run interactively in your browser to dynamically change the parameters above.</p>
 </div>
-<div id="potential-solutions" class="section level1">
-<h1>Potential solutions</h1>
 </div>
 <div id="references" class="section level1">
 <h1>References</h1>

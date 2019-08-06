@@ -127,8 +127,22 @@ Looking at the plot above, we see that while most of our p-values fall above the
 
 Of course, we know---having simulated the data---that these results are simply the result of random shuffling. The vast majority of these 1000 random shuffles produced uncorrelated data. If we reported *all* of these tests, there wouldn't be a problem; it'd be clear that the few "significant" findings were due to random chance. But if we reported only the 4% with *p<.05*, it would appear to readers that these were the only tests we ran, and thus that these findings really were meaningful. 
 
-# Potential solutions
+## Brief note on the code
 
+The code above is a simulation-based demonstration that the more randomly-generated datasets you compare, the more likely you are to find *something* that's correlated. 
+
+Of course, there are a number of parameters that can be adjusted in the code above, including:  
+
+* The random seed (currently set to 1)  
+* Both `X_MEAN` and `Y_MEAN`  
+* Both `X_SD` and `Y_SD`  
+* The number of comparisons (`NUM_HACKS=1000`)  
+* The kind of distribution you're sampling from for both `X` and `Y` (currently a normal distribution)  
+* The decision to either *shuffle* the original `X` or *generate* a new `X` each time 
+
+I encourage you to try varying any and all of them. You can find the full code sample [here](https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_example.R), which you can run in R. Note that this code *also* includes a parameter called `SUBGROUP_SIZE`; in addition to running `NUM_HACKS` comparisons, this code *sub-samples* from `X` and `Y` for each comparison, which is meant to be analogous to splitting one's data.
+
+Also, if you have [R Studio with shiny equipped](https://shiny.rstudio.com/), you can also download a [shiny script here](https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_shiny.Rmd), which you can run interactively in your browser to dynamically change the parameters above.
 
 # References
 
