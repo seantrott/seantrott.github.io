@@ -105,7 +105,7 @@ d = data.frame(coef = test_coef,
 
 Finally, we can plot the distribution of coefficients (e.g., the *slope* of the best-fitting line between a given `X'` and `Y`) and their corresponding p-values.
 
-```{r produce_hacked_plot}
+```{r produce_hacked_plot, dpi=300}
 
 d %>%
   ggplot(aes(x = test_coef,

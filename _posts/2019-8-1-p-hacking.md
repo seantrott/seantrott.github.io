@@ -3,6 +3,11 @@ layout: post
 title: P-hacking in R
 ---
 
+---
+layout: post
+title: P-hacking in R
+---
+
 
 # Introduction
 
@@ -77,7 +82,9 @@ og_data %>%
 
 ![]({{ site.baseurl }}/images/404.jpg)
 
-![]({{ site.baseurl }}images/p_hacking_files/figure-html/plot_data-1.png)<!-- -->
+![]({{ site.baseurl }}images/p_hacking_files/figure-html/plot_data-1.png)
+
+![Test3]({{ site.baseurl }}/images/produce_data-1.png)
 
 ## Hacking the data
 
@@ -144,4 +151,5 @@ Pernet, C. (2015). Null hypothesis significance testing: a short tutorial. F1000
 
 
 This can result in the phenomenon of **p-hacking**: essentially, a researcher runs many different analyses ("hypothesis tests") on a dataset until they find results that appear to be "significant"; when reporting their results, they report only the significant results, and act as if those were the only hypotheses they had actually tested. In other words, they conduct [exploratory research](https://en.wikipedia.org/wiki/Research_design#Confirmatory_versus_exploratory_research), but present it as if it were confirmatory. This is a big problem, because a fundamental assumption of [null hypothesis significance testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing#Null_hypothesis_statistical_significance_testing) is that a researcher developed a hypothesis *before* collecting and analyzing the data.
+
 
