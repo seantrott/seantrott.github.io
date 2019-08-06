@@ -1,7 +1,5 @@
 # A Demonstration of P-hacking in R
 
-
-
 # Introduction
 
 The goal of most scientific research is knowledge construction. This typically involves investigating potential relationships between variables of interest (does `A` relate to `B`?), especially *causal* relationships (does `A` *cause* `B`?).
@@ -119,10 +117,6 @@ d %>%
 
 ```r
 nrow(filter(d, test_p < .05))/nrow(d)
-```
-
-```
-## Warning: package 'bindrcpp' was built under R version 3.4.4
 ```
 
 ```
