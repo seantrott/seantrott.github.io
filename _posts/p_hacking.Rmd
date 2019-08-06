@@ -126,6 +126,7 @@ Of course, we know---having simulated the data---that these results are simply t
 
 # Potential solutions
 
+Above, I 
 
 # References
 

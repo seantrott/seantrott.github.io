@@ -1,0 +1,84 @@
+---
+title: "P-hacking in R"
+runtime: shiny
+output: html_document
+---
+
+See [this blog post](https://seantrott.github.io/p-hacking/) for a more detailed description.
+
+There are several broad points to derive from this demonstration:
+
+1. The more comparisons you make, the more likely you are to "discover" a false-positive result.  
+2. Smaller sub-group analyses result in greater variability in your coefficient estimates, and a higher likelihood of "discovering" **large** false-positive effects.
+
+```{r include=FALSE}
+
+library(tidyverse)
+```
+
+
+```{r echo = FALSE}
+
+set.seed(1)
+
+inputPanel(
+  sliderInput("x_mean", label = "X mean: ",
+          min = 0, max = 100, value = 20),
+
+  sliderInput("x_sd", label = "X SD: ",
+        min = 1, max = 10, value = 1),
+  
+  sliderInput("y_mean", label = "Y mean: ",
+          min = 0, max = 100, value = 20),
+  
+  sliderInput("y_sd", label = "Y SD: ",
+        min = 1, max = 10, value = 1),
+
+  sliderInput("hacks", label = "Forking paths (#shuffles): ",
+    min = 1, max = 500, value = 20),
+  
+  sliderInput("group_size", label = "Sub-group size: ",
+    min = 3, max = 1000, value = 20)
+)
+
+  
+renderPlot({
+  
+  set.seed(1)
+  
+  x = rnorm(1000, mean=input$x_mean, sd=input$x_sd)
+  y = rnorm(1000, mean=input$y_mean, sd=input$y_sd)
+  
+  SUBGROUP_SIZE = input$group_size
+  test_coef = c()
+  test_p = c()
+  size_v = c()
+  for (i in c(1:input$hacks)) {
+    new_x = sample(x, SUBGROUP_SIZE)
+    new_y = sample(y, SUBGROUP_SIZE)
+    new_test = summary(lm(new_y ~ new_x))
+    test_coef[i] = new_test$coefficients[2]
+    test_p[i] = new_test$coefficients[8]
+    size_v[i] = SUBGROUP_SIZE
+  }
+  
+  d = data.frame(coef = test_coef,
+                 p = test_p)
+  
+  d %>%
+    ggplot(aes(x = test_coef,
+               y = test_p)) +
+    geom_point() +
+    geom_hline(yintercept = .05, linetype = "dotted") +
+    labs(x = "Coefficient",
+         y = "P-value",
+         title = "Statistics for randomly shuffled splits") +
+    xlim(-.5, .5) +
+    theme_minimal()
+
+
+  
+})
+
+```
+
