@@ -75,6 +75,8 @@ og_data %>%
   labs(title = "Random Y by Random X")
 ```
 
+![]({{ site.baseurl }}/images/404.jpg)
+
 ![]({{ site.baseurl }}images/p_hacking_files/figure-html/plot_data-1.png)<!-- -->
 
 ## Hacking the data
