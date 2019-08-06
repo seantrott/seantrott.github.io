@@ -135,6 +135,7 @@ Above, I
 
 [link to shiny](https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_shiny.Rmd)
 
+<a href="https://github.com/seantrott/seantrott.github.io/blob/master/code/p_hacking_shiny.Rmd" download>Click to Download</a>
 
 
 # References
