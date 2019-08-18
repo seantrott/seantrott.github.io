@@ -161,7 +161,7 @@ In my view, these solutions are mutually compatible. Pre-registration is a concr
 
 # Contact
 
-If you have questions, comments, or criticisms about this post, you can contact me at [sttrott at ucsd dot edu](mailto:sttrott@ucsd.com)
+Of course, if you have questions, comments, or criticisms about this post, you can contact me at [sttrott at ucsd dot edu](mailto:sttrott@ucsd.com).
 
 
 # References
