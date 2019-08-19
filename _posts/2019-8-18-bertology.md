@@ -17,7 +17,8 @@ A second criticism, perhaps more philosophical in nature, is that the linguistic
 
 1. Statistical patterns in linguistic input  
 2. Grounding of linguistic abstractions (e.g., "words") via social and embodied associations  
-3) Biological constraints 
+3. Biological constraints (e.g., neural architecture) on the kinds of associations that can be learned.
+
 
 [[ Alan Turing quote about intelligent systems needing to *learn*. Can't just encode knowledge.]]
 
