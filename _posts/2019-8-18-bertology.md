@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BERT-ology and contextualized word embeddings
+title: BERTology
 ---
 
 # Introduction: a word by any other name?
@@ -22,6 +22,8 @@ A second criticism, perhaps more philosophical in nature, is that the linguistic
 
 [[ Alan Turing quote about intelligent systems needing to *learn*. Can't just encode knowledge.]]
 
+[[ Instead of trying to produce a programme to simulate the adult mind, why not rather try to produce one which simulates the child's? If this were then subjected to an appropriate course of education one would obtain the adult brain…. There is an obvious connection between this process and evolution… ]]
+
 
 
 Outline:
@@ -36,7 +38,9 @@ Main part:
 Lots of ways to evaluate an artificial neural network. One approach to understanding a neural network is to apply the same methodologies that have been used to stud biological neural networks. These methodologies rest on certain core assumptions about information processing in a network, e.g., that individual nodes (or clusters of nodes) somehow encode or represent certain dimensions of information. 
 Idea of "edge probing".
 
-Lit review of recent papers. 
+Lit review of recent papers
+https://docs.google.com/document/d/1U4JDYi43eFtvQfV_JUp_LTyMoP3LPiWjGSVqZCxWF80/edit
+
 
 Conclusion: what else should we ask about BERT?
 
