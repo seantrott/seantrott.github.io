@@ -12,10 +12,13 @@ I'm interested in:
 * what human production and comprehension systems can tell us about language evolution; and 
 * how to leverage insights from psycholinguistics to improve natural language understanding.
 
+For more details on my research, see [here](https://seantrott.github.io/research/).
 
 ### More Information
 
 I also like to [write music](https://soundcloud.com/seantrott), [make food](https://seanmakesfood.wordpress.com/), [read books](https://www.goodreads.com/review/list/9359693), and do things outdoors (climb, tennis, soccer).
+
+I will eventually migrate all the posts on my old blog over here, but for now, you can find the other posts at [seantrott.com/blog](https://seantrott.com/blog/).
 
 ### Contact me
 
