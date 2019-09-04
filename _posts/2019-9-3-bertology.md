@@ -11,16 +11,21 @@ Traditional, hand-coded approaches usually link words to some machine-readable o
 
 One drawback of these hand-coded approaches is that they're notoriously hard to scale. It takes considerable time and effort (and funding!) to develop a dictionary, and the process of building dictionaries for *machines* is even costlier.
 
+Alternative approaches attempt to *learn* the meaning of words, usually from a large (written) corpus. One particularly popular approach in recent years represents word meanings as vectors of real numbers; these vectors are often called **word embeddings**. 
+
+# What is a word embedding?
+
+
+Outline:
+
+
 Furthermore, while hand-coded approaches can be excellent characterizations of what *adults* know about language, they don't really reflect the process of language learning. Clearly, children aren't born with the entirety of their language knowledge intact. Rather, language is *learned*, via a complex (and yet seemingly effortless) process that involves, among other things:
 
 1. Statistical patterns in linguistic input  
 2. Grounding of linguistic abstractions (e.g., "words") via social and embodied associations  
 3. Biological constraints (e.g., neural architecture) on the kinds of associations that can be learned.
 
-Unfortunately, we're still a long ways off from understanding how these mechanisms translate to word learning during development, let alone *implementing* them in a machine. 
-
-
-Outline:
+Unfortunately, we're still a long ways off from understanding how these mechanisms translate to word learning during development, let alone *implementing* them in a machine. However, 
 
 
 Intro:
