@@ -38,7 +38,7 @@ Not a particularly interesting or insightful corpus, but it works for now. Note 
 
 Using these seven words, we can now build a co-occurrence matrix. Somewhat arbitrarily, let's say our window size is just 2 words, and require that these occur in the same sentence. Our matrix would thus look like:
 
-| Word |  cats &nbsp; |  eat  |     mice     |  dogs | drink | water | humans | pet |
+| Word |  cats&nbsp; |  eat&nbsp;  | mice&nbsp;|  dogs&nbsp; | drink&nbsp; | water&nbsp; | humans&nbsp; | pet&nbsp; |
 |:----------:| :----------: |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 | **cats** | - | 1 | 1 | 0 | 0 | 0 | 1 | 1 |
 | **eat** | 1 | - | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -87,6 +87,11 @@ But such a matrix isn't exactly what we want, for a couple of reasons:
 First, [Zipf's Law](https://en.wikipedia.org/wiki/Zipf%27s_law) tells us that word frequencies are arranged along a power law distribution: the most frequent word ("the") is roughly twice as frequent as the 2nd-most frequent word ("of"), which is roughly twice as frequent as the 3rd-most frequent word. This means that most of our corpus actually consists of a relatively small number of words, with a *very* long tail of less and less frequent words. This means that many of the dimensions in our matrix will be *sparse*, e.g., consisting of mostly 0s, because rare words just won't co-occur with all that many other words.
 
 Second, 
+
+
+Why do dimensionality reduction:
+1) many dimensions will be sparse  
+2) curse of dimensionality  
 
 
 
