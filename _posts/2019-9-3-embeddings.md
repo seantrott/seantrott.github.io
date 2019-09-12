@@ -38,7 +38,7 @@ Not a particularly interesting or insightful corpus, but it works for now. Note 
 
 Using these seven words, we can now build a co-occurrence matrix. Somewhat arbitrarily, let's say our window size is just 2 words, and require that these occur in the same sentence. Our matrix would thus look like:
 
-| Word |  cats  |  eat  |     mice     |  dogs | drink | water | humans | pet |
+| Word |  cats &nbsp; |  eat  |     mice     |  dogs | drink | water | humans | pet |
 |:----------:| :----------: |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 | **cats** | - | 1 | 1 | 0 | 0 | 0 | 1 | 1 |
 | **eat** | 1 | - | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -50,16 +50,6 @@ Using these seven words, we can now build a co-occurrence matrix. Somewhat arbit
 | **pet** | 1 | 0 | 0 | 1 | 0 | 0 | 1 | - |
 
 
-| Word |  cats  |  eat  |     mice     | 
-|:----------:|:----------:|:----------:|:----------:|
-| **cats** | - | 1 | 1 | 0 | 0 | 0 | 1 | 1 |
-| **eat** | 1 | - | 1 | 0 | 0 | 0 | 0 | 0 |
-| **mice** | 1 | 1 | - | 0 | 0 | 0 | 0 | 0 |
-| **dogs** | 0 | 0 | 0 | - | 1 | 1 | 1 | 1 |
-| **drink** | 0 | 0 | 0 | 1 | - | 1 | 0 | 0 |
-| **water** | 0 | 0 | 0 | 1 | 1 | - | 0 | 0 |
-| **humans** | 1 | 0 | 0 | 1 | 0 | 0 | - | 1 |
-| **pet** | 1 | 0 | 0 | 1 | 0 | 0 | 1 | - |
 
 
 Now we can inspect our matrix to see which words are represented with similar vectors. The "similarity" between two vectors is often assessed by taking the **cosine distance** of those vectors, then subtracting that measure from 1. We can do this in Python:
