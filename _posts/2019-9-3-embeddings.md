@@ -2,11 +2,6 @@
 layout: post
 title: Word embeddings, pt. 1
 ---
-
-The primary goal of this post is to summarize several recent papers exploring what [BERT](https://github.com/google-research/bert), a contextualized word embedding model, can and can't do. 
-
-Below, I'll briefly introduce the problem of representing "meaning" of words in the first place, and describe what word embeddings are. If you're already familiar with both of these concepts, feel free to skip to the section on BERT.
-
 # Introduction: a word by any other name?
 
 A central problem in Natural Language Processing (NLP) is how to represent the meaning of words. 
@@ -22,57 +17,71 @@ Alternative approaches attempt to *learn* the meaning of words, usually from a l
 
 A word embedding is a mapping from some string (e.g., `'cat'`) to a vector of real numbers. Technically, this vector could be constructed in a variety of ways, but in practice, it's based on a word's distributional pattern in a large corpus (e.g., Wikipedia). The core assumption between these **distributional semantic models** is, as Firth (1957) famously said: "a word is characterized by the company it keeps".
 
-There are a number of different algorithms for constructing these vectors, but they almost all operate according to the intuition that words that appear in similar contexts should have similar meanings. Usually this involves building a **co-occurrence matrix**: a massive data structure that represents, for every word in your corpus, how many times it co-occurred with every other word. Here, "co-occurrence" means that string `w1` and `w2` occurred within some window of each other (e.g., within two words in the same sentence). The logic is that words appearing in similar contexts will have similar co-occurrence vectors––and thus, potentially similar meanings.
+There are a number of different algorithms for constructing these vectors, but they almost all operate according to the intuition that words that appear in similar contexts should have similar meanings. Sometimes this involves building a **co-occurrence matrix**: a massive data structure that represents, for every word in your corpus, how many times it co-occurred with every other word. Here, "co-occurrence" means that string `w1` and `w2` occurred within some window of each other (e.g., within two words in the same sentence). The logic is that words appearing in similar contexts will have similar co-occurrence vectors––and thus, potentially similar meanings.
 
-As an example, imagine if our entire corpus was just three sentences:
+## Brief demonstration 
+
+As an example, imagine if our entire corpus was just five sentences:
 
 ```
-Cats chase mice.
-Dogs chase cats.
-Humans chase dogs.
+Cats eat mice.
+Dogs drink water.
+Humans pet dogs.
+Humans pet cats.
 ```
 
 Not a particularly interesting or insightful corpus, but it works for now. Note that this corpus consists of five unique words, so our **lexicon** is:
 
 ```
-['cats', 'chase', 'mice', 'dogs', 'humans']
+['cats', 'eat', 'mice', 'dogs', 'drink', 'water', 'humans', 'pet']
 ```
 
 Using these seven words, we can now build a co-occurrence matrix. Somewhat arbitrarily, let's say our window size is just 2 words, and require that these occur in the same sentence. Our matrix would thus look like:
 
-| Word | cats | chase | mice | dogs | humans |
-|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-| **cats** | - | 1 | 1 | 1 | 0 |
-| **chase** | 1 | - | 1 | 1 | 1 |
-| **mice** | 0 | 1 | - | 0 | 0 |
-| **dogs** | 1 | 1 | 0 | - | 1 |
-| **humans** | 0 | 1 | 0 | 1 | - |
+| Word | cats | eat | mice | dogs | drink | water | humans | pet |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| **cats** | - | 1 | 1 | 0 | 0 | 0 | 1 | 1 |
+| **eat** | 1 | - | 1 | 0 | 0 | 0 | 0 | 0 |
+| **mice** | 1 | 1 | - | 0 | 0 | 0 | 0 | 0 |
+| **dogs** | 0 | 0 | 0 | - | 1 | 1 | 1 | 1 |
+| **drink** | 0 | 0 | 0 | 1 | - | 1 | 0 | 0 |
+| **water** | 0 | 0 | 0 | 1 | 1 | - | 0 | 0 |
+| **humans** | 1 | 0 | 0 | 1 | 0 | 0 | - | 1 |
+| **pet** | 1 | 0 | 0 | 1 | 0 | 0 | 1 | - |
 
 
-The first thing to note is that the vector for `chase` is not particularly informative. It's all 1s, because all of the sentences in our corpus were about catching things; if we had a little more variety in our corpus, such as some sentences about eating things or drinking things, this would be more interesting.
+Now we can inspect our matrix to see which words are represented with similar vectors. The "similarity" between two vectors is often assessed by taking the **cosine distance** of those vectors, then subtracting that measure from 1. We can do this in Python:
 
-This also means that all of our other words share something in common: they're all associated with the word 'chase'. Again, this isn't particularly helpful, because what we really want is a way to tell which words are similar and which are different. The `chase` dimension has no variance whatsoever, so provides no information.
+```
+from scipy import spatial
 
-On 
+cats = [0, 1, 1, 0, 0, 0, 1, 1]
+mice = [1, 1, 0, 0, 0, 0, 0, 0]
 
+1 - spatial.distance.cosine(cats, mice)
+```  
 
-Intro:
-- Introduction to word embeddings
-- Introduce idea of BERT specifically
-- Challenge: BERT (and ELMo, etc.) embeddings reflect some aspect of "linguistic context", and clearly yield improvements on many standard NLP tasks, but it's not always clear why. Ideally, we'd have a mechanistic explanation for what information systems like BERT capture, as well as predictions about which downstream tasks this information will yield improvements for.
+This yields a similarity score of `0.35`. We can also compare the vectors for `dogs` and `cats`.
 
-Main part:
-Lots of ways to evaluate an artificial neural network. One approach to understanding a neural network is to apply the same methodologies that have been used to stud biological neural networks. These methodologies rest on certain core assumptions about information processing in a network, e.g., that individual nodes (or clusters of nodes) somehow encode or represent certain dimensions of information. 
-Idea of "edge probing".
+```
+cats = [0, 1, 1, 0, 0, 0, 1, 1]
+dogs = [0, 0, 0, 0, 1, 1, 1, 1]
 
-Lit review of recent papers
-https://docs.google.com/document/d/1U4JDYi43eFtvQfV_JUp_LTyMoP3LPiWjGSVqZCxWF80/edit
+1 - spatial.distance.cosine(cats, dogs)
+```  
 
+This yields a similarity score of `0.5`. 
 
-Conclusion: what else should we ask about BERT?
+According to these results, the word 'cats' is more similar to the word 'dogs' than it is to the word 'mice'. This makes sense, because in our corpus, 'cats' and 'mice' both co-occur with the word 'eat', but nothing else; whereas 'cats' and 'dogs' co-occur with the words 'humans' and 'pet'. If we asserted that `humans pet mice` instead of `humans pet dogs`, we'd get the opposite pattern of results from above. 
 
+Of course, our corpus is tiny––only four sentences. But hopefully this helps illustrate some of the intuition behind determining the similarity of two words as a function of the similarity of their distributional similarities.
 
-# References
+## Larger corpora and dimensionality reduction
 
-- FrameNet
-- WordNet
+In reality, we'd want to use a much larger corpus to build our co-occurrence matrix, such as all of English Wikipedia. This would result in a considerably larger co-occurrence matrix––the Oxford English Dictionary lists ~170,000 words in the English language; if all of these words were used in Wikipedia at least once, we'd end up with a `170000 x 170000` matrix.
+
+But such a matrix isn't exactly what we want, for a couple of reasons:
+
+First, [Zipf's Law](https://en.wikipedia.org/wiki/Zipf%27s_law) tells us that word frequencies are arranged along a power law distribution: the most frequent word ("the") is roughly twice as frequent as the 2nd-most frequent word ("of"), which is roughly twice as frequent as the 3rd-most frequent word. This means that most of our corpus actually consists of a relatively small number of words, with a *very* long tail of less and less frequent words. This means that many of the dimensions in our matrix will be *sparse*, e.g., consisting of mostly 0s, because rare words just won't co-occur with all that many other words.
+
+Second, 
