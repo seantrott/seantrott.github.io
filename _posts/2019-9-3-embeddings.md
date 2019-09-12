@@ -85,3 +85,10 @@ But such a matrix isn't exactly what we want, for a couple of reasons:
 First, [Zipf's Law](https://en.wikipedia.org/wiki/Zipf%27s_law) tells us that word frequencies are arranged along a power law distribution: the most frequent word ("the") is roughly twice as frequent as the 2nd-most frequent word ("of"), which is roughly twice as frequent as the 3rd-most frequent word. This means that most of our corpus actually consists of a relatively small number of words, with a *very* long tail of less and less frequent words. This means that many of the dimensions in our matrix will be *sparse*, e.g., consisting of mostly 0s, because rare words just won't co-occur with all that many other words.
 
 Second, 
+
+
+
+# Practical resources
+
+
+List various resources to get started with word embeddings, e.g., gensim in Python.
