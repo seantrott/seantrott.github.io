@@ -38,7 +38,7 @@ Not a particularly interesting or insightful corpus, but it works for now. Note 
 
 Using these seven words, we can now build a co-occurrence matrix. Somewhat arbitrarily, let's say our window size is just 2 words, and require that these occur in the same sentence. Our matrix would thus look like:
 
-| Word | cats | eat | mice | dogs | drink | water | humans | pet |
+| Word |  cats  |  eat  |  mice  | dogs | drink | water | humans | pet |
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 | **cats** | - | 1 | 1 | 0 | 0 | 0 | 1 | 1 |
 | **eat** | 1 | - | 1 | 0 | 0 | 0 | 0 | 0 |
