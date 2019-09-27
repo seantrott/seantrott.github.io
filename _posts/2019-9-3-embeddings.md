@@ -82,36 +82,17 @@ Of course, our corpus is tiny––only four sentences. But hopefully this helps
 
 In reality, we'd want to use a much larger corpus to build our co-occurrence matrix, such as all of English Wikipedia. This would result in a considerably larger co-occurrence matrix––the Oxford English Dictionary lists ~170,000 words in the English language; if all of these words were used in Wikipedia at least once, we'd end up with a `170000 x 170000` matrix. There are a few approaches to reducing the dimensionality of this matrix, such as [Latent Semantic Analysis (LSA)](https://en.wikipedia.org/wiki/Latent_semantic_analysis) and [Principal Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis), both of which uncover latent structure in the initial matrix.
 
+## word2vec and beyond
 
-
------- 
-
-
-First,  tells us that word frequencies are arranged along a power law distribution: the most frequent word ("the") is roughly twice as frequent as the 2nd-most frequent word ("of"), which is roughly twice as frequent as the 3rd-most frequent word. This means that most of our corpus actually consists of a relatively small number of words, with a *very* long tail of less and less frequent words. This means that many of the dimensions in our matrix will be *sparse*, e.g., consisting of mostly 0s, because rare words just won't co-occur with all that many other words.
-
-
-
-Basically, we want to do dimensionality reduction b/c the huge matrix is very sparse. 
-
-
-Why do dimensionality reduction:
-1) many dimensions will be sparse  
-2) curse of dimensionality   
-3) things like LSA find dimensions that explain the most variance
-4) don't want a huge matrix
-
-
-    It reduces the time and storage space required.
-    Removal of multi-collinearity improves the interpretation of the parameters of the machine learning model.
-    It becomes easier to visualize the data when reduced to very low dimensions such as 2D or 3D.
-    It avoids the curse of dimensionality.
-
+More recently, an approach called [word2vec](https://en.wikipedia.org/wiki/Word2vec)...
 
 
 # Practical resources
 
+If you'd like to get started with word embeddings, here are a few (Python-centric) links I've found useful:  
+- [sklearn.feature_extraction.text](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_extraction.text): A very straightforward API for transforming text documents into count matrices and tf-idf matrices.  
+- [NLP Utilities](https://github.com/seantrott/nlp_utilities#topic-modeling): A simple API for building topic models using LSA and LDA, built on top of the `sklearn` library. 
 
-List various resources to get started with word embeddings, e.g., gensim in Python.
 
 # References
 
@@ -119,4 +100,8 @@ Baker, C. F., Fillmore, C. J., & Lowe, J. B. (1998, August). The berkeley framen
 
 Firth, J.R. (1957). "A synopsis of linguistic theory 1930-1955". Studies in Linguistic Analysis: 1–32.
 
+Mikolov, T., Chen, K., Corrado, G., Dean, J., Sutskever, L., & Zweig, G. (2013). word2vec. URL https://code. google. com/p/word2vec.
+
 Miller, G. A. (1995). WordNet: a lexical database for English. Communications of the ACM, 38(11), 39-41.
+
+
