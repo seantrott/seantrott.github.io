@@ -91,7 +91,9 @@ More recently, an approach called [word2vec](https://en.wikipedia.org/wiki/Word2
 
 If you'd like to get started with word embeddings, here are a few (Python-centric) links I've found useful:  
 - [sklearn.feature_extraction.text](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_extraction.text): A very straightforward API for transforming text documents into count matrices and tf-idf matrices.  
-- [NLP Utilities](https://github.com/seantrott/nlp_utilities#topic-modeling): A simple API for building topic models using LSA and LDA, built on top of the `sklearn` library. 
+- [Blog post on LSA](https://technowiki.wordpress.com/2011/08/27/latent-semantic-analysis-lsa-tutorial/)  
+- [Another blog post on LSA](http://mccormickml.com/2016/03/25/lsa-for-text-classification-tutorial/)  
+- [NLP Utilities](https://github.com/seantrott/nlp_utilities#topic-modeling): A simple sklearn-style API for building topic models using LSA and LDA, built on top of the `sklearn` library. 
 
 
 # References
