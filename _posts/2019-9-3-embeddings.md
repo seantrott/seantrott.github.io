@@ -80,17 +80,31 @@ Of course, our corpus is tiny––only four sentences. But hopefully this helps
 
 #### Larger corpora and dimensionality reduction
 
-In reality, we'd want to use a much larger corpus to build our co-occurrence matrix, such as all of English Wikipedia. This would result in a considerably larger co-occurrence matrix––the Oxford English Dictionary lists ~170,000 words in the English language; if all of these words were used in Wikipedia at least once, we'd end up with a `170000 x 170000` matrix. There are a few approaches to reducing the dimensionality of this matrix, such as [Latent Semantic Analysis (LSA)](https://en.wikipedia.org/wiki/Latent_semantic_analysis) and [Principal Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis), both of which uncover latent structure in the initial matrix.
+In reality, we'd want to use a much larger corpus to build our co-occurrence matrix, such as all of English Wikipedia. This would result in a considerably larger co-occurrence matrix––the Oxford English Dictionary lists ~170,000 words in the English language; if all of these words were used in Wikipedia at least once, we'd end up with a `170000x170000` matrix. There are a few approaches to reducing the dimensionality, such as [Latent Semantic Analysis (LSA)](https://en.wikipedia.org/wiki/Latent_semantic_analysis) and [Principal Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis).
 
-## word2vec and beyond
+# Prediction-based approaches
 
-More recently, an approach called [word2vec](https://en.wikipedia.org/wiki/Word2vec)...
+## word2vec 
+
+More recently, an approach called [word2vec](https://en.wikipedia.org/wiki/Word2vec)(Mikolov et al., 2013) has exploded in popularity. Like LSA and approaches before it, the assumption behind the *word2vec* model is that words with similar meanings will occur in similar linguistic contexts. But unlike LSA, the *word2vec* algorithm builds its word vectors using a **predictive** approach: given a big corpus, the algorithm attempts to predict either a **target word** from the **context** (this is called the continuous bag of words, or CBOW, model), or the **context** from the **target word** (this is called the skip-gram model).
+
+As [this post](https://www.tensorflow.org/tutorials/representation/word2vec) explains, *word2vec* uses a 2-layer neural network to "embed" each word of a language in some relatively low-dimensional (~300 dimensions) vector-space. Each word is initially assigned a random vector of real numbers––e.g., it is embedded randomly in vector-space. The algorithm then crawls through a big corpus of text, and the network attempts to predict each target word from its context (or context from the target word); this prediction process involves first "embedding" the word, e.g., mapping the input token to the associated vector of real numbers. At first, the network will make many mistakes, because the vectors are totally random. But with each mistake, the network tunes these random vectors in such a way as to reduce the **prediction error**. E.g., if a network falsely predicted that word `w1` was not related to context `c1`, the embedding for `w1` is adjusted such that on future iterations, the network would predict a stronger relationship between `w1` and `c1`. 
+
+Over time, the network converges on relatively stable embeddings for each word (or you run out of training data)...
+
+NEXT:
+
+## Beyond word2vec
+
+
 
 
 # Practical resources
 
 If you'd like to get started with word embeddings, here are a few (Python-centric) links I've found useful:  
 - [sklearn.feature_extraction.text](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_extraction.text): A very straightforward API for transforming text documents into count matrices and tf-idf matrices.  
+- [gensim word2vec algorithms](https://radimrehurek.com/gensim/models/word2vec.html)  
+- [Post on word2vec](https://www.tensorflow.org/tutorials/representation/word2vec)  
 - [Blog post on LSA](https://technowiki.wordpress.com/2011/08/27/latent-semantic-analysis-lsa-tutorial/)  
 - [Another blog post on LSA](http://mccormickml.com/2016/03/25/lsa-for-text-classification-tutorial/)  
 - [NLP Utilities](https://github.com/seantrott/nlp_utilities#topic-modeling): A simple sklearn-style API for building topic models using LSA and LDA, built on top of the `sklearn` library. 
