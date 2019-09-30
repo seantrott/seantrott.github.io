@@ -113,7 +113,7 @@ He swam along the river bank.
 
 There are a number of different contextualized word embedding models, including ELMo ([Peters et al, 2018](https://arxiv.org/pdf/1802.05365.pdf%E3%80%91)) and BERT ([Devlin et al, 2018](https://arxiv.org/pdf/1810.04805.pdf%E3%80%91)). There are also similarly motivated approaches using LSTMs (Aina et al, 2019) or even working within the original word2vec framework (Beekhuizen et al, 2019). 
 
-**BERT** has received considerable attention in recent months. BERT's pre-trained embeddings have boosted performance on a number of different traditional NLP tasks, prompting many researchers to try to figure out precisely what it is that BERT "knows" about language. This subfield is colloquially called "BERTology", and will be the subject of my next post.
+**BERT** has received considerable attention in recent months. BERT's pre-trained embeddings boost performance on a number of different traditional NLP tasks, prompting many researchers to try to figure out precisely what it is that BERT "knows" about language. This subfield is colloquially called "BERTology", and will be the subject of my next post.
 
 # Practical resources
 
