@@ -11,6 +11,10 @@ permalink: /cv/
 *University of California, San Diego: Department of Cognitive Science*  
 Advisor: [Benjamin Bergen](http://www.cogsci.ucsd.edu/~bkbergen/)
 
+**B.A. in Cognitive Science** (2010-2014)  
+*University of California, Berkeley: Department of Cognitive Science*  
+Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
+
 ## Research 
 
 ### Journal Publications
