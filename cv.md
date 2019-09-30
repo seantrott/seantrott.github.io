@@ -8,7 +8,7 @@ permalink: /cv/
 
 ### Journal Publications
 
-Trott, S., & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*.
+**Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219)
 
 ### Conference Proceedings 
 
