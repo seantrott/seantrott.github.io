@@ -7,9 +7,8 @@ permalink: /cv/
 
 ## Education
 
-**Graduate student** (*2016-present*)  
-*University of California, San Diego*  
-*Department of Cognitive Science*  
+**Graduate student** (2016-present)  
+*University of California, San Diego: Department of Cognitive Science*  
 Advisor: [Benjamin Bergen](http://www.cogsci.ucsd.edu/~bkbergen/)
 
 ## Research 
