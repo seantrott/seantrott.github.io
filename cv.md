@@ -19,7 +19,7 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Journal Publications
 
-**Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219)
+**Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)
 
 ### Conference Proceedings 
 
