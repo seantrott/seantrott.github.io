@@ -26,21 +26,23 @@ In OLS regression, we try to minimize the residual sum of squares (RSS), e.g. th
 Lasso regression uses OLS regression as its starting point (see the left-side of the equation below), but adds a shrinkage penalty term.
 
  ![]({{ site.baseurl }}/images/regularization/lasso.png)
-
  
 
 Specifically, in addition to minimizing the RSS, we want to minimize the sum of the absolute values of our coefficients.
 
-Note the curious `l` in our shrinkage penalty term. This is called a tuning parameter (“lambda”), and its value essentially determines the extent to which we impose this penalty. If l=0, the equation reduces to standard OLS regression. But as l increases, we impose a stricter and stricter penalty––we force more and more of our coefficients to be smaller, creating a sparse vector of non-zero coefficients.
+Note the curious `l` in our shrinkage penalty term. This is called a tuning parameter (“lambda”), and its value essentially determines the extent to which we impose this penalty. If l=0, the equation reduces to standard OLS regression. But as `l` increases, we impose a stricter and stricter penalty––we force more and more of our coefficients to be smaller, creating a sparse vector of non-zero coefficients.
 
-What’s the intuition behind this approach? James et al (2013) describe regularization as a kind of budget. Like with standard OLS regression, we’re still trying to find the model that best fits our data, but we’re working under an additional budgetary constraint: we can’t assign too much “credit” to our variables. And the larger our l term, the stricter our budget. This has the beneficial effect of shrinking our coefficient estimates towards 0, allowing us to identify the most relevant (e.g. non-zero) set of predictors that remain (according to the model).
-Why use regularization?
+What’s the intuition behind this approach? James et al (2013) describe regularization as a kind of **budget**. Like with standard OLS regression, we’re still trying to find the model that best fits our data, but we’re working under an additional budgetary constraint: we can’t assign too much “credit” to our variables. And the larger our `l` term, the stricter our budget. This has the beneficial effect of shrinking our coefficient estimates towards 0, allowing us to identify the most relevant (e.g. non-zero) set of predictors that remain (according to the model).
 
-As described above, Lasso regularization is particularly useful for feature selection: you have a large set of predictors, and you want to isolate the predictors that are truly related to your Y.
+# Why use regularization?
 
-This kind of approach is becoming increasingly relevant, as the size of our datasets increases. Previously, I wrote about applying sparse regularization to discover patterns of form-meaning systematicity in language. This approach is also useful in fields such as Economics or Epidemiology, both of which involve building large, multivariate models. Regularization is also useful in machine learning, and is often used in conjunction with cross-validation, in order to build models that incorporate many potential predictors but weight only a subset of these predictors, in order to generalize across limited training sets.
+As described above, Lasso regularization is particularly useful for feature selection: you have a large set of predictors, and you want to isolate the predictors that are truly related to your `Y`.
 
-James et al (2013) also describe a number of other regularization approaches, including ridge regression. Ridge is similar to Lasso, but rather than minimizing the sum of your coefficient values, you minimize the sum of the squared coefficient values. This seemingly small difference actually results in some profound differences in how the models work––ridge regression never shrinks any coefficients entirely to 0. As James et al (2013) note, ridge regression is thus equivalent to assuming that your coefficients are randomly distributed around 0, whereas Lasso regression is equivalent to assuming that many of your coefficients equal 0.
-The Takeaway
+This kind of approach is becoming increasingly relevant, as the size of our datasets increases. This approach is useful in fields such as Genetics, Economics, and Epidemiology, all of which involve building large, multivariate models. Regularization is also useful in machine learning, and is often used in conjunction with techniques such as cross-validation, in order to build models that incorporate many potential predictors but weight only a subset of these predictors, in order to generalize across limited training sets.
 
-Pretty much all of science involves some form of statistical modeling. While statistics can seem dry and/or complicated, it’s important to understand when and why one should use a given statistical method––and how to interpret the results of applying that method. In particular, as our theoretical models become more complex, our statistical models must accommodate this complexity.
+James et al (2013) also describe a number of other regularization approaches, including **ridge regression**. Ridge is similar to Lasso, but rather than minimizing the sum of your coefficient values, you minimize the sum of the squared coefficient values. This seemingly small difference actually results in some profound differences in how the models work––ridge regression never shrinks any coefficients entirely to 0. As James et al (2013) note, ridge regression is thus equivalent to assuming that your coefficients are randomly distributed around 0, whereas Lasso regression is equivalent to assuming that many of your coefficients equal 0.
+
+
+# References
+
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An introduction to statistical learning (Vol. 112, p. 18). New York: springer.
