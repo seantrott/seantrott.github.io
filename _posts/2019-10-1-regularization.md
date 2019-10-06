@@ -17,25 +17,23 @@ Another approach, which I’ll focus on here, is **regularization**: instead of 
 
 # An intuitive explanation of Lasso regression: Regularization as “budgeting”
 
-The way I understand Lasso regression (and other regularization approaches like ridge or elastic net) is that they’re just extensions of the OLS formula.
+The way I understand Lasso regression (and other regularization approaches like ridge or elastic net) is that they’re just extensions of the OLS formula:
+
+ ![]({{ site.baseurl }}/images/regularization/RSS.png)
 
 In OLS regression, we try to minimize the residual sum of squares (RSS), e.g. the error between our predicted values and our actual values. The formula for deriving the RSS is given below. In plain English, this translates to: for each data point, subtract from the actual value (`y-real`) the intercept (`b0`, e.g. the prediction when all predictors=0), as well as the predicted value `y-pred` (obtained by summing the product of our `x` by the coefficient for each predictor). Critically, we want to minimize this value. This is intuitive when you consider it from the perspective of identifying the best explanation for your data––you want to estimate the relationships between `X` and `Y` that, when applied to `X`, best predict `Y`.
 
-\begin{equation}
-RSS = \sum_{\forall i}{x_i^{2}} $
-\end{equation}
-
 Lasso regression uses OLS regression as its starting point (see the left-side of the equation below), but adds a shrinkage penalty term.
 
- 
+ ![]({{ site.baseurl }}/images/regularization/lasso.png)
+
+
 
  
 
-Specifically, in addition to minimizing the RSS, we want to minimize the sum of the absolute values of our coefficients:
-Screen Shot 2019-05-05 at 11.36.56 AM
-Figure 2: Formula for Lasso regression. (Taken from James et al (2013)).
+Specifically, in addition to minimizing the RSS, we want to minimize the sum of the absolute values of our coefficients.
 
-Note the curious l in our shrinkage penalty term. This is called a tuning parameter (“lambda”), and its value essentially determines the extent to which we impose this penalty. If l=0, the equation reduces to standard OLS regression. But as l increases, we impose a stricter and stricter penalty––we force more and more of our coefficients to be smaller, creating a sparse vector of non-zero coefficients.
+Note the curious `l` in our shrinkage penalty term. This is called a tuning parameter (“lambda”), and its value essentially determines the extent to which we impose this penalty. If l=0, the equation reduces to standard OLS regression. But as l increases, we impose a stricter and stricter penalty––we force more and more of our coefficients to be smaller, creating a sparse vector of non-zero coefficients.
 
 What’s the intuition behind this approach? James et al (2013) describe regularization as a kind of budget. Like with standard OLS regression, we’re still trying to find the model that best fits our data, but we’re working under an additional budgetary constraint: we can’t assign too much “credit” to our variables. And the larger our l term, the stricter our budget. This has the beneficial effect of shrinking our coefficient estimates towards 0, allowing us to identify the most relevant (e.g. non-zero) set of predictors that remain (according to the model).
 Why use regularization?
