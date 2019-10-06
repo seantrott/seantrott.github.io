@@ -27,8 +27,7 @@ Lasso regression uses OLS regression as its starting point (see the left-side of
 
  ![]({{ site.baseurl }}/images/regularization/lasso.png)
 
-
-
+ \sqrt{27}
  
 
 Specifically, in addition to minimizing the RSS, we want to minimize the sum of the absolute values of our coefficients.
