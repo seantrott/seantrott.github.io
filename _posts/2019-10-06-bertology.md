@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Word embeddings, pt. 1
+title: BERTology
 ---
 
 The primary goal of this post is to summarize several recent papers exploring what [BERT](https://github.com/google-research/bert), a contextualized word embedding model, can and can't do. If you're new to word embeddings in general, my [other post](https://seantrott.github.io/embeddings/) has more background.
