@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Research Interests
 permalink: /research/
 ---
 
@@ -10,11 +10,13 @@ People often speak indirectly. For example, the sentence "My car isn't starting"
 
 How do comprehenders determine whether a speaker is making a request? Specifically: which **linguistic and non-linguistic cues to an utterance's meaning** do comprehenders exploit to enrich the meaning of an under-specified utterance like "My car isn't starting"? And what accounts for **individual differences** in the likelihood to *sample* and *deploy* particular cue to meaning?
 
-Thus far, my work has focused on: 
+## Mentalizing for indirect request comprehension
 
-- The role of **mentalizing** in indirect request comprehension [(Trott & Bergen, 2019](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219)
+Interlocutors don't always know or believe the same things. For example, a comprehender might know that the heater is broken, but the speaker might not. To what extent do comprehenders modulate their interpretation of an utterance like "It's cold in here" as a function of what the *speaker* can be inferred to know? And does a given comprehender's **mentalizing capacity** predict their likelihood 
 
-## Relevant papers and projects
+
+
+### Relevant papers and projects
 
 **Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
 
