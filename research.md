@@ -5,7 +5,8 @@ permalink: /research/
 ---
 
 * [Pragmatic inference](#pragmatic inference)
-  * [Prosody](#prosody)
+  * [Mentalizing for pragmatic inference](#mentalizing)
+  * [The role of prosodic cues](#prosody)
 
 # <a id="pragmatic inference"></a>Pragmatic inference
 
@@ -13,7 +14,7 @@ People often speak indirectly. For example, the sentence "My car isn't starting"
 
 How do comprehenders determine whether a speaker is making a request? Specifically: which **linguistic and non-linguistic cues to an utterance's meaning** do comprehenders exploit to enrich the meaning of an under-specified utterance like "My car isn't starting"? And what accounts for **individual differences** in the likelihood to *sample* and *deploy* particular cue to meaning?
 
-## Mentalizing for indirect request comprehension
+## <a id="mentalizing"></a>Mentalizing for indirect request comprehension
 
 Interlocutors don't always know or believe the same things. For example, a comprehender might know that the heater is broken, but the speaker might not. To what extent do comprehenders modulate their interpretation of an utterance like "It's cold in here" as a function of what the *speaker* believes about the world? And does a given comprehender's **mentalizing capacity** predict their likelihood of adopting a speaker's perspective when inferring what they mean?
 
