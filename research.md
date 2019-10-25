@@ -28,6 +28,6 @@ Interlocutors don't always know or believe the same things. For example, a compr
 
 Another cue to meaning is **prosody**: the rhythmic and intonational properties of how an utterance is spoken and signed. Can speakers and hearers use prosody to overcome the ambiguity of indirect requests? 
 
-### Relevant papers and projects
+Relevant papers and projects:
 
-**Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
+- [Prosodic cues signal the intent of potential indirect requests](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
