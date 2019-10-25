@@ -22,7 +22,7 @@ Interlocutors don't always know or believe the same things. For example, a compr
 
 ## The role of prosody in indirect request comprehension
 
-Another cue to meaning is **prosody**: the rhythmic and intonational properties of how an utterance is spoken and signed. 
+Another cue to meaning is **prosody**: the rhythmic and intonational properties of how an utterance is spoken and signed. Can speakers and hearers use prosody to overcome the ambiguity of indirect requests? 
 
 ### Relevant papers and projects
 
