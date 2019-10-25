@@ -4,7 +4,10 @@ title: Research Interests
 permalink: /research/
 ---
 
-# Pragmatic inference
+* [SECTION ONE](#pragmatic inference)
+  * [Prosody](#prosody)
+
+# <a id="pragmatic inference"></a>Pragmatic inference
 
 People often speak indirectly. For example, the sentence "My car isn't starting" could be intended not only as a statement of fact, but also as a request for a ride. Similarly, the sentence "Can you open that window?" can function as a request to open the window, a question about the hearer's ability to do so, or both. 
 
@@ -20,7 +23,7 @@ Interlocutors don't always know or believe the same things. For example, a compr
 
 **Trott, S.**, & Bergen, B. (2017, October). A theoretical model of indirect request comprehension. In 2017 AAAI Fall Symposium Series. [[Link]](https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16026/15301)
 
-## The role of prosody in indirect request comprehension
+## <a id="prosody"></a>The role of prosody in indirect request comprehension
 
 Another cue to meaning is **prosody**: the rhythmic and intonational properties of how an utterance is spoken and signed. Can speakers and hearers use prosody to overcome the ambiguity of indirect requests? 
 
