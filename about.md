@@ -8,7 +8,7 @@ I am a Cognitive Science graduate student at University of California, San Diego
 
 I'm interested in:
 
-* how humans understand and produce language;
+* how humans understand under-specified and ambiguous linguistic input;
 * what human production and comprehension systems can tell us about language evolution; and 
 * how to leverage insights from psycholinguistics to improve natural language understanding.
 

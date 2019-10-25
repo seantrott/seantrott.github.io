@@ -38,3 +38,7 @@ Eppe, M., **Trott, S.**, & Feldman, J. (2016, October). Exploiting deep semantic
 ### Posters
 
 **Trott, S.**, Semenuks, A., Bergen, B. (2019). Sub-morphemic form-meaning systematicity: the impact of onset phones on word concreteness. Proceedings of the 41st Annual Meeting of the Cognitive Science Society, Poster presentation. [[Link to code]](https://github.com/seantrott/concreteness) [[Link to Jupyter notebook]](https://github.com/seantrott/concreteness/blob/master/phonetic_onset_brysbaert.ipynb)
+
+### Presentations
+
+**Trott, S.**, Bergen, B. (2019) Why do homophones exist? Center for Research in Language (CRL), UC San Diego.
