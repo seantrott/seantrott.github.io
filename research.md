@@ -12,21 +12,25 @@ How do comprehenders determine whether a speaker is making a request? Specifical
 
 ## Mentalizing for indirect request comprehension
 
-Interlocutors don't always know or believe the same things. For example, a comprehender might know that the heater is broken, but the speaker might not. To what extent do comprehenders modulate their interpretation of an utterance like "It's cold in here" as a function of what the *speaker* can be inferred to know? And does a given comprehender's **mentalizing capacity** predict their likelihood 
-
-
+Interlocutors don't always know or believe the same things. For example, a comprehender might know that the heater is broken, but the speaker might not. To what extent do comprehenders modulate their interpretation of an utterance like "It's cold in here" as a function of what the *speaker* believes about the world? And does a given comprehender's **mentalizing capacity** predict their likelihood of adopting a speaker's perspective when inferring what they mean?
 
 ### Relevant papers and projects
-
-**Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
 
 **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)
 
 **Trott, S.**, & Bergen, B. (2017, October). A theoretical model of indirect request comprehension. In 2017 AAAI Fall Symposium Series. [[Link]](https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16026/15301)
 
+## The role of prosody in indirect request comprehension
 
+Another cue to meaning is **prosody**: the rhythmic and intonational properties of how an utterance is spoken and signed. 
+
+### Relevant papers and projects
+
+**Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
 
 
 # Ambiguity in the lexicon
 
-I'm interested in the question of how human comprehenders construct meaning from ambiguous or under-specified input. 
+[ Fill in ]
+
+# Sub-morphemic form-meaning systematicity
