@@ -4,7 +4,7 @@ title: Research Interests
 permalink: /research/
 ---
 
-* [SECTION ONE](#pragmatic inference)
+* [Pragmatic inference](#pragmatic inference)
   * [Prosody](#prosody)
 
 # <a id="pragmatic inference"></a>Pragmatic inference
