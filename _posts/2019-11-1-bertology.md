@@ -16,7 +16,7 @@ I deposited my check at the bank.
 
 This is obviously not optimal. "Bank" is an example of a homophone––the same word *form* has multiple, unrelated meanings, and the word embedding should reflect those different meanings in the appropriate context. 
 
-Homophones are a stark illustration of why using a single word embedding for a given wordform (like "bank") is problematic. But the problem isn't unique to homophones. Arguably every word means something different in different contexts. As Jeff Elman famously argued ([Elman, 2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.299.2600&rep=rep1&type=pdf)), words are cues to meaning; the nature of that meaning will depend on exactly what was said before. For example, the verb "run" conveys something slightly different in the following sentences:
+Homophones are a stark illustration of why using a single word embedding for a given wordform (like "bank") is problematic. But the problem isn't unique to homophones. Arguably every word means something different in different contexts. As Jeff Elman pointed out ([Elman, 2004](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.299.2600&rep=rep1&type=pdf)), words are cues to meaning; the nature of that meaning will depend on exactly what was said before. For example, the verb "run" conveys something slightly different in the following sentences:
 
 ```
 1) The jaguar runs.  
@@ -24,12 +24,24 @@ Homophones are a stark illustration of why using a single word embedding for a g
 3) The clock runs.
 ```
 
-Both (1)-(2) connote that some animate entity is moving through physical space, and also imply something about the speed of their motor routine. But our mental representation of a jaguar running is likely quite different from our representation of a child running. And (3) appears to be a metaphorical usage of the verb "run". All three uses share something in common, but as Elman (2004) argued, they're also somewhat different––and our representation of "meaning-space" ought to capture that.
+Both (1)-(2) connote that some animate entity is moving through physical space, and also imply something about the speed of their motor routine. But our mental representation of a jaguar running is likely quite different from our representation of a child running. And (3) appears to be a metaphorical usage of the verb "run". All three uses share something in common, but they're also somewhat different––and our representation of "meaning-space" ought to capture that.
 
-This is exactly the problem that **contextualized word embeddings** aim to solve. Rather than mapping a wordform onto a single, static vector, contextualized approaches produce different vectors in different contexts. Notable recent approaches include ELMo ([Peters et al, 2018](https://arxiv.org/pdf/1802.05365.pdf%E3%80%91)), XLNet ([Yang et al, 2019](https://arxiv.org/pdf/1906.08237.pdf)), and of course, BERT ([Devlin et al, 2018](https://arxiv.org/pdf/1810.04805.pdf%E3%80%91)). The goal of this post isn't to describe the BERT algorithm; there are plenty of blog posts doing that already
+This is exactly the problem that **contextualized word embeddings** aim to solve. Rather than mapping a wordform onto a single, static vector, contextualized approaches produce different vectors in different contexts. Notable recent approaches include ELMo ([Peters et al, 2018](https://arxiv.org/pdf/1802.05365.pdf%E3%80%91)), XLNet ([Yang et al, 2019](https://arxiv.org/pdf/1906.08237.pdf)), and of course, BERT ([Devlin et al, 2018](https://arxiv.org/pdf/1810.04805.pdf%E3%80%91)). The goal of this post isn't to describe the BERT algorithm; there are plenty of blog posts doing that already (see [here](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270), [here](https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/), and [here](https://github.com/google-research/bert) for a start).
+
+Rather, my goal is to summarize some recent papers in the trending subfield sometimes called **BERTology**: the study of the inner workings of BERT.
+
+# BERTology: investigations of a neural network
+
+Why is investigating the inner workings of BERT interesting or useful?
+
+The reason that's usually cited is that many modern language models are thought to be **black boxes**. This is something of a catch-all term used for much of contemporary machine learning models, which basically means something like: "It works pretty well, but we have no idea *how*"[^1]. BERTology aims to address this problem by determining what sorts of information BERT picks up on, and where in the network it seems most sensitive to that information––in other words, making the network more **transparent**. 
 
 
-# BERT investigations
+[^1]: This is itself an interesting point, because from one perspective, we know exactly how these models learn––we know what data they're exposed to, we know what their network architecture is, and we know how the algorithm is implemented. But "black box" means something a little deeper; it implies we don't have mechanistic explanations of what a network "knows" (e.g., how it transforms and represents the input it receives). For instance, we know that a network is able to classify an image of a cat as CAT, and an image of a dog as DOG, but *how*? Similarly, a network might be able to semantic roles of a sentence, but how has it learned to do that? I won't dwell on this point here, but the reason I find it interesting is that it raises fairly deep questions about what it means to understand an intelligent process. 
+
+
+
+
 
 ## Assessing BERT's syntactic knowledge
 
@@ -49,6 +61,8 @@ Include:
 - Forbes et al (2019)  
 - Niven & Kao (2019)
 
+
+# References
 
 Outline:
 
