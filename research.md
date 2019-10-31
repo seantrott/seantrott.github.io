@@ -18,6 +18,10 @@ How do comprehenders determine whether a speaker is making a request? Specifical
 
 Interlocutors don't always know or believe the same things. For example, a comprehender might know that the heater is broken, but the speaker might not. To what extent do comprehenders modulate their interpretation of an utterance like "It's cold in here" as a function of what the *speaker* believes about the world? And does a given comprehender's **mentalizing capacity** predict their likelihood of adopting a speaker's perspective when inferring what they mean?
 
+Relevant papers and projects:
+
+- Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension.
+
 ### Relevant papers and projects
 
 **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)
@@ -30,4 +34,4 @@ Another cue to meaning is **prosody**: the rhythmic and intonational properties 
 
 Relevant papers and projects:
 
-- [Prosodic cues signal the intent of potential indirect requests](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
+- [Prosodic cues signal the intent of potential indirect requests](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) 
