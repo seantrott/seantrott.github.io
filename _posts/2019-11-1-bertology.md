@@ -49,25 +49,27 @@ The answer largely seems to be **yes**: BERT embeddings appear to provide suffic
 
  ![]({{ site.baseurl }}/images/bert/senses.png)
 
- Notably, these sense-clusters were considerably more distinct for BERT than for FLAIR or ELMo, two other contextualized embedding models. 
+Notably, these sense-clusters were considerably more distinct for BERT than for FLAIR or ELMo, two other contextualized embedding models. 
 
+Of course, the work doesn't end here. As I described earlier, homophony isn't the only kind of lexical ambiguity. Even more pervasive than homphony is the phenomenon of *polysemy*: words with multiple, related meanings. Polysemy often occurs via metaphorical extensions of a word, e.g., "swallow (a pill)" is extended to "swallow (an argument)", but there are many other mechanisms identified by linguists (e.g., metonymy, narrowing, etc.). Personally, I think a fascinating line of research would be to ask whether these kinds of polysemous relationships correspond in systematic ways to transformations in BERT-space.
 
+## [Tenney et al (2019)](https://arxiv.org/pdf/1905.05950.pdf): using "edge probes" to learn what BERT knows, and where
 
+BERT embeddings can be used for much more than just word sense disambiguation. This recent paper by Tenney et al (2019) uses the technique of "edge probing" to figure out exactly what information BERT knows, and where in the network this information seems to be represented or enacted.
 
+I believe the notion of an "edge probe" actually comes Neuroscience (though I could be totally wrong about this connection). Early work on the visual system (Hubel & Wiesel, 1959) found that certain cells in **area V1**, also known as the **primary visual cortex**, responded selectively to lines of different orientation. That is, one cell might respond selectively to vertical lines, another cell might respond selectively to horizontal lines, and other cells might respond to lines somewhere in between. A given neuron's selectivity can be determined by examining its **tuning curve**; that is, by parametrically manipulating properties of a stimulus (e.g., its orientation) and looking at the firing rate of the neuron. This basic approach has been extended with great success, leading to the finding that neurons in different parts of the brain are selective for all sorts of different things––from an animal's [location in space](https://en.wikipedia.org/wiki/Place_cell) to the [frequency of acoustic input](https://en.wikipedia.org/wiki/Tonotopy).
 
-## Assessing BERT's syntactic knowledge
+An analogous approach can be applied to artificial neural networks: present some sort of input to the network, and take a snapshot of the network's "activity". Depending on your question, you might be interested in the activity at a specific layer of that network (e.g., how many units are activated, or which ones), or even in the *changes* in activity as additional stimuli are presented. By manipulating properties of those stimuli, you can ask about various input dimensions correspond to various activation profiles in the artificial neural network.
 
-include:
-- Goldberg (2019)
-- Coenen et al (2019)
-- Hewitt & Manning (2019)
+This was the approach taken by Tenney et al (2019). Here, their question was how well BERT extracts different kinds of information about language, as measured by the performance of BERT embeddings on a number of different tasks (each intended to reflect a certain kind of linguistic knowledge). These tasks included, among other things: [part of speech (POS)](https://en.wikipedia.org/wiki/Part_of_speech), [syntactic dependencies](https://en.wikipedia.org/wiki/Dependency_grammar), [named entities](https://en.wikipedia.org/wiki/Named-entity_recognition), and [semantic role labeling (SRL)](https://en.wikipedia.org/wiki/Semantic_role_labeling). Further, the authors wanted to know **where** in BERT this information was most salient––e.g., whether part of speech information was accessible in the first layer, but semantic information required for SRL was only accessible in later layers.
 
-## Edge probing: what does BERT know, and where?
+Concretely, BERT would be given some set of input tokens `T`, and produce a set of layer activations `H[L]`, where `L` is the number of layers. That is, for a sentence like `he smoked toronto in the playoffs...`, and a 10-layer model, BERT would produce 10 sets of activations, corresponding to each successive layer. `H[0]` would correspond to the initial (non-contextual) layer, `H[1]` to the first contextual layer, and so on. These embeddigns could then be used to train a classifier for each task. Critically, the authors manipulated which layers were used for training the classifier, allowing them to compare the performance of a classifier equipped only with `H[0]` to a classifier with `H[1]`, `H[2]`, and so on. They then measured the improvement to a classifier (**differential score**) as more layers were added to the model.[^2]
 
-include: 
-- Tenney et al (2019)
+Interestingly, they found that basic syntactic information (such as part of speech) does appear to be accessible in earlier layers of the network, while high-level semantic information was only accessible higher layers. But syntactic and semantic information was also distinguished in terms of its **localizability**. That is, the predictability of syntactic information could be localized to specific units in specific layers, while semantic information could not––it was more **distributed**. In a way, this pipeline recapitulates traditional approaches to Natural Language Processing and even psycholinguistics, hence the title of the paper: "BERT Rediscovers the Classical NLP Pipeline".
 
-## Commonsense in BERT 
+## Commonsense: what does BERT know about the world?
+
+The approaches described above demonstrated that BERT knows a decent amount about language. But how much does this knowledge translate to general knowledge about the world, sometimes called **commonsense** knowledge? 
 
 Include:
 - Forbes et al (2019)  
@@ -92,9 +94,9 @@ Goldberg, Y. (2019). Assessing BERT's Syntactic Abilities. arXiv preprint arXiv:
 
 Hewitt, J., & Manning, C. D. (2019, June). A structural probe for finding syntax in word representations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers) (pp. 4129-4138).
 
-Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., Viegas, F., & Sayres, R. (2017). Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav). arXiv preprint arXiv:1711.11279.
+Hubel DH, Wiesel TN (1959) Receptive fields of single neurones in the cat's striate cortex. J Physiol 148:574-591.
 
-Levine, Y., Lenz, B., Dagan, O., Padnos, D., Sharir, O., Shalev-Shwartz, S., ... & Shoham, Y. (2019). SenseBERT: Driving Some Sense into BERT. arXiv preprint arXiv:1908.05646. [Link]
+Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., Viegas, F., & Sayres, R. (2017). Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav). arXiv preprint arXiv:1711.11279.
 
 Niven, T., & Kao, H. Y. (2019). Probing neural network comprehension of natural language arguments. arXiv preprint arXiv:1907.07355.
 
@@ -112,5 +114,7 @@ Yang, Z., Dai, Z., Yang, Y., Carbonell, J., Salakhutdinov, R., & Le, Q. V. (2019
 # Footnotes
 
 [^1]: This is itself an interesting point, because from one perspective, we know exactly how these models learn––we know what data they're exposed to, we know what their network architecture is, and we know how the algorithm is implemented. But "black box" means something a little deeper; it implies we don't have mechanistic explanations of what a network "knows" (e.g., how it transforms and represents the input it receives). For instance, we know that a network is able to classify an image of a cat as CAT, and an image of a dog as DOG, but *how*? Similarly, a network might be able to semantic roles of a sentence, but how has it learned to do that? I won't dwell on this point here, but the reason I find it interesting is that it raises fairly deep questions about what it means to understand an intelligent process. 
+
+[^2]: More information (more layers) should always improve the model, but the question is by *how much*. 
 
 
