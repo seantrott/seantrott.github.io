@@ -69,7 +69,7 @@ Interestingly, they found that basic syntactic information (such as part of spee
 
 ## Commonsense: what does BERT know about the world?
 
-The approaches described above demonstrated that BERT knows a decent amount about language. But how much does this knowledge translate to general knowledge about the world, sometimes called **commonsense** knowledge? 
+The approaches described above demonstrated that BERT knows a decent amount about language. But how much does this knowledge translate to general knowledge about the world? This is sometimes called [**commonsense** knowledge](https://en.wikipedia.org/wiki/Commonsense_knowledge_(artificial_intelligence))
 
 Include:
 - Forbes et al (2019)  
