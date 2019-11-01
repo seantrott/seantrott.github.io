@@ -36,11 +36,9 @@ Why is investigating the inner workings of BERT interesting or useful?
 
 The reason that's usually cited is that many modern language models are thought to be **black boxes**. This is something of a catch-all term used for much of contemporary machine learning models, which basically means something like: "It works pretty well, but we have no idea *how*"[^1]. BERTology aims to address this problem by determining what sorts of information BERT picks up on, and where in the network it seems most sensitive to that information––in other words, making the network more **transparent**. 
 
+Transparency, in turn, is important for all sorts of other things. First, if the goal is to use BERT (or really any machine learning model) in an applied setting, my personal opinion is that it's important to have an idea of how it works, at least for the task in which it's being applied. Otherwise, these models might be encoding all sorts of biases and spurious correlations, which impairs their performance in a real-world setting and at worst, can perpetuate systemic biases in society (as Cathy O'Neil demonstrates in detail in *Weapons of Math Destruction* (O'Neil, 2016)). Second, a better understanding of how BERT and other models encode linguistic information can help advance research in Linguistics and Cognitive Science; there's a long history of using computational models to better understand human cognition (Futrell et al, 2019), and while BERT's algorithm isn't that similar to how humans process language, it's still a useful reference point. 
 
-[^1]: This is itself an interesting point, because from one perspective, we know exactly how these models learn––we know what data they're exposed to, we know what their network architecture is, and we know how the algorithm is implemented. But "black box" means something a little deeper; it implies we don't have mechanistic explanations of what a network "knows" (e.g., how it transforms and represents the input it receives). For instance, we know that a network is able to classify an image of a cat as CAT, and an image of a dog as DOG, but *how*? Similarly, a network might be able to semantic roles of a sentence, but how has it learned to do that? I won't dwell on this point here, but the reason I find it interesting is that it raises fairly deep questions about what it means to understand an intelligent process. 
-
-
-
+So what does BERT "know", and how can we know? This question is usually operationalized in the form of some downstream task. That is, BERT embeddings are used for some other language modeling task (dependency parsing, semantic role labeling, etc.), allowing us to assess the performance of another model equipped with those embeddings. If such a model is successful, it implies that the BERT embeddings have encoded the information required to complete the task. From this, researchers often infer that BERT "knows" or somehow encodes the broader class of information that task is meant to reflect––not unlike how psychologists study cognitive abilities like Theory of Mind using a variety of different tasks, each of which is meant to somehow reflect the underlying ability. In other words, these tasks are operationalizations of some underlying theoretical construct. Importantly, the inference from "successful performance on Task X" to "understands Domain Y" is not always warranted in Psychology, and as we'll see below, it's also not always warranted in BERTology.
 
 
 ## Assessing BERT's syntactic knowledge
@@ -74,6 +72,8 @@ Elman, J. L. (2004). An alternative view of the mental lexicon. Trends in cognit
 
 Forbes, M., Holtzman, A., & Choi, Y. (2019). Do Neural Language Representations Learn Physical Commonsense?. arXiv preprint arXiv:1908.02899.
 
+Futrell, R., Wilcox, E., Morita, T., Qian, P., Ballesteros, M., & Levy, R. (2019). Neural language models as psycholinguistic subjects: Representations of syntactic state. arXiv preprint arXiv:1903.03260.
+
 Goldberg, Y. (2019). Assessing BERT's Syntactic Abilities. arXiv preprint arXiv:1901.05287. 
 
 Hewitt, J., & Manning, C. D. (2019, June). A structural probe for finding syntax in word representations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers) (pp. 4129-4138).
@@ -82,8 +82,17 @@ Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., Viegas, F., & Sayres, 
 
 Niven, T., & Kao, H. Y. (2019). Probing neural network comprehension of natural language arguments. arXiv preprint arXiv:1907.07355.
 
+O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
+
 Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., & Zettlemoyer, L. (2018). Deep contextualized word representations. arXiv preprint arXiv:1802.05365.
 
 Tenney, I., Das, D., & Pavlick, E. (2019). Bert rediscovers the classical nlp pipeline. arXiv preprint arXiv:1905.05950. 
 
 Yang, Z., Dai, Z., Yang, Y., Carbonell, J., Salakhutdinov, R., & Le, Q. V. (2019). XLNet: Generalized Autoregressive Pretraining for Language Understanding. arXiv preprint arXiv:1906.08237.
+
+
+# Footnotes
+
+[^1]: This is itself an interesting point, because from one perspective, we know exactly how these models learn––we know what data they're exposed to, we know what their network architecture is, and we know how the algorithm is implemented. But "black box" means something a little deeper; it implies we don't have mechanistic explanations of what a network "knows" (e.g., how it transforms and represents the input it receives). For instance, we know that a network is able to classify an image of a cat as CAT, and an image of a dog as DOG, but *how*? Similarly, a network might be able to semantic roles of a sentence, but how has it learned to do that? I won't dwell on this point here, but the reason I find it interesting is that it raises fairly deep questions about what it means to understand an intelligent process. 
+
+
