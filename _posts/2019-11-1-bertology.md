@@ -41,7 +41,7 @@ Transparency, in turn, is important for all sorts of other things. First, if the
 So what does BERT "know", and how can we know? This question is usually operationalized in the form of using BERT embeddings on some downstream task (e.g., semantic role labeling). If a model equipped with BERT embeddings is successful, it implies that the BERT embeddings have encoded the information required to complete the task. From this, researchers often infer that BERT "knows" or somehow encodes the broader class of information that task is meant to reflect––not unlike how psychologists study cognitive abilities like Theory of Mind using a variety of different tasks, each of which is meant to somehow reflect the underlying ability. In other words, these tasks are operationalizations of some underlying theoretical construct. Importantly, the inference from "successful performance on Task X" to "understands Domain Y" is not always warranted in Psychology, and as we'll see below, it's also not always warranted in BERTology. 
 
 
-## What does BERT does about word senses?
+## What does BERT know about word senses?
 
 Given that a major goal of BERT is to distinguish between different senses of a word, a logical question is to ask how BERT performs on **word-sense disambiguation**: the task of predicting or classifying the intended sense `s` of some word `w` in some context `c` (where `w` usually has >1 sense). This amounts to something like `P(s|w, c)` for each possible sense of `w`.
 
@@ -49,9 +49,10 @@ The answer largely seems to be **yes**: BERT embeddings appear to provide suffic
 
  ![]({{ site.baseurl }}/images/bert/senses.png)
 
- Notably, these clusters were considerably more distinct for BERT than for FLAIR or ELMo, two other contextualized embedding models, suggesting that BERT's representation of homophonous senses are more distinct and separable.
+ Notably, these sense-clusters were considerably more distinct for BERT than for FLAIR or ELMo, two other contextualized embedding models. 
 
- 
+
+
 
 
 ## Assessing BERT's syntactic knowledge
