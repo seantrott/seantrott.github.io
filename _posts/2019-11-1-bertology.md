@@ -36,9 +36,22 @@ Why is investigating the inner workings of BERT interesting or useful?
 
 The reason that's usually cited is that many modern language models are thought to be **black boxes**. This is something of a catch-all term used for much of contemporary machine learning models, which basically means something like: "It works pretty well, but we have no idea *how*"[^1]. BERTology aims to address this problem by determining what sorts of information BERT picks up on, and where in the network it seems most sensitive to that information––in other words, making the network more **transparent**. 
 
-Transparency, in turn, is important for all sorts of other things. First, if the goal is to use BERT (or really any machine learning model) in an applied setting, my personal opinion is that it's important to have an idea of how it works, at least for the task in which it's being applied. Otherwise, these models might be encoding all sorts of biases and spurious correlations, which impairs their performance in a real-world setting and at worst, can perpetuate systemic biases in society (as Cathy O'Neil demonstrates in detail in *Weapons of Math Destruction* (O'Neil, 2016)). Second, a better understanding of how BERT and other models encode linguistic information can help advance research in Linguistics and Cognitive Science; there's a long history of using computational models to better understand human cognition (Futrell et al, 2019), and while BERT's algorithm isn't that similar to how humans process language, it's still a useful reference point. 
+Transparency, in turn, is important for all sorts of other things. First, if the goal is to use BERT (or really any machine learning model) in an applied setting, my personal opinion is that it's important to have an idea of how it works, at least for the task in which it's being applied. Otherwise, these models might be encoding all sorts of biases and spurious correlations, which impairs their performance in a real-world setting and at worst, can perpetuate systemic biases in society (as Cathy O'Neil demonstrates in detail in *Weapons of Math Destruction* (O'Neil, 2016)). Second, a better understanding of how BERT and other models learn to encode information from language can help advance research in Linguistics and Cognitive Science. There's a long history of using computational models to better understand human cognition (Futrell et al, 2019), and while BERT's algorithm isn't that similar to how humans process language, it's still a useful reference point. BERT learns only from textual input (though a *massive* amount of it); this allows us to ask about what sorts of things can be learned purely from linguistic input alone, and what sorts of things might require physical experience in the world, social interaction, and more.
 
-So what does BERT "know", and how can we know? This question is usually operationalized in the form of some downstream task. That is, BERT embeddings are used for some other language modeling task (dependency parsing, semantic role labeling, etc.), allowing us to assess the performance of another model equipped with those embeddings. If such a model is successful, it implies that the BERT embeddings have encoded the information required to complete the task. From this, researchers often infer that BERT "knows" or somehow encodes the broader class of information that task is meant to reflect––not unlike how psychologists study cognitive abilities like Theory of Mind using a variety of different tasks, each of which is meant to somehow reflect the underlying ability. In other words, these tasks are operationalizations of some underlying theoretical construct. Importantly, the inference from "successful performance on Task X" to "understands Domain Y" is not always warranted in Psychology, and as we'll see below, it's also not always warranted in BERTology.
+So what does BERT "know", and how can we know? This question is usually operationalized in the form of using BERT embeddings on some downstream task (e.g., semantic role labeling). If a model equipped with BERT embeddings is successful, it implies that the BERT embeddings have encoded the information required to complete the task. From this, researchers often infer that BERT "knows" or somehow encodes the broader class of information that task is meant to reflect––not unlike how psychologists study cognitive abilities like Theory of Mind using a variety of different tasks, each of which is meant to somehow reflect the underlying ability. In other words, these tasks are operationalizations of some underlying theoretical construct. Importantly, the inference from "successful performance on Task X" to "understands Domain Y" is not always warranted in Psychology, and as we'll see below, it's also not always warranted in BERTology. 
+
+
+## What does BERT does about word senses?
+
+Given that a major goal of BERT is to distinguish between different senses of a word, a logical question is to ask how BERT performs on **word-sense disambiguation**: the task of predicting or classifying the intended sense `s` of some word `w` in some context `c` (where `w` usually has >1 sense). This amounts to something like `P(s|w, c)` for each possible sense of `w`.
+
+The answer largely seems to be **yes**: BERT embeddings appear to provide sufficient information to predict the intended sense of a word ([Wiedemann et al, 2019](https://arxiv.org/pdf/1909.10430.pdf)). On multiple datasets, BERT emerges as the best approach 
+
+
+
+Wiedemann et al (2019)
+
+Levine et al (2019)
 
 
 ## Assessing BERT's syntactic knowledge
@@ -80,6 +93,8 @@ Hewitt, J., & Manning, C. D. (2019, June). A structural probe for finding syntax
 
 Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., Viegas, F., & Sayres, R. (2017). Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav). arXiv preprint arXiv:1711.11279.
 
+Levine, Y., Lenz, B., Dagan, O., Padnos, D., Sharir, O., Shalev-Shwartz, S., ... & Shoham, Y. (2019). SenseBERT: Driving Some Sense into BERT. arXiv preprint arXiv:1908.05646. [Link]
+
 Niven, T., & Kao, H. Y. (2019). Probing neural network comprehension of natural language arguments. arXiv preprint arXiv:1907.07355.
 
 O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
@@ -87,6 +102,8 @@ O'Neil, C. (2016). Weapons of math destruction: How big data increases inequalit
 Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., & Zettlemoyer, L. (2018). Deep contextualized word representations. arXiv preprint arXiv:1802.05365.
 
 Tenney, I., Das, D., & Pavlick, E. (2019). Bert rediscovers the classical nlp pipeline. arXiv preprint arXiv:1905.05950. 
+
+Wiedemann, G., Remus, S., Chawla, A., & Biemann, C. (2019). Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized Embeddings. arXiv preprint arXiv:1909.10430. [Link]
 
 Yang, Z., Dai, Z., Yang, Y., Carbonell, J., Salakhutdinov, R., & Le, Q. V. (2019). XLNet: Generalized Autoregressive Pretraining for Language Understanding. arXiv preprint arXiv:1906.08237.
 
