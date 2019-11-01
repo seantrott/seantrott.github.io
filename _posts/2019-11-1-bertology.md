@@ -45,13 +45,13 @@ So what does BERT "know", and how can we know? This question is usually operatio
 
 Given that a major goal of BERT is to distinguish between different senses of a word, a logical question is to ask how BERT performs on **word-sense disambiguation**: the task of predicting or classifying the intended sense `s` of some word `w` in some context `c` (where `w` usually has >1 sense). This amounts to something like `P(s|w, c)` for each possible sense of `w`.
 
-The answer largely seems to be **yes**: BERT embeddings appear to provide sufficient information to predict the intended sense of a word ([Wiedemann et al, 2019](https://arxiv.org/pdf/1909.10430.pdf)). On multiple datasets, BERT emerges as the best approach 
+The answer largely seems to be **yes**: BERT embeddings appear to provide sufficient information to predict the intended sense of a word ([Wiedemann et al, 2019](https://arxiv.org/pdf/1909.10430.pdf)). On multiple datasets, BERT emerges as the best language model, handily beating out previous embedding models. Distinct senses of a word formed identifiable "sense clusters" in meaning-space (see the figure below for an example using the word "bank").
 
+ ![]({{ site.baseurl }}/images/bert/senses.png)
 
+ Notably, these clusters were considerably more distinct for BERT than for FLAIR or ELMo, two other contextualized embedding models, suggesting that BERT's representation of homophonous senses are more distinct and separable.
 
-Wiedemann et al (2019)
-
-Levine et al (2019)
+ 
 
 
 ## Assessing BERT's syntactic knowledge
