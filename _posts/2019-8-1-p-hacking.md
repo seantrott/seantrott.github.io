@@ -7,7 +7,7 @@ title: P-hacking in R
 * [Researcher degrees of freedom](#df)
   * [What is NHST?](#nhst)
   * [P-hacking](#phacking)
-* [A simulation-based approaches](#simulation)
+* [A simulation-based approaches](#simulations)
   * [Simulating our data](#data)
   * [Hacking our data](#hacking)
   * [Code availability](#code)
