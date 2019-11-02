@@ -78,17 +78,17 @@ This is the question asked by [Forbes et al (2019)](https://arxiv.org/pdf/1908.0
 How well can BERT learn these relationships? For example, given an object *boot*, and knowing its affordances *wear* and *kick off*, how well can we predict its properties? 
 
 These three dimensions––**objects**, **properties**, and **affordances**––form three edges of a graph. The task is thus to learn to predict:  
-1) The properties of a new object, e.g., `O --> P`  
-2) The affordances of a new object, e.g., `O --> A` 
-3) The properties compatible with an affordance, e.g., `A --> P`.
+1) The properties of a new object, e.g., `O --> P`.  
+2) The affordances of a new object, e.g., `O --> A`.  
+3) The properties compatible with an affordance, e.g., `A --> P`.  
 
 These relationships are learned and tested from two different datasets: the **abstract** dataset (a compilation of object-property pairs), and the **situated** dataset (a compilation of objects, properties, and affordances, taken from situated photographs). They then consider the performance several different word embedding models––two static embedding models, and two contextualized representations (ELMo and BERT). 
 
-Overall, they find that all the models perform the best on the abstract dataset, in which properties must be inferred from objects (`O --> P`). The models are worse at this same task when trained on the situated dataset, though the numbers are considerably higher when inferring affordances from objects (`O --> A`), also on the situated dataset. By far the worst performance is the final task: inferring properties from affordances (`A --> P`). In most of these cases, BERT performs the best.
+Overall, they find that all the models perform the best on the abstract dataset, in which properties must be inferred from objects (`O --> P`). The models are worse at this same task (`O --> P`) when trained on the situated dataset, though the numbers are considerably higher when inferring affordances from objects (`O --> A`), also on the situated dataset. By far the worst performance is the final task: inferring properties from affordances (`A --> P`). In most of these cases, BERT performs the best.
 
 The finding that all models have a hard time relating properties to affordances is particularly interesting, given that (as the authors note) these things are likely not mentioned together very often; "their mutual connotation naturally renders joint expression redundant" (pg. 6). This raises the question: what information do *humans* use to learn these kind of relationships? As the authors point out, an obvious answer lies in the theory of *embodied cognition**: "the nature of human cognitio ndepends strongly on the stimuli granted by physical experience" (pg. 6). Of course, these results do not *prove* that learning property/affordance relationships is impossible from linguistic input alone––it's possible the task could be adjusted, for example, or that BERT could be improved upon further. But human agreement is more than double BERT's performance on the same task, indicating that humans share some kind of mutual understanding of the objects in this task that BERT does not, potentially derived from our physical experience with those objects.
 
-Moving forward, then, the question becomes: how much of the physical or social world is required to successfully learn these relationships? 
+Moving forward, then, the question becomes: how much experience in the physical or social world is required to successfully learn these relationships? Which abstractions are permissible, and which are not?
 
 ### Natural language inference: BERT's "clever Hans" moment
 
