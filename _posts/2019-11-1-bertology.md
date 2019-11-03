@@ -136,6 +136,14 @@ This problem isn't unique to NLP. There are many examples in Psychology of misat
 
 Even more broadly: all scientific practice relies on the use of some **measurement** to draw inferences about the phenomenon under investigation. This measurement is always an operationalization of a theoretical construct. Thus, it's imperative to ensure that this operationalization is sensible, and that potential confounds are eliminated.
 
+# The Takeaway
+
+The goal of this post was to provide a brief summary of recent work in **BERTology**. It's by no means exhaustive, and many of the specific results will likely be out of date within the next year. 
+
+That said, I hope some of the more general principles derived from these studies stick around. First, it's possible to gain a deeper understanding of "black box" language models by using them in a battery of tasks, and lifting analytical techniques from Neuroscience to pick apart the mechanics of a network. Second, we need to constantly interrogate our metrics and eliminate confounds. 
+
+And finally, even the best language models have a long way to go in terms of general world knowledge, which raises the question: how can one get on the basis of linguistic input alone? Humans learn in a rich, multimodal environment, which they explore in the context of a variety of goals, ranging from the physiological (food, sleep, safety) to the social (friendship, status, love). And importantly, we don't reinvent the wheel every generation: human knowledge is encoded in the form of cultural practices, including––but not limited to––language. 
+
 
 # References
 
