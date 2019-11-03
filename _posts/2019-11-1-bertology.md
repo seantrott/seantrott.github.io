@@ -105,7 +105,7 @@ Warrant 2 (w2): All other search engines redirect to Google.
 
 The task is then: which of `{w1, w2}` supports the claim? A human would likely reason as such: if "people being able to choose not to use Google" implies that "Google is not a harmful monopoly", then `w1` is a better piece of evidence for that claim than `w2`. In contrast, `w2` supports the opposite of the claim. That is, `R ^ w1 --> C`, and `R ^ w2 --> ~C`. 
 
-This is called the **Argument Reasoning Comprehension Task** (ARCT), and is known to be incredibly challenging for machines, since it appears to require general world knowledge. To solve the problem above, you probably need to know that Google is a search engine, what a "monopoly" is, and how web re-directs relate to the concept of consumer choice and a monopoly (Niven & Kao, 2019). 
+This is called the **Argument Reasoning Comprehension Task** (ARCT), and is known to be incredibly challenging for machines, since it appears to require general world knowledge. To solve the problem above, you probably need to know that Google is a search engine, what a "monopoly" is, and how web re-directs relate to the concept of consumer choice and monpolies (Niven & Kao, 2019). 
 
 Hence the authors' surprise when BERT achieved a remarkable performance of 77% test-set accuracy on this task. That is, a classifier trained with BERT sentence embeddings was able to choose the correct warrant to support some claim 77% of the time. Given this result, the authors ask: **what do BERT embeddings capture about argument structure that allows them to solve this task**? 
 
