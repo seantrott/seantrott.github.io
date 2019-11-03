@@ -107,23 +107,37 @@ The task is then: which of `{w1, w2}` supports the claim? A human would likely r
 
 This is called the **Argument Reasoning Comprehension Task** (ARCT), and is known to be incredibly challenging for machines, since it appears to require general world knowledge. To solve the problem above, you probably need to know that Google is a search engine, what a "monopoly" is, and how web re-directs relate to the concept of consumer choice and a monopoly (Niven & Kao, 2019). 
 
-Hence the authors surprise when BERT achieved a remarkable performance of 77% test-set accuracy on this task. That is, a classifier trained with BERT sentence embeddings was able to choose the correct warrant to support some claim 77% of the time. Given this result, the authors ask: **what do BERT embeddings capture about argument structure that allows them to solve this task**? 
+Hence the authors' surprise when BERT achieved a remarkable performance of 77% test-set accuracy on this task. That is, a classifier trained with BERT sentence embeddings was able to choose the correct warrant to support some claim 77% of the time. Given this result, the authors ask: **what do BERT embeddings capture about argument structure that allows them to solve this task**? 
 
-The answer manages to be disappointing, interesting, or vindicating, depending on one's perspective. Put simply, BERT embeddings don't appear to capture anything "deep" about argument structure at all, at least in terms of what's required to the solve the task. Rather, they're just very good at capturing **statistical confounds** in the data: lexical and syntactic cues that happen correlate with the intended answer. The authors write: "We demonstrate in this work that BERT’s surprising performance can be entirely accounted for in terms of exploiting spurious statistical cues."
+The answer manages to be disappointing, interesting, or vindicating, depending on one's perspective. Put simply, BERT embeddings don't appear to capture anything "deep" about argument structure at all, at least in terms of what's required to the solve the task. Rather, they're just very good at capturing **statistical confounds** in the data: lexical and syntactic cues that happen correlate with the intended answer. The authors write: "We demonstrate in this work that BERT’s surprising performance can be entirely accounted for in terms of exploiting spurious statistical cues" (pg. 2). 
+
+Specifically, the authors identify a few factors that reliably correlate with the correct answer across items. For example, the word "not" is more likely to appear in the correct warrant than the incorrect warrant (the distractor). Using *only* this binary cue––whether or not the warrant contains the word "not"––the authors achieve roughly 61% accuracy on the task, i.e. above chance performance. Several other spurious lexical cues further boost performance, such as "is", "do", and "are", as well as bigrams occurring with "not", such as "will not" and "cannot". These are all examples of confounds: selecting the answer that contains the word "not" doesn't mean that BERT has *understood* the argument, only that it's identified a spurious cue that happens to correlate with the right answer[^3]. 
+
+To illustrate why this is problematic, consider inverting the argument above: 
 
 ```
-
+Claim: Google is a harmful monopoly.  
+Reason: People can't choose not to use Google.  
+Warrant 1 (w1): Other search engines don't redirect to Google.  
+Warrant 2 (w2): All other search engines redirect to Google.  
 ```
 
+Now the correct answer is `w2`, because it's the piece of evidence that would be consistent with the claim that Google is a harmful monopoly. It's pretty easy for humans to adjust to this change in the argument structure, because we have the background knowledge and also the understanding of how logical arguments are supposed to work. Now that the claim is inverted, the opposite piece of evidence (`w2`, not `w1`) is what supports that claim. To test this out, the authors developed an "adversarial" testing set by inverting all the claims in exactly this way. They trained a model on the original training set (with the spurious cues preserved), and then tested it on this adversarial set, and found that it achieved a mean of ~50% performance, i.e. random chance. 
 
-Include:
-- Forbes et al (2019)  
-- Niven & Kao (2019)
+This is pretty convincing proof that BERT's apparent success on the original task was due to exploiting these spurious cues. Remember: a human would be able to solve *both* the original and adversarial items with relative ease, or at least better than chance. But BERT's failure to adjust to the change indicates that it was relying purely on the confounds. 
+
+As if this isn't proof enough, the authors also found training and testing **only** on the original warrants (i.e. omitting the claims and reasons) still yields an accuracy of 71%. In other words, BERT could achieve better-than-chance performance without needing to understand the argument structure at all. If all you're given is `{w1, w2}`, you shouldn't be able to know which is the correct answer––either `w1` or `w2` could be correct, depending on the claim (as illustrated above). 
+
+#### Why it matters
+
+BERT's spurious success on this task is a matter of concern for the field. As noted above, these benchmark tasks are the main way by which we assess the quality of a language model. Each task is an operationalization of some deeper theoretical construct; that is, the ARCT task is a kind of stand-in for the broader category of argumentation mining, which in turn is a way to assess commonsense reasoning and world knowledge. As we saw, the design of the ARCT task suffered from a fundamental problem: it could be solved using spurious lexical cues. This means that the original ARCT task doesn't accurately reflect the utility of a language model in solving the problem of argumentation mining––and if it rely on it to do so, we'll overestimate the quality of our models.
+
+This problem isn't unique to NLP. There are many examples in Psychology of misattributing intelligent behavior to an entity because the researcher failed to eliminate a statistical confound. Most famously, [clever Hans](https://en.wikipedia.org/wiki/Clever_Hans) was a horse thought to be capable of doing arithmetic––until psychologist [Oskar Pfungst](https://en.wikipedia.org/wiki/Oskar_Pfungst) discovered the horse was simply picking up on involuntary cues produced by his trainer (who, of course, *could* do arithmetic). 
+
+Even more broadly: all scientific practice relies on the use of some **measurement** to draw inferences about the phenomenon under investigation. This measurement is always an operationalization of a theoretical construct. Thus, it's imperative to ensure that this operationalization is sensible, and that potential confounds are eliminated.
 
 
 # References
-
-Outline:
 
 Coenen, A., Reif, E., Yuan, A., Kim, B., Pearce, A., Viégas, F., & Wattenberg, M. (2019). Visualizing and Measuring the Geometry of BERT. arXiv preprint arXiv:1906.02715. 
 
@@ -161,5 +175,9 @@ Yang, Z., Dai, Z., Yang, Y., Carbonell, J., Salakhutdinov, R., & Le, Q. V. (2019
 [^1]: This is itself an interesting point, because from one perspective, we know exactly how these models learn––we know what data they're exposed to, we know what their network architecture is, and we know how the algorithm is implemented. But "black box" means something a little deeper; it implies we don't have mechanistic explanations of what a network "knows" (e.g., how it transforms and represents the input it receives). For instance, we know that a network is able to classify an image of a cat as CAT, and an image of a dog as DOG, but *how*? Similarly, a network might be able to semantic roles of a sentence, but how has it learned to do that? I won't dwell on this point here, but the reason I find it interesting is that it raises fairly deep questions about what it means to understand an intelligent process. 
 
 [^2]: More information (more layers) should always improve the model, but the question is by *how much*. 
+
+[^3]: Skeptical readers might be thinking: how do we know this isn't what humans do, too? Why do we assume that humans "understand" and BERT doesn't? What is learning but the identification of associated cues? And you'd be exactly right in voicing this concern, which is exactly why the point of designing a research experiment is to eliminate all possible confounds other than the specific thing one is interested in. If you want to infer that `A --> B`, you need to manipulate `A` and *nothing else*, and ask whether the manipulation of `A` corresponds reliably to differences in `B`. That's what makes experiment design hard––the elimination of alternative explanations for a particular outcome. 
+
+
 
 
