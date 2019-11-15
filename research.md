@@ -20,7 +20,8 @@ Interlocutors don't always know or believe the same things. For example, a compr
 
 Relevant papers and projects:
 
-- Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension.
+- [[Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension.]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)  
+- [[A theoretical model of indirect request comprehension]](https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16026/15301)
 
 ### Relevant papers and projects
 
