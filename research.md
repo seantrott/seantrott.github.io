@@ -20,8 +20,8 @@ Interlocutors don't always know or believe the same things. For example, a compr
 
 Relevant papers and projects:
 
-- **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)
-- **Trott, S.**, & Bergen, B. (2017, October). A theoretical model of indirect request comprehension. In 2017 AAAI Fall Symposium Series. [[Link]](https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16026/15301)
+- **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)  
+- **Trott, S.**, & Bergen, B. (2017, October). A theoretical model of indirect request comprehension. In 2017 AAAI Fall Symposium Series. [[Link]](https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16026/15301)  
 
 
 ## <a id="prosody"></a>The role of prosody in indirect request comprehension
