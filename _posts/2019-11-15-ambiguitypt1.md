@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why is language ambiguous (ambiguity, pt 1.)
+title: Why is language ambiguous? (ambiguity, pt 1.)
 ---
 
 *Note: This post has been migrated from my old WordPress site (originally posted on October 8, 2019).*
@@ -45,7 +45,7 @@ Of course, there are a few limitations to this theory and the corresponding anal
 
 Second, the analysis is primarily of lexical ambiguity. Even if the theory explains why lexicons contain ambiguity, it is unclear whether it extends to cases of syntactic or pragmatic ambiguity––both of which might exist for different reasons, and exhibit different patterns in language use.
 
-Second, the theory assumes that disambiguation is not inordinately expensive for listeners. This assumption is not exclusive to Piantadosi et al (2012); as pointed out in the paper, Levinson (2000) argues that languages will typically minimize the effort involved in articulation, and rely more on listener inference, as inference is "cognitively cheap". But even if it is generally true, it does suggest an avenue for further exploration: if certain kinds of ambiguity do require expensive inferences to resolve, one would expect a language to minimize those kinds of ambiguity, or to have well-developed mechanisms for repairing misinterpretations.
+Third, the theory assumes that disambiguation is not inordinately expensive for listeners. This assumption is not exclusive to Piantadosi et al (2012); as pointed out in the paper, Levinson (2000) argues that languages will typically minimize the effort involved in articulation, and rely more on listener inference, as inference is "cognitively cheap". But even if it is generally true, it does suggest an avenue for further exploration: if certain kinds of ambiguity do require expensive inferences to resolve, one would expect a language to minimize those kinds of ambiguity, or to have well-developed mechanisms for repairing misinterpretations.
 
 A related assumption is that ambiguous words will generally be clear in context. In order for disambiguation to be "cheap", and for lexical ambiguity to not result in costly miscommunications, a language must have contextual cues (linguistic, situational, etc.) available to make the intended meaning clear. Piantadosi et al (2012) argue that if context is informative at all about meaning, then a word will necessarily be less ambiguous when coupled with a context than without it––so a well-designed communication system will allow context to provide meaning, and won’t build in redundancies into the meanings of particular words. This last assumption is intuitive, and perhaps seems trivially true to some––of course words are less ambiguous in context––but again, it opens the door for interesting questions. The most interesting of these questions to me is: **given that context is informative about meaning, which contextual cues are used for which kinds of ambiguity**?
 
