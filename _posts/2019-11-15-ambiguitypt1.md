@@ -3,7 +3,7 @@ layout: post
 title: Why is language ambiguous? (ambiguity, pt 1.)
 ---
 
-*Note: This post has been migrated from my old WordPress site (originally posted on October 8, 2019).*
+*Note: This post has been migrated from my old WordPress site (originally posted on October 8, 2018).*
 
 Human language is full of ambiguity. Most people are familiar with homophones––words that sound the same, but have different meanings––such as bank (e.g. the bank of a river, vs. a place to deposit your money. But ambiguity cuts across multiple levels of language, from inflectional morphemes (–s can mark a plural noun, a 3rd-person singular verb in the present tense, or a possessive) to syntactic structures (e.g. he saw the man with the telescope).
 
