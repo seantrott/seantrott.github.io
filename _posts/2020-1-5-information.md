@@ -20,7 +20,29 @@ It's worth noting that most operationalizations of these concepts don't really e
 
 ## Surprisal: more surprising signals convey more "information"
 
-**Surprisal** is simply the *negative log probability* of an event. For example, imagine a "language" containing four possible "words": [`A`, `B`, `C`, `D`]. If all four words are equally likely to occur, then each has a probability of 0.25. Thus, the surprisal of each word is: `-log2(.25) ~= 2`. This is meant to capture the "information" provided by an event: low-probability events convey more information (they are more *surprising*), whereas high-probability events are not *surprising* and so convey less information. 
+**Surprisal** is simply the *negative log probability* of an event. For example, imagine a "language" `L` containing four possible "words": [`A`, `B`, `C`, `D`]. If all four words are equally likely to occur, then each has a probability of 0.25. Thus, the surprisal of each word is: `-log2(.25) ~= 2`. This is meant to capture the "information" provided by an event: low-probability events convey more information (they are more *surprising*), whereas high-probability events are not *surprising* and so convey less information. 
+
+This may still seem a little unintuitive. What does the probability of an event have to do with how much information it conveys?
+
+Recall that "informativity" here is understood with respect to the **reduction of uncertainty**. To understand this, let's contrast a language `L1` in which each word is equally probable, i.e., `[p(A)=.25, p(B)=.25, p(C)=.25, p(D)=.25]`, with `L2`, in which some words are more probable than others: `[p(A)=.85, p(B)=.05, p(C)=.05, p(D)=.05]`. Now imagine a *receiver* about to receive signals from either `L1` or `L2`. In the first case, each signal is equally *surprising*; thus, each signal reduces the receiver's uncertainty about the impending signal exactly the same amount (approximately **2 bits**). But in the second case, some signals are more surprising than others: `A` is very likely, while the other signals are very unlikely. This means that observing `A` does less to reduce the receiver's uncertainty about that signal than observing `B`: `A` conveys roughly .23 bits, while `B` conveys 4.3 bits.
+
+As you can see, *surprisal*, and thus informativity, is highly dependent upon the underlying probability distribution over signals. This brings us to the next concept: **entropy**.
+
+## Entropy
+
+Shannon adapted the concept of **entropy** from its original meaning in [statistical thermodynamics](https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)). [Shannon entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition) can obtained in the following way: for each element `i` in a signal system, multiply `p(i) * log p(i)`. Then sum all these products together, and flip the sign. Formally:
+
+![]({{ site.baseurl }}/images/entropy/entropy.png)
+
+
+[ define entropy ]
+
+
+## Caveats
+
+[ Reiterate that this is very specific to the domain of probability of signals, etc. So it can be misleading to say something conveys "X bits" of information; what we really mean is that something is more or less probable (where that probability may also be conditioned upon some previous signal). ]
+
+
 
 
 
