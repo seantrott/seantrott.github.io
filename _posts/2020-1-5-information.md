@@ -9,9 +9,21 @@ A recent paper ([Coupé et al, 2019](https://advances.sciencemag.org/content/5/9
 
 # What is "information"?
 
-The first and primary issue, in my view, is that the term "information" is used rather vaguely in everyday discourse, usually to mean something roughly like "semantic content". However, "information" also has a technical meaning, coming from the field of [information theory](https://en.wikipedia.org/wiki/Information_theory); this meaning is both more narrow and in some ways more complicated than the everyday meaning of "information", leading to considerable confusion.
+The first and primary issue, in my view, is that the term "information" is used rather vaguely in everyday discourse, usually to mean something roughly like "semantic content". However, "information" also has at least one very technical meaning, coming from the field of [information theory](https://en.wikipedia.org/wiki/Information_theory); this meaning is both more narrow and in some ways less intuitive than the everyday meaning of "information", leading to considerable confusion.
 
-[Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon) introduced the technical meaning in a 1948 paper called [*A mathematical theory of communication*](https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication) (Shannon, 1948). 
+[Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon) introduced the technical meaning in a 1948 paper called [*A mathematical theory of communication*](https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication) (Shannon, 1948). Here, Shannon conceptualizes information in the context of *communication*. A **sender** is trying to convey some **message** to a **receiver**, and sends this message using some sequence of **signals**. "Information", then, can be understood in terms of the relationship between each signal produced by the sender and the sender's intended message: how much does a given signal reduce a sender's **uncertainty** about the intended message? 
+
+I won't go into all the details here, but the two most relevant concepts that Shannon introduced in the paper are **surprisal** and **entropy**. 
+
+It's worth noting that most operationalizations of these concepts don't really engage with **meaning**, i.e., the actual message that the sender is trying to convey. Rather, they're usually operationalized in terms of the signal system itself--that is, the "information" conveyed by some signal `x` is not necessarily measured as a function of how much uncertainty `X` reduces about the space of possible meanings `M`, but rather as a function of the probability of `x` relative to the space of possible signals `{x, y, z}`^[Of course, this isn't always the case. For example, Cohen Priva (2017) calculates the **informativity** of phonemes, such as */t/* or */d/*, as a function of how much uncertainty they reduce about the **word** the speaker is trying to produce. While words aren't equivalent to *meaning*, my point is that informativity is being defined relative to some other space of events.].
+
+
+## Surprisal: more surprising signals convey more "information"
+
+**Surprisal** is simply the *negative log probability* of an event. For example, imagine a "language" containing four possible "words": [`A`, `B`, `C`, `D`]. If all four words are equally likely to occur, then each has a probability of 0.25. Thus, the surprisal of each word is: `-log2(.25) ~= 2`. This is meant to capture the "information" provided by an event: low-probability events convey more information (they are more *surprising*), whereas high-probability events are not *surprising* and so convey less information. 
+
+
+
 
 
 
@@ -20,5 +32,7 @@ The first and primary issue, in my view, is that the term "information" is used 
 
 
 Coupé, C., Oh, Y. M., Dediu, D., & Pellegrino, F. (2019). Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche. Science Advances, 5(9), eaaw2594.
+
+Cohen Priva, U. (2017). Informativity and the actuation of lenition. Language, 93(3), 569-597.
 
 Shannon, C. E. (1948). A mathematical theory of communication. Bell system technical journal, 27(3), 379-423.
