@@ -18,8 +18,6 @@ For more details on my research, see [my research page](https://seantrott.github
 
 I also like to [write music](https://soundcloud.com/seantrott), [make food](https://seanmakesfood.wordpress.com/), [read books](https://www.goodreads.com/review/list/9359693), and do things outdoors (climb, tennis, soccer).
 
-I will eventually migrate all the posts on my old blog over here, but for now, you can find the other posts at [seantrott.com/blog](https://seantrott.com/blog/).
-
 ### Contact me
 
 [sttrott at ucsd dot edu](mailto:sttrott@ucsd.com)
