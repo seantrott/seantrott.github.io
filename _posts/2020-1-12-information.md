@@ -62,7 +62,7 @@ This is because **language exhibits sequential regularity**. Words don't just oc
 
 This fact is sometimes interpreted as follows: **words (or phrases, etc.) always make more sense in context than in isolation**. Indeed, some (Piantadosi et al, 2012) have argued that this observation is evidence that [ambiguity in language doesn't pose a problem for comprehension](https://seantrott.github.io/ambiguitypt1/). 
 
-As noted earlier, I think it's important to keep in mind that entropy is usually operationalized as our uncertainty over *signals*, not over *meanings*. In both cases, conditional entropy should probably be lower than entropy "out of context"--but we still shouldn't confuse one for the other. I think the term "information" is somewhat problematic for exactly this reason: "information" implies something about the *meaning* of a signal, and in fact is often defined as such (i.e., *uncertainty over meanings*); but in practice, what we're calling "information" is really a property of the probability of the signal itself ^[Obviously these two things--the signal and its meaning--are related. But characterizing the probability distribution over signals is not the same as characterizing the probability distribution over meanings, so I think the term "information" is sometimes misleading when used in this way.]. 
+As noted earlier, I think it's important to keep in mind that entropy is usually operationalized as our uncertainty over *signals*, not over *meanings*. In both cases, conditional entropy should probably be lower than entropy "out of context"--but we still shouldn't confuse one for the other. I think the term "information" is somewhat problematic for exactly this reason: "information" implies something about the *meaning* of a signal, and in fact is often defined as such (i.e., *uncertainty over meanings*); but in practice, what we're calling "information" is really a property of the probability of the signal itself ^[Obviously these two things--the signal and its meaning--are related. But characterizing the probability distribution over signals is not the same as characterizing the probability distribution over meanings, so I think the term "information" is sometimes confusing when used in this way.]. 
 
 
 # Do languages convey "information" at the same rate?
@@ -145,7 +145,7 @@ Even if **conclusion 1** above is true, there's still a major limitation (in my 
 
 In this post, I've tried to emphasize the difference between the technical meaning of "information", as operationalized here, and the colloquial, everyday meaning. The notion of "information" in the paper amounts to the probability over *signals* in a communication system--i.e., how probable is one syllable vs. another, given the previous syllable? At least from my perspective, this is very different from my default interpretation of the word "information", which is something like "information content". I don't think the *uncertainty over signals* is the same as the *uncertainty over meanings*. 
 
-Of course, **meaning** is hard to define. Pretty much any operationalization is unsatisfying in some way. That's precisely why entropy is usually defined over signals, rather than meanings. But even if unintentional, I think this can be misleading, especially when results are translated to the public without explaining the nuances of the terminology. Hopefully this post has highlighted some of that nuance--if only by showing that the meaning of "information" is more complicated than one might assume from a headline.
+Of course, **meaning** is hard to define. Pretty much any operationalization is unsatisfying in some way. That's precisely why entropy is usually defined over signals, rather than meanings. I think this can be confusing, especially when results are translated to the public. Hopefully this post has highlighted some of that nuance--if only by showing that the meaning of "information" is more complicated than one might assume from a headline.
 
 ## Limitation 3: what is "optimal"?
 
@@ -153,27 +153,24 @@ The last limitation I'll discuss is higher-level, and concerns the authors' conc
 
 > However, languages seem to stably inhabit an optimal range of IRs, away from the extremes that can still be available to individual speakers. Languages achieve this balance through a trade-off between ID and SR, resulting in a narrower distribution of IRs compared to SRs (pg. 5).
 
+The cruciul finding in the paper is that **variability in information rate is less than variability in speech rate**. This may be evidence of a trade-off; but is it evidence of optimality?
+
+First, how can one even define "optimality"? There's a considerable amount of research in the field right now arguing that language is an optimal code for communication. Certainly, it's clear that language evolution is shaped by the psychological, social, and biological pressures of the humans that learn, produce, and comprehend language. But does that really make it "optimal", or just "good enough"? The process of natural selection in biological evolution doesn't produce optimal organisms, but rather, organisms that are good enough to survive and reproduce in a particular ecosystem. To their credit, the authors acknowledge and even support this point:
+
+> We suggest that this valley in a fitness landscape illustrates the concept of “good-enough” control proposed as an alternative to optimal control for biological systems (34) and that its existence is due to functional and cognitive factors (pg. 5).
+
+Where, then, does the notion of optimality enter? Judging from the analysis, it would seem that the optimal "attractor" for information rate is 39 bits/second--i.e., the mean information rate across languages. But this raises a second point: languages may vary less in information rate than speech rate, but there's still considerable variability around the mean. Some languages (like Thai) still have a modal information rate about 1 SD below the mean. I don't think the authors would argue that Thai is somehow less optimal than English or Japanese. But that raises the question: what factors contribute to a language's position in this "fitness landscape"?
 
 
+# Takeaway
 
+Hopefully the discussion of limitations above does not detract from the strengths of the paper. It's quite interesting that languages in which syllables are more predictable are spoken faster than languages in which syllables are less predictable. It's also very exciting that the authors found a feature that demonstrates less variability than most other linguistic features. As noted in the introduction, finding features of language that appear to be **invariant** across languages gives us insight into the origins of language and into the biological constraints shaping language evolution. This finding also establishes a promising **research program** investigating the mechanisms underlying these possible trade-offs.
 
-
-Issues:
-
-- Information (see above discussion)  
-- Problem of assessing "optimality" (relative to what?)
-
-
-
-
-
-
-
+My focus on the limitations is driven primarily by a desire to clarify some of the terminology--in particular, the meaning of **"information"**. Words mean different things in different contexts, and it's important to remember that a scientific use of a term isn't always the same as our intuitive understanding of that word ^[This is clearly not limited to the term "information"; terms like "significant" mean something completely different to the public (i.e., "important") than in a scientific paper (i.e., *p < .05*).]. 
 
 
 
 # References
-
 
 Coupé, C., Oh, Y. M., Dediu, D., & Pellegrino, F. (2019). Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche. Science Advances, 5(9), eaaw2594.
 
