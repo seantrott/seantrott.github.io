@@ -89,7 +89,7 @@ The former is basically a function of the **syllable structure** of the language
 
 This, in turn, affects the conditional entropy over syllables: languages with more possible syllables will have more entropy over those syllables than languages with less possible syllables.
 
-Relating this back to "information", the idea is that languages with higher conditional entropy are more "information-dense": syllables convey more information than syllables in languages with lower conditional entropy. 
+Relating this back to "information", the idea is that languages with higher conditional entropy are more "information-dense": their syllables convey more information (are less predictable) than syllables in languages with lower conditional entropy. 
 
 ## Information rate
 
