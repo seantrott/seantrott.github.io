@@ -103,17 +103,60 @@ In other words: given that a given language conveys some amount of "information"
 
 In their first analysis, the authors ask whether speech rate is correlated with information density. They find that it is, inversely so: **languages with faster speech rates tend to have lower information densities**. Put another way: languages in which the next syllable is *easier to predict* (as measured by lower conditional entropy) are spoken faster than languages in which the next syllable is *harder to predict*. Of course, conditional entropy is also necessarily related to the number of possible syllables in the language--so we could also say: **languages with more possible syllables are spoken slower than languages with less possible syllables**. 
 
+Then, the authors compare cross-linguistic variability in **information rate** to variability in **speech rate**. We already know that languages vary considerably in how fast they are spoken; how does this compare to the variability in how much "information" languages convey per second?
 
+As it turns out, there's less cross-linguistic variability in information rate than speech rate. This is depicted in the figure below. The panel on the left illustrates density plots (basically histograms) for the distribution over speech rates for each language. As you can see, there's considerable variability: the modal speech rate for Japanese is about 1 standard deviation above the mean speech rate across languages, and pretty much the entire distribution of speech rates for Thai falls at least 1 standard deviation *below* the mean speech rate across languages. 
 
-
-
+The panel on the right illustrates the same thing, but for *information rates*. Even just visually, it's clear that there's less cross-linguistic variability. Most languages fall within 1 SD of the mean information rate (~39 bits/second). This inference is further backed up by several statistical comparisons of these measures.
 
 ![]({{ site.baseurl }}/images/entropy/information_rate.png)
 
 
+## Interpretation
+
+The authors draw two important conclusions from these analyses. 
+
+First, they suggest that there's a natural **trade-off** between speech rate and information density, as evidenced by the negative correlation between the two. The suggestion here is that speakers compensate--either automatically or strategically--for the information density of their language by either speaking faster (for information-sparse languages) or slower (for information-dense languages).
+
+Second, they argue that this reflects some kind of universal biological constraint--i.e., that the human brain has some innate limitation on the amount of information it can process per second. Information-dense languages spoken too fast may exceed this "channel capacity", while information-sparse languages spoken too slowly may incur a cost on working memory, and are generally less efficient. Thus, they argue that languages inhabit a **stable, optimal region** of information rates, constrained by this limitation. 
+
+Both conclusions are of great theoretical interest. They're compatible with a perspective in which the evolution of languages is shaped by psychological and biological constraints of their speakers--and so while languages vary considerably along many dimensions, this variability will always be within some space defined by those constraints. Perhaps this high-level point seems obvious, but as always with these questions, the devil is in the details: what *are* those constraints, and which features are shaped by them? In this case, the authors argue for a constraint on "information-processing speed", with information rate centered around *39 bits/second*. This also opens the door to further work: what neural mechanisms underlie this constraint on information-processing, and what processes shape this compensatory trade-off between speech rate and information density? 
 
 
-# Discussion
+# Discussion: limitations and conclusions
+
+What should we take away from this study? What limitations are there in the authors' analysis and interpretation?
+
+## Limitation 1: is this about conditional entropy or just the number of possible syllables?
+
+Recall that the authors' measure of "information density" is the conditional entropy over *syllables*: given the syllable that came before, how much certainty do I have about the syllable the speaker is about to produce? As noted, this measure will depend on the number of possible syllables ^[And likely the morphological system.] in a language. 
+
+Thus, from the current analysis, it's hard to know whether their finding is purely a function of the number of syllables in the language, or whether it's really about syllable predictability specifically. The difference amounts to the difference between the two conclusions below:
+
+**Conclusion 1: Languages in which syllables are more predictable (lower conditional entropy) tend to be spoken faster than languages in which syllables are less predictable (higher conditional entropy).**
+
+**Conclusion 2: Languages with less possible syllables tend to be spoken faster than languages with less possible syllables.**
+
+One way to adjudicate between these possibilities this would be to compare two languages with the same number of possible syllables (e.g., 50 syllables) but different conditional probability distributions over that space of syllables. If those languages don't differ in their average speech rate, then we would know that the finding is consistent with **conclusion 2**. But if those languages *do* have different average speech rates--i.e., the high-entropy language is spoken slower than the low-entropy language--then the finding really does seem to be about syllable predictability per se. 
+
+## Limitation 2: what is "information"?
+
+Even if **conclusion 1** above is true, there's still a major limitation (in my view) regarding the inference that this is about **information rate** specifically. 
+
+In this post, I've tried to emphasize the difference between the technical meaning of "information", as operationalized here, and the colloquial, everyday meaning. The notion of "information" in the paper amounts to the probability over *signals* in a communication system--i.e., how probable is one syllable vs. another, given the previous syllable? At least from my perspective, this is very different from my default interpretation of the word "information", which is something like "information content". I don't think the *uncertainty over signals* is the same as the *uncertainty over meanings*. 
+
+Of course, **meaning** is hard to define. Pretty much any operationalization is unsatisfying in some way. That's precisely why entropy is usually defined over signals, rather than meanings. But even if unintentional, I think this can be misleading, especially when results are translated to the public without explaining the nuances of the terminology. Hopefully this post has highlighted some of that nuance--if only by showing that the meaning of "information" is more complicated than one might assume from a headline.
+
+## Limitation 3: what is "optimal"?
+
+The last limitation I'll discuss is higher-level, and concerns the authors' conclusion that:
+
+> However, languages seem to stably inhabit an optimal range of IRs, away from the extremes that can still be available to individual speakers. Languages achieve this balance through a trade-off between ID and SR, resulting in a narrower distribution of IRs compared to SRs (pg. 5).
+
+
+
+
+
 
 Issues:
 
