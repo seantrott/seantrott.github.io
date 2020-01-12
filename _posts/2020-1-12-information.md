@@ -15,7 +15,7 @@ The first and primary issue, in my view, is that the term "information" is used 
 
 I won't go into all the details here, but the two most relevant concepts that Shannon introduced in the paper are **surprisal** and **entropy**. 
 
-It's worth noting that most operationalizations of these concepts don't really engage with **meaning**, i.e., the actual message that the sender is trying to convey. Rather, they're usually operationalized in terms of the signal system itself--that is, the "information" conveyed by some signal `x` is not necessarily measured as a function of how much uncertainty `X` reduces about the space of possible meanings `M`, but rather as a function of the probability of `x` relative to the space of possible signals `{x, y, z}`[^Of course, this isn't always the case. For example, Cohen Priva (2017) calculates the **informativity** of phonemes, such as */t/* or */d/*, as a function of how much uncertainty they reduce about the **word** the speaker is trying to produce. While words aren't equivalent to *meaning*, my point is that the informativity of a signal (a phoneme) is being defined relative to some other space of events (words), as opposed to the space of signals.].
+It's worth noting that most operationalizations of these concepts don't really engage with **meaning**, i.e., the actual message that the sender is trying to convey. Rather, they're usually operationalized in terms of the signal system itself--that is, the "information" conveyed by some signal `x` is not necessarily measured as a function of how much uncertainty `X` reduces about the space of possible meanings `M`, but rather as a function of the probability of `x` relative to the space of possible signals `{x, y, z}`[^1].
 
 
 ## Surprisal: more surprising signals convey more "information"
@@ -54,7 +54,7 @@ Another relevant concept to explain is **conditional entropy**. This is exactly 
 
 Assuming the preceding signal `y` demonstrates some non-random relationship with the other signals in our system, the conditional entropy over signals should almost always be lower than entropy "out of context". 
 
-Imagine you're about to hear a word produced by some speaker with no context whatsoever. Your predictions will be pretty unconstrained; your "best guess" can really only be informed by the frequency of each word you know (e.g., it's more likely that the speaker will say "the" than "zoology"). But if you've just heard the speaker say a word, you might have a better idea. For example, if the speaker has just said "the", it's very likely that the next word will be some kind of noun [^Or possibly an adjective]. But if the speaker has just produced a noun (e.g., "dog"), it's more likely that the next word will be some kind of verb [^Or maybe a preposition], and that this verb will be semantically related to that noun (e.g., "runs").
+Imagine you're about to hear a word produced by some speaker with no context whatsoever. Your predictions will be pretty unconstrained; your "best guess" can really only be informed by the frequency of each word you know (e.g., it's more likely that the speaker will say "the" than "zoology"). But if you've just heard the speaker say a word, you might have a better idea. For example, if the speaker has just said "the", it's very likely that the next word will be some kind of noun [^2]. But if the speaker has just produced a noun (e.g., "dog"), it's more likely that the next word will be some kind of verb [^Or maybe a preposition], and that this verb will be semantically related to that noun (e.g., "runs").
 
 This is because **language exhibits sequential regularity**. Words don't just occur in random order; rather, certain words are more likely to occur after some words than others. And the more you know about the preceding words--e.g., the last four words rather than just the last two--the better you'd be able to predict the next one [^You can also imagine expanding the space of "contexts" to include other kinds of information: who you're talking to, where the conversation is taking place, the gestures the speaker is producing, and so on.]. 
 
@@ -169,6 +169,11 @@ Hopefully the discussion of limitations above does not detract from the strength
 My focus on the limitations is driven primarily by a desire to clarify some of the terminology--in particular, the meaning of **"information"**. Words mean different things in different contexts, and it's important to remember that a scientific use of a term isn't always the same as our intuitive understanding of that word [^This is clearly not limited to the term "information"; terms like "significant" mean something completely different to the public (i.e., "important") than in a scientific paper (i.e., *p < .05*).]. 
 
 
+# Footnotes
+
+[^1]: Of course, this isn't always the case. For example, Cohen Priva (2017) calculates the **informativity** of phonemes, such as */t/* or */d/*, as a function of how much uncertainty they reduce about the **word** the speaker is trying to produce. While words aren't equivalent to *meaning*, my point is that the informativity of a signal (a phoneme) is being defined relative to some other space of events (words), as opposed to the space of signals.
+
+[^2]: Or possibly an adjective.
 
 # References
 
