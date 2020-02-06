@@ -8,6 +8,7 @@ I'm developing a set of statistics-related tutorials and blog posts. I've found 
 
 Here's what I have so far:
 
+* [Introduction to correlations and linear regression in R](https://seantrott.github.io/correlations/)  
 * [Mixed models in R](https://seantrott.github.io/mixed_models_R/)   
 * [P-hacking: a demonstration in R](https://seantrott.github.io/p-hacking/)  
 * [Regularization for feature selection](https://seantrott.github.io/regularization/)  

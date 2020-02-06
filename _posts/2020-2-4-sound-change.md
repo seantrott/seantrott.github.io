@@ -33,7 +33,9 @@ Of course, some kinds of sound change, such as [splits](https://en.wikipedia.org
 
 While sound changes clearly *can* create homophones, some (Martinet, 1952) have argued that a pressure for communicative clarity places an upper-bound on this process. According to the **functional load hypothesis**, phoneme contrasts that do more "work"---i.e., distinguish more words in a lexicon---should be less likely to merge (or be lost altogether).
 
-This idea makes intuitive sense. If we conceive of language change as an evolutionary process subject to psychological pressures (e.g., communicative clarity), then changes that raise opportunities for misunderstanding (e.g., homophones) might be selected against. Under this scenario, sound changes that create homophones should be *less* likely to occur than those that don't. 
+This idea makes intuitive sense. If we conceive of language change as an evolutionary process subject to communicative pressures (e.g., clarity), then changes that raise opportunities for misunderstanding might be selected against. Under this scenario, sound changes that create homophones should be *less* likely to occur than those that don't. 
+
+For example, in General American English, the onset phonemes */b/* and */p/* distinguish a variety of words. To name just a few monosyllabic pairs: pat/bat, pot/bot, pit/bit
 
 Unfortunately, the idea is also challenging to test. And as Sampson (2013) points out, it's unclear exactly what the hypothesis means. There are many attested cases of sound changes creating homophones (such as the ones above), so it can't simply mean that sound changes *never* create homophones.  
 
