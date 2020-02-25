@@ -19,7 +19,7 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Journal Publications
 
-**Trott, S.**, & Rossano, F. (2020). The Role of Entitlement in Formatting Preferences Across Requesters and Recipients. Discourse Processes, 1-22. [[Link to paper]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2020.1719796)[[Link to data and analysis code]](https://github.com/seantrott/entitlement_data_analysis)
+**Trott, S.**, & Rossano, F. (2020). The Role of Entitlement in Formatting Preferences Across Requesters and Recipients. Discourse Processes, 1-22. [[Link to paper]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2020.1719796)[[Data and code for analysis]](https://github.com/seantrott/entitlement_data_analysis)
 
 **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)
 
