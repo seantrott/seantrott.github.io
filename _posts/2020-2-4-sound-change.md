@@ -25,7 +25,7 @@ Other examples of homophony-inducing sound changes in English abound. Modern Eng
 
 Homophony-inducing sound changes aren't limited to English. Sampson (2013, 2015) describes a series of [sound changes](https://en.wikipedia.org/wiki/Historical_Chinese_phonology) that occurred between Middle and Modern Chinese, such as the merging of final *-m* and final *-n* as simply *-n*. This created many homophones, particularly among monosyllabic words [^1]. 
 
-Intuitively, both mergers and losses appear more likely to *increase*, rather than *decrease*, the number of homophones in a language, given that they eliminate phoneme contrasts that previously might have distinguished words.
+Intuitively, both mergers and losses appear more likely to *increase*, rather than *decrease*, the number of homophones in a language, given that they eliminate phoneme contrasts that previously might have distinguished words. 
 
 Of course, some kinds of sound change, such as [splits](https://en.wikipedia.org/wiki/Phonological_change#Split) could theoretically reduce the number of homophones by increasing the possible phonemic contrasts in a language. The presumed regularity of sound change makes this scenario unlikely: if two words have the same form (e.g., *bank* and *bank*), it is unlikely that only one of those words will undergo a sound change, leaving the other unchanged. Still, it is in principle possible, especially if the two words vary considerably in frequency---in which case the more frequent word (e.g., *time*) tends to undergo a reduction process relative to the less frequent word (e.g., *thyme*) (Gahl, 2008), perhaps leaving it open to more drastic phonological changes in the future.
 
@@ -35,19 +35,28 @@ While sound changes clearly *can* create homophones, some (Martinet, 1952) have 
 
 This idea makes intuitive sense. If we conceive of language change as an evolutionary process subject to communicative pressures (e.g., clarity), then changes that raise opportunities for misunderstanding might be selected against. Under this scenario, sound changes that create homophones should be *less* likely to occur than those that don't. 
 
-For example, in General American English, the onset phonemes */b/* and */p/* distinguish a variety of words. To name just a few monosyllabic pairs: pat/bat, pot/bot, pit/bit
+For example, in General American English, the onset phonemes */b/* and */p/* distinguish a variety of words. To name just a few monosyllabic **minimal pairs**: *pat/bat*, *pot/bot*, and *pit/bit*. Under the functional load hypothesis, */b/* and */p/* should be unlikely to merge because doing so would render all of those minimal pairs homophonous.
 
-Unfortunately, the idea is also challenging to test. And as Sampson (2013) points out, it's unclear exactly what the hypothesis means. There are many attested cases of sound changes creating homophones (such as the ones above), so it can't simply mean that sound changes *never* create homophones.  
+Unfortunately, the idea is also challenging to test. And as Sampson (2013) points out, it's unclear exactly what the hypothesis means. There are many attested cases of sound changes creating homophones (such as the ones above), so it can't simply mean that sound changes *never* create homophones. Rather, if it is true at all, it must work in a probablistic way. 
 
 ## Testing the hypothesis
 
+Recently, a group of researchers ([Wedel et al, 2013](https://www.sciencedirect.com/science/article/abs/pii/S0010027713000541)) tried to operationalize and test this hypothesis quantitatively. Using a large database of attested phoneme mergers across multiple languages (English, Dutch, French, German, Korean, Slovak, Spanish, and Hong Kong Cantonese), the authors asked: is the probability of two phonemes merging predicted by the number of minimal pairs differentiated by those phonemes?
 
+First, the authors reviewed and aggregated data about attested sound changes from the languages listed above. Each data point consisted of a phoneme pair, e.g., `phoneme 1` and `phoneme 2`, as well as the following information:
+
+- The `language` that these phonemes occurred in.  
+- Whether or not those phonemes `merged` (`1/0`).  
+- The `number of minimal pairs` distinguished by those phonemes.  
+- The `probability` of each of those phonemes.
+
+In the main analysis, the authors performed [mixed effects logistic regression](https://seantrott.github.io/binary_classification_R/#logistic_regression)
 
 
 
 # Discussion
 
-Future work: 
+Future work: local mechanisms?
 
 
 
