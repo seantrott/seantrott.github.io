@@ -43,20 +43,37 @@ Unfortunately, the idea is also challenging to test. And as Sampson (2013) point
 
 Recently, a group of researchers ([Wedel et al, 2013](https://www.sciencedirect.com/science/article/abs/pii/S0010027713000541)) tried to operationalize and test this hypothesis quantitatively. Using a large database of attested phoneme mergers across multiple languages (English, Dutch, French, German, Korean, Slovak, Spanish, and Hong Kong Cantonese), the authors asked: is the probability of two phonemes merging predicted by the number of minimal pairs differentiated by those phonemes?
 
-First, the authors reviewed and aggregated data about attested sound changes from the languages listed above. Each data point consisted of a phoneme pair, e.g., `phoneme 1` and `phoneme 2`, as well as the following information:
+The authors reviewed and aggregated data about attested sound changes from the languages listed above. Each data point consisted of a phoneme pair, e.g., `phoneme 1` and `phoneme 2`, as well as the following information:
 
 - The `language` that these phonemes occurred in.  
 - Whether or not those phonemes `merged` (`1/0`).  
 - The `number of minimal pairs` distinguished by those phonemes.  
-- The `probability` of each of those phonemes.
+- The `frequency` of each of those phonemes.
 
-In the main analysis, the authors performed [mixed effects logistic regression](https://seantrott.github.io/binary_classification_R/#logistic_regression)
+In the main analysis, the authors performed [mixed effects logistic regression](https://seantrott.github.io/binary_classification_R/#logistic_regression) predicting the probability of two phonemes merging (i.e., `Merged` was the dependent variable). Whether or not two phonemes merged was strongly predicted by both the `frequency` of the phonemes in that language (more frequent phonemes were more likely to undergo a merger), and critically, the `number of minimal pairs` they differentiated: **phonemes differentiating more minimal pairs in a language were less likely to merge**. Furthermore, the effect of phoneme `frequency` was attenuated by whether the phonemes differentiated *any* minimal pairs: `frequency` positively predicted the probability of a merger, but only when those phonemes didn't differentiate any minimal pairs.
 
+Let's unpack these results:
+
+First, what do we make of the finding that more frequent phonemes are more likely to merge? This is consistent with other work suggesting that more frequently used phonemes are more likely to undergo various sound changes like **lenition**, possibly because they convey less information about the word in which they appear (Cohen Priva, 2017), or because the underlying physiological mechanisms involved in producing those sounds are "relaxed" with frequency of use (Philips, 1984). As the authors note, the small size of their dataset makes it hard to draw strong conclusions here---but the findings are generally consistent with other work, which is encouraging.
+
+Second, and most importantly, phoneme pairs that **carried more functional load**---i.e., they differentiated more minimal pairs---were less likely to merge. This is consistent with the predictions of the functional load hypothesis: if two phonemes differentiating many minimal pairs merged, a large set of homophones would suddenly be introduced into the language. Thus, from a *functionalist* perspective, it makes sense that sound changes (i.e., "mutations") introducing homophones would be selected against.
 
 
 # Discussion
 
-Future work: local mechanisms?
+The picture painted above may seem confusing:
+
+Sound changes clearly *can* result in homophones: there are many examples in English and Modern Chinese to demonstrate this (Sampson, 2015). At the same time, there are both theoretical and empirical reasons (Martinet, 1952; Wedel et al, 2013) to believe that homophony-inducing phoneme mergers are less likely to occur, even when controlling for the phonemes being compared. While these two points aren't necessarily incompatible, they do suggest that the relationship between sound change and homophony is very complicated.
+
+"It's complicated" may not feel like a very satisfying answer. But personally, I find it very exciting: it means there's considerable work to be done! So much is still unknown about the nature of sound change in the first place. As I noted earlier, one of the major questions in all research on language change is how **local effects** (e.g., physiological constraints, psychological biases, communicative demands, etc.) give rise to **large-scale changes**. Put another way: how do apparently regular changes emerge from the complex interactions of individual humans? 
+
+This question is well-suited to an evolutionary framing. Sound changes can be conceptualized as **mutations** in a phonological system. The first question is thus how those mutations arise. The second question is: which pressures select for or against those mutations? In the context of this post, that's something like: how, and why, are sound changes that might lead to homophony selected out of the pool of possible sound changes? 
+
+Importantly, the answer to this question may even reveal that something entirely different is going on. Perhaps homophony-inducing sound changes aren't directly selected against at all, and the relationship discovered by Wedel et al (2013) is due to some set of latent, unmeasured variables. 
+
+We'll never be certain about the answers to any of these questions. But with patience and careful work, we can come closer to constructing accurate and parsimonious models of why the languages we all speak look the way they do.
+
+
 
 
 
@@ -66,6 +83,8 @@ Future work: local mechanisms?
 # References
 
 Ceolin, A. (2020) Neutral Models of Sound Change.
+
+Cohen Priva, U. (2017). Informativity and the actuation of lenition. Language, 93(3), 569-597.
 
 Gahl, S. (2008). Time and thyme are not homophones: The effect of lemma frequency on word durations in spontaneous speech. Language, 84(3), 474-496.
 
@@ -79,9 +98,11 @@ Labov, W. (1986). The social origins of sound change. In Dialect and language va
 
 Martinet, A. (1952). Function, structure, and sound change. Word, 8(1), 1-32.
 
-Sampson, G. (2015). A Chinese phonological enigma. Journal of Chinese Linguistics, 43(2), 679-691.
+Phillips, B. S. (1984). Word frequency and the actuation of sound change. Language, 320-342.
 
 Sampson, G. (2015). A Chinese phonological enigma. Journal of Chinese Linguistics, 43(2), 679-691.
+
+Wedel, A., Kaplan, A., & Jackson, S. (2013). High functional load inhibits phonological contrast loss: A corpus study. Cognition, 128(2), 179-186.
 
 # Footnotes
 
