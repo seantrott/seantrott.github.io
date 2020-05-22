@@ -11,6 +11,7 @@ Here's what I have so far:
 * [Introduction to correlations and linear regression in R](https://seantrott.github.io/correlations/)   
 * [Introduction to ANOVAs in R](https://seantrott.github.io/anova_R/)
 * [Mixed models in R](https://seantrott.github.io/mixed_models_R/)   
-* [Binary classification in R](https://seantrott.github.io/binary_classification_R/)
+* [Binary classification in R](https://seantrott.github.io/binary_classification_R/)  
+* [Data wrangling and visualization in R](https://seantrott.github.io/data_wrangling_visualization/)
 * [P-hacking: a demonstration in R](https://seantrott.github.io/p-hacking/)  
 * [Regularization for feature selection](https://seantrott.github.io/regularization/)  
