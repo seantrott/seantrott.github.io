@@ -135,7 +135,7 @@ Thus, from the current analysis, it's hard to know whether their finding is pure
 
 **Conclusion 1: Languages in which syllables are more predictable (lower conditional entropy) tend to be spoken faster than languages in which syllables are less predictable (higher conditional entropy).**
 
-**Conclusion 2: Languages with less possible syllables tend to be spoken faster than languages with less possible syllables.**
+**Conclusion 2: Languages with less possible syllables tend to be spoken faster than languages with more possible syllables.**
 
 One way to adjudicate between these possibilities this would be to compare two languages with the same number of possible syllables (e.g., 50 syllables) but different conditional probability distributions over that space of syllables. If those languages don't differ in their average speech rate, then we would know that the finding is consistent with **conclusion 2**. But if those languages *do* have different average speech rates--i.e., the high-entropy language is spoken slower than the low-entropy language--then the finding really does seem to be about syllable predictability per se. 
 
