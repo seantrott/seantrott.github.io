@@ -3,7 +3,11 @@ layout: post
 title: Bias, variance, and the bed of Procrustes
 ---
 
-Imagine you're a weary traveler making the pilgrimage from Athens to Eleusis. Along the way, 
+Imagine you're a weary traveler making the pilgrimage from Athens to Eleusis. Along the way, you encounter a smith bearing the name [Procrustes](https://en.wikipedia.org/wiki/Procrustes) (literally "the stretcher [who hammers out the metal]"); you take this form-meaning correspondence to be auspicious. Procrustes, upon seeing your condition, invites you to stay the night in his home---he has a spare bed. 
+
+There's just one condition: if you don't fit the bed exactly––if you're too long, or too short––he'll have to make you fit. That could mean cutting off your legs (if you're too long) or using a hammer to stretch you out (if you're too short). The important thing is that you fit the bed exactly.
+
+
 
 
 Topics:
