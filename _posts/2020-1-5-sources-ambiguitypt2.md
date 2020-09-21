@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sources of disambiguating information (Ambiguity in language, pt. 2)
+title: Sources of disambiguating information
 ---
 
 Ambiguous expressions pervade language. Moreover, it appears that speakers don't always avoid speaking ambiguously. So how do we manage to communicate at all? And why are we often oblivious to the pervasiveness of this ambiguity?

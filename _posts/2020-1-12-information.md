@@ -60,8 +60,6 @@ This is because **language exhibits sequential regularity**. Words don't just oc
 
 ### Brief caveat 
 
-This fact is sometimes interpreted as follows: **words (or phrases, etc.) always make more sense in context than in isolation**. Indeed, some (Piantadosi et al, 2012) have argued that this observation is evidence that [ambiguity in language doesn't pose a problem for comprehension](https://seantrott.github.io/ambiguitypt1/). 
-
 As noted earlier, I think it's important to keep in mind that entropy is usually operationalized as our uncertainty over *signals*, not over *meanings*. In both cases, conditional entropy should probably be lower than entropy "out of context"--but we still shouldn't confuse one for the other. I think the term "information" is somewhat problematic for exactly this reason: "information" implies something about the *meaning* of a signal, and in fact is often defined as such (i.e., *uncertainty over meanings*); but in practice, what we're calling "information" is really a property of the probability of the signal itself [^5]. 
 
 
