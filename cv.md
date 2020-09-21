@@ -19,11 +19,17 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Journal Publications
 
-**Trott, S.**, & Rossano, F. (2020). The Role of Entitlement in Formatting Preferences Across Requesters and Recipients. Discourse Processes, 1-22. [[Link to paper]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2020.1719796)[[Data and code for analysis]](https://github.com/seantrott/entitlement_data_analysis)
+Trott, S., & Bergen, B. (2020). Why do human languages have homophones?. *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)
+
+Trott, S., & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference?. *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)
+
+**Trott, S.**, & Rossano, F. (2020). The Role of Entitlement in Formatting Preferences Across Requesters and Recipients. *Discourse Processes*, 1-22. [[Link to paper]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2020.1719796)[[Data and code for analysis]](https://github.com/seantrott/entitlement_data_analysis)
 
 **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)
 
 ### Conference Proceedings 
+
+Trott, S., Torrent, T. T., Chang, N., & Schneider, N. (2020). (Re) construing Meaning in NLP. *ACL 2020*. [[Link to paper]](https://arxiv.org/pdf/2005.09099.pdf)
 
 **Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](https://www.researchgate.net/publication/335313498_Prosodic_cues_signal_the_intent_of_potential_indirect_requests) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
 
