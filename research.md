@@ -13,7 +13,7 @@ Why would a communication system ostensibly evolved for efficient communicate al
 
 Relevant papers and projects:  
 
-- Trott, S., & Bergen, B. (2020). Why do human languages have homophones?. *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)  
+- Trott, S., & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)  
 
 
 # <a id="pragmatic inference"></a>Pragmatic inference
@@ -25,7 +25,7 @@ How do comprehenders determine whether a speaker is making a request? Specifical
 
 Relevant papers and projects:
 
-- Trott, S., & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference?. *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)  
+- Trott, S., & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference? *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)  
 - **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)  
 - **Trott, S.**, & Bergen, B. (2017, October). A theoretical model of indirect request comprehension. In *2017 AAAI Fall Symposium Series*. [[Link]](https://www.aaai.org/ocs/index.php/FSS/FSS17/paper/viewFile/16026/15301)  
 - **Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](http://mindmodeling.org/cogsci2019/papers/0210/0210.pdf) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)
