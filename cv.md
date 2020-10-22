@@ -19,9 +19,9 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Journal Publications
 
-Trott, S., & Bergen, B. (2020). Why do human languages have homophones?. *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)
+**Trott, S.**, & Bergen, B. (2020). Why do human languages have homophones?. *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)
 
-Trott, S., & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference?. *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)
+**Trott, S.**, & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference?. *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)
 
 **Trott, S.**, & Rossano, F. (2020). The Role of Entitlement in Formatting Preferences Across Requesters and Recipients. *Discourse Processes*, 1-22. [[Link to paper]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2020.1719796)[[Data and code for analysis]](https://github.com/seantrott/entitlement_data_analysis)
 
