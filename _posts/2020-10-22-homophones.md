@@ -97,12 +97,6 @@ A high-level answer is certainly that homophones are selected against somehow. B
 A definitive answer to any of these questions is impossible. But we're working towards theoretical models that will hopefully make concrete, testable predictions––and maybe eventually we'll have something that's somewhat satisfactory in terms of its explanatory power.
 
 
-
-TO DO:
-
-Summarize *Cognition* paper.
-
-
 # References
 
 Caplan, S., Kodner, J., & Yang, C. (2020). Miller's monkey updated: Communicative efficiency and the statistics of words in natural language. Cognition, 205, 104466.
