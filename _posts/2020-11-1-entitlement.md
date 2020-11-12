@@ -44,8 +44,8 @@ Importantly, a requester's choice of form is a also kind of *social action*; thu
 
 Intuitively, there are a number of factors that could play a role in request formatting. As noted in the Introduction, one such factor might be the *size* of the request, i.e., the **degree of imposition**. In fact, [politeness theory](https://en.wikipedia.org/wiki/Politeness_theory) argues that the *weightiness* of a request can be decomposed into three main factors:  
 1) A request's degree of imposition;  
-2) The **power differential** between requester and recipient;  
-3) The **social distance** between requester and recipient.
+2) The power differential between requester and recipient;  
+3) The social distance between requester and recipient.
 
 According to this account, requesters are more likely to adopt various politeness strategies for "weightier" requests. I.e., requesters should be more likely to use a polite form (like an Embedded Modal) for more imposing requests. 
 
