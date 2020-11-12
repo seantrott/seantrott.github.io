@@ -90,7 +90,7 @@ In contrast, we *did* find a strong (and very significant) relationship between 
 
 These results seem hard to reconcile––why would the relationship be so strong in Experiment 2, but weak or nonexistent in Experiment 1? The obvious difference between these experiments is the *task*: participants in Experiment 1 produced their response in a free-response box, while participants in Experiment 2 selected among multiple options. 
 
-One very speculative explanation is that requesters producing a request "from scractch" (as in Experiment 1) converge on a relatively small set of "default" forms (as evidenced by a strong preference for Modal requests); any effect of entitlement might occur around the margins, and thus be harder to detect (or nonexistent). Determining whether or not this is true would require running a larger experiment with more experiments and more statistical power.
+One very speculative explanation is that requesters producing a request "from scractch" (as in Experiment 1) converge on a relatively small set of "default" forms (as evidenced by a strong preference for Modal requests); any effect of entitlement might occur around the margins, and thus be harder to detect. Determining whether or not this is true would require running a larger experiment with more experiments and more statistical power.
 
 
 #### Experiment 3
