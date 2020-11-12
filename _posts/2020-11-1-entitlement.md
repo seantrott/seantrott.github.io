@@ -68,8 +68,8 @@ Experiment 3 used all the same stimuli, but instead of asking participants to ma
 
 Importantly, there were two versions of each passage: a High Entitlement and Low Entitlement version. "Entitlement" was operationalized along several dimensions:
 
-- The **social relationship** between the characters (i.e., encompassing both "power differential" and "social distance" from the **weightiness** definition earlier);  
-- The **urgency** of the request;  
+- The social relationship between the characters (i.e., encompassing both "power differential" and "social distance" from the "weightiness" definition earlier);  
+- The urgency of the request;  
 - Whether one character "owed" the other for a previous favor.  
 
 Thus, our main independent variable of interest was **entitlement**. As noted earlier, we also conducted a norming study in which participants rated each passage according to the requester's entitlement, power differential with the recipient, social distance with the recipient, and degree of imposition of the request. 
