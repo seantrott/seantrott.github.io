@@ -4,6 +4,13 @@ title: Teaching
 permalink: /teaching/
 ---
 
+### Instructing Experience
+
+In reverse chronological order:
+
+- **Summer 2020**. COGS 14B: Introduction to Statistical Analysis 
+
+
 ### TA Experience
 
 In reverse chronological order:
