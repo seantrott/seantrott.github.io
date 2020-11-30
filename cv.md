@@ -49,4 +49,6 @@ Eppe, M., **Trott, S.**, & Feldman, J. (2016, October). Exploiting deep semantic
 
 ### Presentations
 
+**Trott, S.**, Bergen, B. (2020) Why do human languages have homophony (and polysemy)? Center for Research in Language (CRL), UC San Diego.
+
 **Trott, S.**, Bergen, B. (2019) Why do homophones exist? Center for Research in Language (CRL), UC San Diego.
