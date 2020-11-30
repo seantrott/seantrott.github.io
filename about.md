@@ -8,8 +8,8 @@ I am a Cognitive Science graduate student at University of California, San Diego
 
 I'm interested in:
 
-* how humans understand under-specified and ambiguous linguistic input;
-* what human production and comprehension systems can tell us about language evolution; and 
+* how human comprehenders contend with ambiguous or under-specified linguistic input;
+* why human languages contain so much ambiguity; and 
 * how to leverage insights from psycholinguistics to improve natural language understanding.
 
 For more details on my research, see [my research page](https://seantrott.github.io/research/) and [my cv](https://seantrott.github.io/cv/). For information about courses I've taught, see my [teaching page](https://seantrott.github.io/teaching/).
