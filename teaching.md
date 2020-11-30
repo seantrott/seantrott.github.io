@@ -20,4 +20,11 @@ In reverse chronological order:
 - **Winter 2018**. COGS 14A: Introduction to Research Methods (Instructor: Dr. Federico Rossano)   
 - **Fall 2017**. COGS 100: Cyborgs Now and in the Future (Instructor: Dr. David Kirsh)   
 - **Spring 2017**. COGS 101C: Language (Instructor: Dr. Esther Walker)  
-- **Winter 2017**: COGS 3: Introduction to Computer (Instructor: Dr. Mary Boyle)    
+- **Winter 2017**: COGS 3: Introduction to Computer (Instructor: Dr. Mary Boyle)   
+
+
+### Additional information
+
+In Spring 2019 , [Pamela Rivière](https://pdrivier.github.io/about/) and I organized a course and speaker series called: **Data Practices (in the 21st century)**. The course featured speakers from a number of departments, including: Anthropology, Computer Science and Engineering, and History. Topics covered included: the ethical and legal balance between transparency and data privacy/security, appropriate and inappropriate statistical practices, the (often exploitative) relationship between scientists and the communities they study, and more. (Syllabus and talk descriptions available upon request.)
+
+I'm also passionate about statistics education, and have written a number of [statistics tutorials, mostly in R](https://seantrott.github.io/stats/).
