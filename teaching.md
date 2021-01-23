@@ -25,7 +25,7 @@ Classes I've been a TA for:
 
 ### Mentoring
 
-One of my favorite parts of the research community is mentoring students who want to learn more about research. Most recently, I served on the Honors Thesis committee for Alex Liebscher, who investigated whether metaphors we use to describe experiences with cancer affect charitable donations; his honors paper can be found [here](https://cogsci.ucsd.edu/undergraduates/honors-program/Liebscher,-Alex_Thesis---Metaphors-on-Charitable-Donations.pdf).  
+One of my favorite parts of being in science is mentoring students who want to learn more about research. Most recently, I served on the Honors Thesis committee for Alex Liebscher, who investigated whether metaphors we use to describe experiences with cancer affect charitable donations; his honors paper can be found [here](https://cogsci.ucsd.edu/undergraduates/honors-program/Liebscher,-Alex_Thesis---Metaphors-on-Charitable-Donations.pdf).  
 
 
 ### Additional information
