@@ -14,14 +14,14 @@ In reverse chronological order:
 
 ### TA Experience
 
-In reverse chronological order:
+Classes I've been a TA for:
 
-- **Fall 2020** - COGS 14B: Introduction to Statistical Analysis (Instructor: Dr. Drew Walker)  
-- **Winter 2020** - COGS 14B: Introduction to Statistical Analysis (Instructor: Dr. Steve Barrera)  
-- **Winter 2018** - COGS 14A: Introduction to Research Methods (Instructor: Dr. Federico Rossano)   
-- **Fall 2017** - COGS 100: Cyborgs Now and in the Future (Instructor: Dr. David Kirsh)   
-- **Spring 2017** - COGS 101C: Language (Instructor: Dr. Esther Walker)  
-- **Winter 2017** - COGS 3: Introduction to Computer (Instructor: Dr. Mary Boyle) 
+- **COGS 101B**: Learning, Memory, and Attention (Winter 2021)   
+- **COGS 14B**: Introduction to Statistical Analysis (Fall 2020, Winter 2020)  
+- **COGS 14A**: Introduction to Research Methods (Winter 2018)  
+- **COGS 100**: Cyborgs Now and in the Future (Fall 2017)  
+- **COGS 101C**: Language (Spring 2017)  
+- **COGS 3**: Introduction to Computer (Winter 2017) 
 
 ### Mentoring
 
