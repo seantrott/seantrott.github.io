@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Do different languages really convey information at the same rate?
+title: Do different languages really convey information at the same rate? [research review]
 ---
 
 Language is used across all known human populations, but the languages used across these populations also exhibit striking differences. A longstanding goal in Linguistics has thus been to identify **universal features** of language: characteristics that are shared across all human languages. Understanding which features appear to be *invariant* across languages would shed light on the origins of language, as well as the potential biological constraints that act as "filters" for the kinds of forms that languages can take.  

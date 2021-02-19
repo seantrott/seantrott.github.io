@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Does entitlement shape which "formats" requesters and recipients prefer?
+title: Does entitlement shape which "formats" requesters and recipients prefer? [research review]
 ---
 
 

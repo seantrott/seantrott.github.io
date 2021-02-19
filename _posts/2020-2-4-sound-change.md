@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The role of functional load in sound change
+title: The role of functional load in sound change [research review]
 ---
 
 Languages are constantly changing. Just as [words drift in meaning over many generations](https://seantrott.github.io/semantic-drift/), the basic **sounds** of a language can shift over time.

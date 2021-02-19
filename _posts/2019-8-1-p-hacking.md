@@ -1,6 +1,6 @@
 ---
 layout: post
-title: P-hacking in R
+title: P-hacking in R [stats]
 ---
 
 * [Introduction](#intro)

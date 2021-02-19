@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Binary classification in R (tutorial)
+title: Binary classification in R [stats]
 ---
 
 Last week, I ran a workshop for the Cognitive Science department entitled "Binary classification in R". [Here's a link to the tutorial I developed for the workshop](https://seantrott.github.io/binary_classification_R/).

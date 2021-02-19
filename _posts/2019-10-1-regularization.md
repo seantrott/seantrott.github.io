@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regularization for feature selection
+title: Regularization for feature selection [stats]
 ---
 
 *Note: This post attempts to summarize part of Chapter 6 from “Introduction to Statistical Learning” (James et al, 2013); the full textbook can be found [here in PDF form](http://www-bcf.usc.edu/~gareth/ISL/), which contains a number of examples and walks through the equations in more detail.*

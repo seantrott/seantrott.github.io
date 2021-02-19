@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Journey of a word
+title: Journey of a word [research review]
 ---
 
 *Note: This post has been migrated from my old WordPress site (originally posted on June 7, 2019).*
