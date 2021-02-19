@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Word embeddings, pt. 1
+title: Word embeddings, pt. 1 [nlp]
 ---
 # Introduction: a word by any other name?
 
