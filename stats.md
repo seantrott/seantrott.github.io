@@ -6,7 +6,7 @@ permalink: /stats/
 
 I'm developing a set of statistics-related tutorials and blog posts. I've found it useful to write them, so hopefully they can also be of use to others--at least as introductions to a new topic.
 
-Here's what I have so far:
+Statistics (mostly in R):
 
 * [Introduction to correlations and linear regression in R](https://seantrott.github.io/correlations/)   
 * [Introduction to ANOVAs in R](https://seantrott.github.io/anova_R/)
@@ -17,3 +17,8 @@ Here's what I have so far:
 * [Bias, variance, and the bed of Procrustes](https://seantrott.github.io/procrustean_models/)  
 * [P-hacking: a demonstration in R](https://seantrott.github.io/p-hacking/)  
 * [Regularization for feature selection](https://seantrott.github.io/regularization/)  
+
+Natural Language Processing:
+
+* [Text processing in Python (tutorial)](https://seantrott.github.io/nlp_basics/) [slides](https://seantrott.github.io/nlp_basics/slides#/)  
+* [Intro to word embeddings (blog post)](https://seantrott.github.io/embeddings/)
