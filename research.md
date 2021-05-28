@@ -13,9 +13,21 @@ Why would a communication system ostensibly evolved for efficient communication 
 
 Relevant papers and projects:  
 
-- Trott, S., & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)  
+- Trott, S., & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations) 
 
-## How do we make pragmatic inferences?
+## Ambiguity in the mental lexicon
+
+The prevalence of lexical ambiguity also raises the question of how human minds *process* and *represent* the meanings of ambiguous words.
+
+Traditionally, words and their meanings as conceived as discrete entries in a mental dictionary. But meaning is often dynamically modulated in different contexts. We've been exploring an alternative account, in which word meanings are viewed as attractors in a continuous state-space---and then asking whether there is evidence for category boundaries atop this continuous space.
+
+Relevant papers and projects:
+
+- Trott, S., & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). To appear at ACL-IJCNLP-2021. [link to paper](https://arxiv.org/abs/2105.13266) [link to dataset and code](https://github.com/seantrott/raw-c) 
+
+
+
+## Pragmatic inference
 
 People often speak indirectly. For example, the sentence "My car isn't starting" could be intended not only as a statement of fact, but also as a request for a ride. Similarly, the sentence "Can you open that window?" can function as a request to open the window, a question about the hearer's ability to do so, or both. 
 
