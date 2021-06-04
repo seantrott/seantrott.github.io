@@ -29,7 +29,7 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Conference Proceedings 
 
-**Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021*. [link to paper](https://arxiv.org/abs/2105.13266) [link to dataset and code](https://github.com/seantrott/raw-c) 
+**Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021*. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[link to dataset and code]](https://github.com/seantrott/raw-c) 
 
 **Trott, S.**, Torrent, T. T., Chang, N., & Schneider, N. (2020). (Re) construing Meaning in NLP. *ACL 2020*. [[Link to paper]](https://arxiv.org/pdf/2005.09099.pdf)
 
