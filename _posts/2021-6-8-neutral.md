@@ -48,28 +48,59 @@ I'm certainly not an expert in chin morphology. But the more general point here 
 
 Again, the argument is not that identifying traits and their genetic underpinnings is a hopeless endeavor. It's just complicated, and we ought to have epistemic humility about our ability to carve the world at its joints.
 
-
 ## Random genetic drift
 
+Finally, the prevalence of a particular trait in a population may increase (or decrease) due to [genetic drift](https://en.wikipedia.org/wiki/Genetic_drift). In this case, the trait need not confer a selective advantage. Rather, a particular [allele](https://en.wikipedia.org/wiki/Allele) may become [fixed](https://en.wikipedia.org/wiki/Fixation_(population_genetics)) simply as a byproduct of random sampling.
 
+The Wikipedia page on genetic drift gives a great explanation using the analogy of [marbles in a jar](https://en.wikipedia.org/wiki/Genetic_drift#Analogy_with_marbles_in_a_jar). The basic setup is: imagine you have a jar with 10 red marbles and 10 blue marbles---these represent the 20 "organisms" in a population. Now, to create the next generation, randomly sample a marble from the original jar (let's say it's blue), and deposit a marble of that same color in a new jar (representing the newest generation). This new jar will have a mixture of red and blue marbles---but the precise breakdown will depend on the outcome of **random sampling** from that initial jar. For example, maybe we sampled 12 blue marbles and only 8 red marbles. Crucially, we then apply the same process to the second jar to create the third generation. Now, blue marbles are more prevalent than red ones (a 12:8 ratio), which means that they're more likely to be sampled (60% vs. 40%), which in turn means that the third generation might have an even higher proportion of blue marbles! With each successive generation, blue marbles become steadily more frequent, until they reach **fixation**: i.e., no more red marbles. This isn't because the blue marbles are more fit than the red marbles. If we'd instead sampled 12 red marbles and only 8 blue ones in the second generation, then we would've seen fixation of red marbles instead.
 
+A crucial component of this mechanism is that each "sample" is dependent on the current population structure---and in turn, each successive generation can *change* that population structure. So originally, the two alleles were evenly distributed across the population; any variance in which was sampled more is purely a product of random chance. But that variance results in an *uneven* distribution of those alleles among successive generations.
 
-(Weaker version of argument: simply don't be so quick to assume that traits subserving particular functions were themselves evolved for that function. Have humility.)
-NEXT:
-- Just b/c you observe a trait which is correlated with a particular function, doesn't mean it's been "selected for" (and certainly, it may not have been selected for that *particular* function.
-1) What is a "trait"? The "boundaries" aren't always clear.
-2) Lots of things "hitchike" on other traits (i.e., pleiotropy)  
-3) Lots of traits are "exapted" --> spandrels
+In contrast, if every generation was the product of sampling from that *original* generation, the [Central Limit Theorem] states that we'd expect to see something like a normal distribution of **blue:red ratios**, centered around 10:10--with some number having more red marbles, and some having more blue marbles. But in the case of evolution, each generation is [dependent](https://en.wikipedia.org/wiki/Path_dependence) on the generation that came before.
 
-(Discuss some criticisms of spandrels. Many miss the point. So what if actual spandrels do serve a purpose? The point is we need to be careful about saying that the purpose which a given trait seems to serve is the reason that it evolved. Evolution just isn't so simple as that.)
+The key takeaway here is that we can't simply take the prevalence of a particular trait as evidence that the trait was selected for. Even in the absence of the "hitch-hiking" or exaptation mechanisms I described above, alleles can reach fixation purely as a byproduct of random sampling. 
 
+This is where **neutral theory** comes in.
 
 # The Rise of Neutral Theory
+
+The core idea of "neutral theory", as originally formulated (Kimura, 1979), is as follows:
+
+> at the molecular level most evolutionary changes are caused by the "random drift" of selectively equivalent mutant genes. (pg. 98)
+
+
+
+
+(Interesting consequence of genetic drift: it can create a population with particular genetic predispositions, that *changes* the fitness landscape. I.e., if a new mutation arises that might ordinarily be detrimental, it might be beneficial given the new population structure.)
+
+
+
+(Note that neutral theory as originally proposed was about molecular evolution, not phenotypic---i.e., things that don't affect an organism's phenotype...)
 
 
 NEXT:
 - Reference Quanta article about neutral theory.
 (https://www.quantamagazine.org/how-neutral-theory-altered-ideas-about-biodiversity-20201208/)
+
+
+## Language and "Miller's Monkey"
+
+## Cultural Evolution
+
+
+# Challenges to Neutral Theory
+
+
+From Leroi et al (2020):
+
+> Regardless of the particulars, the argument is the same: here are some things (species, pots, baby names, citations) that show a particular kind of abundance distribu- tion (log-series, zero-sum multinomial, power-law); here is a simple neutral process (Wright–Fisher, Moran, Yule) that can produce such a distribution; therefore selection has no role in shaping the diversity of the population
+
+
+From Piantadosi et al (2013):
+
+> It is not informative to show that other assumptions could also lead to the observed behavior, if those other assumptions are demonstrably not at play (pg. 6)
+
+
 
 
 
@@ -98,11 +129,17 @@ Challenges to "neutral" theory:
 
 # References
 
+Alonso, D., Etienne, R. S., & McKane, A. J. (2006). The merits of neutral theory. Trends in ecology & evolution, 21(8), 451-457.
+
+
+Caplan, S., Kodner, J., & Yang, C. (2019). Miller ’ s Monkey Updated : Communicative Efficiency and the Statistics of Words in Natural Language. Cognition, 1–19.
+
 Gould, S. J., & Lewontin, R. C. (1979). The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme. Proceedings of the Royal Society of London - Biological Sciences, 205(1161), 581–598. https://doi.org/10.1098/rspb.1979.0086
 
 Hauser, Marc; Chomsky, Noam; Fitch, W. T. (2013). The Faculty of Language: What Is It, Who Has It, and How Did It Evolve? Science, 298(02), 124﹣129. https://doi.org/10.1126/science.298.5598.1569
 
-Caplan, S., Kodner, J., & Yang, C. (2019). Miller ’ s Monkey Updated : Communicative Efficiency and the Statistics of Words in Natural Language. Cognition, 1–19.
+Kimura, M. (1979). The neutral theory of molecular evolution. Scientific American, 241(5), 98-129.
+
 
 Trott, S., & Bergen, B. (2020). Why do human languages have homophones? Cognition, 205(August), 104449. https://doi.org/10.1016/j.cognition.2020.104449
 ---
