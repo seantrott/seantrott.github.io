@@ -67,7 +67,7 @@ One might say that H1 and H2 are distinguished not necessarily by their theoreti
 
 In this scenario, NLMs are *flexible*, and their role is really just as a kind of mirror. So human language continues to change as it normally would, and NLMs manage to keep up, because they're adaptable.
 
-Under this account, people innovate new words, constructions, etc., at the pace they always would––and text produced by NLMs will keep up.
+Under this account, people innovate new words, constructions, etc., at the pace they always would. NLMs stay up to date by constantly retraining or fine-tuning on a new generation of linguistic data. Perhaps NLMs always lag a little behind the pace of change (like previous generations typically do), but they don't prevent the usual course of innovation.
 
 ## H4: NLMs create novel linguistic innovations.
 
