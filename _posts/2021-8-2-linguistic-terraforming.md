@@ -16,15 +16,15 @@ What happens when the input data is the language we speak?
 
 Recent advances in **neural language models** (hereafter NLMs) have yielded some genuinely impressive results. 
 
-If you're not familiar with it already, I highly recommend checking out some of the examples of GPT-3 in action. Fed with the right "prompt", it can produce startlingly sensible prose and even poetry; it can regurgitate historical facts and, more problematically, create some of its own; and it can carry out an extended dialogue, tracking various referents and themes throughout the discourse. Some have even suggested they're the start of Artificial General Intelligence (AGI). 
+If you're not familiar with it already, I highly recommend checking out some of the examples of [GPT-3](https://en.wikipedia.org/wiki/GPT-3) [in action](https://www.gwern.net/GPT-3). Fed with the right "prompt", it can produce startlingly sensible prose and even poetry; it can regurgitate historical facts and, more problematically, create some of its own; and it can carry out an extended dialogue, tracking various referents and themes throughout the discourse. Some have even suggested they're the start of Artificial General Intelligence (AGI). 
 
-Others have expressed concern. Big language models encode a number of social biases, and training them produces an absurd amount of carbon emissions (Bender et al, 2021). Needless to say, there's an active conversation in the NLP community about how (and whether) to deploy these models.
+Others have expressed concern. Big language models encode a number of social biases, and training them produces an absurd amount of carbon emissions ([Bender et al, 2021](https://dl.acm.org/doi/abs/10.1145/3442188.3445922)). Needless to say, there's an active conversation in the NLP community about how (and whether) to deploy these models.
 
 But I'm interested in another angle: how might the widespread application of these models shape our language?
 
 # Language Models in Action
 
-Take predictive text. As you type an email to a colleague, Gmail tracks each word you write, and predicts the next word––or words––you'll choose. For the most part, predictive text does a pretty good job of correctly predicting what we're going to write, which makes writing more convenient; and when it's wrong, we just have to choose the word we intended, rather the one it predicted. 
+Take [predictive text](https://en.wikipedia.org/wiki/Predictive_text). As you type an email to a colleague, Gmail tracks each word you write, and predicts the next word––or words––you'll choose. For the most part, predictive text does a pretty good job of correctly predicting what we're going to write, which makes writing more convenient; and when it's wrong, we just have to choose the word we intended, rather the one it predicted. 
 
 But in some cases, maybe the word Gmail predicted is *close enough* to the one we wanted. Or perhaps we weren't sure which word we wanted at all. Around the margins, then, predictive text starts to actively shape the words we select.
 
