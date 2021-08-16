@@ -36,20 +36,21 @@ Eventually, though, it seems likely that NLMs will play a role in more and more 
 
 One way to establish the plausibility of this claim is to look for precedents. Are there other examples of how a novel communication technology has changed our language––or, perhaps, changed the way it changes?
 
-The classic case of this is writing, one of the oldest linguistic technologies. I've heard it claimed that writing *slows down* the pace of language change. And while I haven't found any empirical work defending this claim, it's certainly plausible. 
+The classic case of this is writing, one of the oldest linguistic technologies. I've heard it claimed that writing *slows down* the pace of language change [(Zengel, 1962)](https://anthrosource.onlinelibrary.wiley.com/doi/pdf/10.1525/aa.1962.64.1.02a00120). 
 
-The logic is as follows. Changes to language, like changes in biological evolution, arise from a pool of synchronic variation or "mutations" (Ohala, 1989). A language isn't just "one thing"; it's a set of practices, mostly shared among a population language users, who each have their own idiosyncratic way of using that language. And small, local decisions made by individual speakers can "bubble up" and ultimately change the distribution of sounds and words that any given speaker might encounter, which in turn shapes what we think of as the "language". 
+The logic is broadly as follows. Changes to language, like changes in biological evolution, arise from a pool of synchronic variation or "mutations" (Ohala, 1989). A language isn't just "one thing"; it's a set of practices, mostly shared among a population language users, who each have their own idiosyncratic way of using that language. And small, local decisions made by individual speakers can "bubble up" and ultimately change the distribution of sounds and words that any given speaker might encounter, which in turn shapes what we think of as the "language". 
 
 Writing, however, freezes certain practices in place. Specific ways of rendering a wordform in writing (i.e., its orthography) might change the rate at which the spoken or signed version of that wordform changes––its **tethered**, now, to the orthographic form. The same goes for the mappings between words and their meanings, or syntactic constructions.
 
 That's not to say written languages don't change! They obviously can, and do. But the argument––if it's correct––is that the use of writing can *slow down* the rate at which language would ordinarily change.
 
-Again, I don't know whether this is true. It seems like assessing it would require some estimate of how quickly a language would change in the absence of writing, which seems like a difficult task. But for the purposes of this post, I'm going to accept it as provisionally and probabilistically true.
+Again, I don't know whether this is true. Assessing it requires an estimate of the pace of language change in the absence of writing, which is difficult to do. And it's worth noting that others disagree with Zengel's argument that literacy is a conservative force in language change (Frawley, 1994). 
+
+But for the purposes of this post, I'm going to accept it as provisionally and probabilistically true.
 
 # NLMs and Language Change
 
 So how might NLMs change language, if they change it at all? I think there are a few distinct possibilities, which I describe as hypotheses below.
-
 
 ## H1: NLMs will slow down (or freeze) language change writ large.
 
@@ -97,3 +98,9 @@ Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On
 Christian, B. (2020). The Alignment Problem: Machine Learning and Human Values. WW Norton & Company.
 
 Ohala, J. (1989). Sound change is drawn from a pool of synchronic variation. Language Change: Contributions to the Study of Its Causes, 173-198.
+
+Rao, G. S. (1994). Language Change: Lexical Diffusion and Literacy. Academic Foundation.
+
+Frawley, W. D. (1994). Literacy, the individual, and the political economy of language change. Language Change: Lexical Diffusion and Literacy. Delhi: Academic Foundation, 61-88.
+
+Zengel, M. S. (1962). Literacy as a factor in language change. In Readings in the Sociology of Language (pp. 296-304). De Gruyter Mouton.
