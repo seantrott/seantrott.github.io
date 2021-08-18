@@ -38,7 +38,7 @@ As the authors point out, this "monkey model" has a pretty weird implicit theory
 
 This is demonstrably not how speakers choose what to say. Speakers know *whole words*, and choose words accordingly to convey a particular message. 
 
-Thus, we have two possible explanations of the data: the [Efficiency Explanation](https://arxiv.org/pdf/1307.6726.pdf) and the [Random Monkey Explanation](https://arxiv.org/pdf/1209.1751.pdf). Let's imagine that both explain the data equally well (though this isn't necessarily true, as Piantadosi et al (2013) note). Should we prefer the Random Monkey because it's "simpler"? Piantadosi et al (2013) argue the answer is **no**: the Efficiency Explanation is more compatible with other things we already know about human cognition and language, whereas the Random Monkey is not, so we ought to prefer the Eefficiency Explanation.
+Thus, we have two possible explanations of the data: the [Efficiency Explanation](https://arxiv.org/pdf/1307.6726.pdf) and the [Random Monkey Explanation](https://arxiv.org/pdf/1209.1751.pdf). Let's imagine that both explain the data equally well (though this isn't necessarily true, as Piantadosi et al (2013) note). Should we prefer the Random Monkey because it's "simpler"? Piantadosi et al (2013) argue the answer is **no**: the Efficiency Explanation is more compatible with other things we already know about human cognition and language, whereas the Random Monkey is not, so we ought to prefer the Efficiency Explanation.
 
 # "State your priors"
 
