@@ -5,9 +5,11 @@ title: How plausible should a baseline be? [theory]
 
 In a [previous post](https://seantrott.github.io/neutral/), I considered the use of **neutral models** to assess claims about selective pressures. I described several objections to the use of neutral baselines, including one by [(Piantadosi et al, 2013)](https://arxiv.org/pdf/1307.6726.pdf).
 
+Here, I'm going to consider that objection in a little more detail.
+
 # The context
 
-In this case, the debate is over a ["random typing" model](https://en.wikipedia.org/wiki/Infinite_monkey_theorem), and its suitability as a baseilne to test an evolutionary claim. 
+In this particular case, the debate is over a ["random typing" model](https://en.wikipedia.org/wiki/Infinite_monkey_theorem), and its suitability as a baseilne to test an evolutionary claim. 
 
 In a [2011 paper](https://www.pnas.org/content/108/9/3526.short), Piantadosi and co-authors demonstrated that the [**information content**](https://en.wikipedia.org/wiki/Information_content) of a word is correlated with its length: shorter words convey less "information"––i.e., they are more predictable in context. This is interpreted as evidence for **efficiency**: if longer words are more costly to produce, presumably a language should reserve them for the most informative meanings:
 
