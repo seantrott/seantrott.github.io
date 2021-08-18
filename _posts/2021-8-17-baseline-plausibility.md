@@ -26,7 +26,9 @@ Critcally, what the authors find is that if you analyze a big corpus of "words" 
 
 > A strong correlation between information content and word length can simply arise from the units making a word (e.g., letters) and not necessarily from the interplay between a word and its context as proposed by Piantadosi and co-workers. In itself, the linear relation does not entail the results of any optimization process.
 
-This is where the reply by [Piantadosi et al (2013)](https://arxiv.org/pdf/1307.6726.pdf) comes in. There are a couple components to their counterargument, including the fact that the simple "monkey" model presented by Ferrer-i-Cancho et al (2011) is *not*, in fact, that good at reproducing the real data––so it's not particular good even as a baseline. But the part I want to focus is a little more philosophical. Specifically, they argue that the ability of a neutral model to explain empirical data is not the only criterion we should consider. We should also think about how **plausible** that neutral model is: 
+This is where the reply by [Piantadosi et al (2013)](https://arxiv.org/pdf/1307.6726.pdf) comes in. There are a couple components to their counterargument, including the fact that the simple "monkey" model presented by Ferrer-i-Cancho et al (2011) is *not*, in fact, that good at reproducing the real data––so it's not particularly good even as a baseline. 
+
+But the part I want to focus is a little more philosophical. Specifically, they argue that the ability of a neutral model to explain empirical data is not the only criterion we should consider. We should also think about how **plausible** that neutral model is: 
 
 > It is not informative to show that other assumptions could also lead to the observed behavior, if those other assumptions are demonstrably not at play (pg. 6)
 
