@@ -72,7 +72,7 @@ Let's consider the random typing case again. It's clear the Random Monkey Explan
 
 Thus, if our goal is to contrast two, *specific* accounts of the data––the Efficiency Explanation vs. the Random Monkey Explanation––I think it's fair to say the Efficiency Explanation is preferable on other grounds (i.e. ,its **plausibility**), even if both theories explain the data equally well. 
 
-But I'm not sure that's necessarily the point of these baselines. An alternative goal might be something like an **existence proof**: there exists *at least one* generative process that explains the data equally well ([^1]), and that should give us pause. If such a simple model can reproduce the empirical data, it suggests there might also be other, more *specific* theories that also reproduce the empirical data, and thus we shouldn't be too quick to discount the null hypothesis.
+But I'm not sure that's necessarily the point of these baselines. An alternative goal might be something like an **existence proof**: there exists *at least one* generative process that explains the data equally well ([^1]). That should give us pause. If such a simple model can reproduce the empirical data, it suggests there might also be other, more *specific* theories that also reproduce the empirical data, and thus we shouldn't be too quick to discount the null hypothesis.
 
 Note that there's a subtle difference in these approaches. The first seeks to compare two specific theories. The latter seeks to establish the *unique* explanatory power of one specific theory (i.e., the Efficiency Explanation) by comparing it to a simple generative process that may or may not reproduce the data. That other process need not be a theory per se––it's just a way to establish a [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) other than the one that's typically used, i.e., that some parameter of interest is not significantly different from 0. That traditional null hypothesis isn't a particularly challenging baseline to "disconfirm"; thus, as [Mosco et al (2013)](https://escholarship.org/content/qt7738n7cz/qt7738n7cz.pdf) writes, we should consider exploring the space of possible baselines, especially when trying to make some sort of evolutionary claim.
 
@@ -101,4 +101,4 @@ Piantadosi, S. T., Tily, H., & Gibson, E. (2011). Word lengths are optimized for
 
 # Footnotes
 
-[^1]. Again, assuming this is true.
+[^1]: Again, assuming this is true.
