@@ -82,12 +82,9 @@ Second, I wanted to outline a couple of the ways that we can (and should) integr
 I'm going to keep returning to this issue of baselines in future posts––for some reason, I find it really compelling. Coming up will be a post that connects the more theoretical issues outlined here to the implementation of those ideas in statistical practice.
 
 
-
-
 Related posts:
 
 - [Are neutral models useful?](https://seantrott.github.io/neutral/)
-- [Introduction to model comparisons in R](https://seantrott.github.io/model-comparison/)
 - [How plausible should a baseline be?](https://seantrott.github.io/baseline-plausibility/)
 - [Why do human languages have homophones](https://seantrott.github.io/homophones/)
 

@@ -86,6 +86,8 @@ There's no single answer. It depends on context. But in much of my own research,
 
 - [Is neutral theory useful?](https://seantrott.github.io/neutral/)   
 - [Why do human languages have homophones](https://seantrott.github.io/homophones/)
+- [Baselines, context, and interpretation](https://seantrott.github.io/baselines/)
+
 
 
 # References
