@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a Cognitive Science graduate student at University of California, San Diego, where I work with Dr. Benjamin Bergen. 
+I am a Cognitive Science graduate student at University of California, San Diego, where I work with [Dr. Benjamin Bergen](https://cogsci.ucsd.edu/~bkbergen/). 
 
 I'm interested in:
 
