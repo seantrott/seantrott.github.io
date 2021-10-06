@@ -92,9 +92,9 @@ So the limits of NLM-induced language change are to some extent the limits of hu
 
 ## H5: NLMs make language anti-communicative.
 
-In H4, we considered the possibility that humans and NLMs would a kind of partnership. Each person might have their own Personalized Language Model &trade;, which would assist that person in producing language in different contexts.
+In H4, we considered the possibility that humans and NLMs would a kind of partnership. Each person might have their own Personalized Language Model&trade;, which would assist that person in producing language in different contexts.
 
-But to make it even weirder: let's imagine that these Personalized Language Models &trade; don't just help with *production*––they also help with *comprehension*. So if Bob wants to send a message to Alice, Bob is first assisted with generating this message by his NLM; then Alice's NLM receives that message, and *adjusts* it into a form ideally suited to Alice's idiosyncratic language use. The analogy here might be to using Google Translate to mediate communication between speakers of different languages. Only in this case, Bob and Alice both speak the "same" language. It's just that they never have to encounter different [idiolects](https://en.wikipedia.org/wiki/Idiolect) of that language, because their Personalized Language Model &trade; translates all incoming messages into their own idiolect.
+But to make it even weirder: let's imagine that these Personalized Language Models&trade; don't just help with *production*––they also help with *comprehension*. So if Bob wants to send a message to Alice, Bob is first assisted with generating this message by his NLM; then Alice's NLM receives that message, and *adjusts* it into a form ideally suited to Alice's idiosyncratic language use. The analogy here might be to using Google Translate to mediate communication between speakers of different languages. Only in this case, Bob and Alice both speak the "same" language. It's just that they never have to encounter different [idiolects](https://en.wikipedia.org/wiki/Idiolect) of that language, because their Personalized Language Model&trade; translates all incoming messages into their own idiolect.
 
 This creates a weird incentive for speakers: they no longer have to produce language that's directly comprehensible by other human speakers. As long as the other NLMs are able to fluidly translate between idiolects, speakers can just produce whatever linguistic expression is easiest for them to produce, and the NLMs handle the rest. 
 
@@ -102,7 +102,7 @@ Now, there's some evidence that this is *partly* what speakers already do: as [F
 
 On the other hand, clearly language production involves *some* aspects of audience design. For example, we often speak to children differently than adults. Similarly, if we're trying to be polite, we might craft our message in a way that doesn't offend our interlocutor [(Ferreira, 2019)](https://www.annualreviews.org/doi/abs/10.1146/annurev-psych-122216-011653). Or to make things even more extreme: we don't simply go around saying "ba ba ba", because even if *we* knew that what we intended was "Yesterday I read an excellent paper about sound change", our comprehender has no way of knowing. As Zipf (1949) famously argued, human language is subject to multiple **pressures**: it has to be easily produced by human speakers, but it also has to be interpretable by human comprehenders.
 
-But the advent of Personalized Language Models &trade; might remove the latter pressure. At the very least, any given linguistic expression just needs to be comprehensible by an *NLM*, such that the *NLM* can tailor the expression to its human partner––thus reducing the need for human speakers to engage in audience design.
+But the advent of Personalized Language Models&trade; might remove the latter pressure. At the very least, any given linguistic expression just needs to be comprehensible by an *NLM*, such that the *NLM* can tailor the expression to its human partner––thus reducing the need for human speakers to engage in audience design.
 
 # Taking Stock
 
