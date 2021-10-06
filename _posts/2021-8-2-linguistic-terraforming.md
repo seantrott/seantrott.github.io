@@ -26,27 +26,27 @@ But I'm interested in another angle: how might the widespread application of the
 
 Take [predictive text](https://en.wikipedia.org/wiki/Predictive_text). As you type an email to a colleague, Gmail tracks each word you write, and predicts the next word––or words––you'll choose. For the most part, predictive text does a pretty good job of correctly predicting what we're going to write, which makes writing more convenient; and when it's wrong, we just have to choose the word we intended, rather the one it predicted. 
 
-But in some cases, maybe the word Gmail predicted is *close enough* to the one we wanted. Or perhaps we weren't sure which word we wanted at all. Around the margins, then, predictive text starts to actively shape the words we select.
+But in some cases, maybe the word Gmail predicted is *close enough* to the one we wanted. Or perhaps we weren't sure which word we wanted at all. And in these cases, we just go with Gmail's suggested text. Around the margins, then, predictive text starts to actively shape the words we select.
 
 This seems like a trivial case (and it's intended to be). As I said, this effect––if it exists at all––likely exists only around the margins of electronic language use. 
 
-Eventually, though, it seems likely that NLMs will play a role in more and more of our interactions. And the more they **mediate** our use of language, the more opportunity they'll have to shape the decisions we make about which words to choose and which grammatical constructions to embed them in.
+Eventually, though, it seems likely that NLMs will play a role in more and more of our interactions. And the more they **mediate** our use of language, the more opportunity they'll have to shape the decisions we make about which words to choose and which grammatical constructions to embed them in. And this, in turn, raises the question: by shaping our patterns of language use, could NLMs shape our *language*?
 
 # The Case of Writing
 
 One way to establish the plausibility of this claim is to look for precedents. Are there other examples of how a novel communication technology has changed our language––or, perhaps, changed the way it changes?
 
-The classic case of this is writing, one of the oldest linguistic technologies. I've heard it claimed that writing *slows down* the pace of language change [(Zengel, 1962)](https://anthrosource.onlinelibrary.wiley.com/doi/pdf/10.1525/aa.1962.64.1.02a00120). 
+One example might be found in writing: one of the oldest linguistic technologies. I've heard it claimed that writing *slows down* the pace of language change [(Zengel, 1962)](https://anthrosource.onlinelibrary.wiley.com/doi/pdf/10.1525/aa.1962.64.1.02a00120). 
 
-The logic is broadly as follows. Changes to language, like changes in biological evolution, arise from a pool of synchronic variation or "mutations" (Ohala, 1989). A language isn't just "one thing"; it's a set of practices, mostly shared among a population language users, who each have their own idiosyncratic way of using that language. And small, local decisions made by individual speakers can "bubble up" and ultimately change the distribution of sounds and words that any given speaker might encounter, which in turn shapes what we think of as the "language". 
+One way it could do this is by increasing [metalinguistic awareness](https://en.wikipedia.org/wiki/Metalinguistic_awareness): the ability to consciously reflect on the nature of language. For example, there is some empirical evidence that literacy is connected to the ability to recognize "words" as units of speech ([Homer & Olson, 1999](https://www.jbe-platform.com/content/journals/10.1075/wll.2.1.07hom)). Of course, it's difficult to sort out correlation from causation: maybe better metalinguistic awareness improves literacy! But leaving that aside for now, the argument is that increased metalinguistic awareness could *freeze* certain practices in place, making large-scale language changes (like sound change) less likely.
 
-Writing, however, freezes certain practices in place. Specific ways of rendering a wordform in writing (i.e., its orthography) might change the rate at which the spoken or signed version of that wordform changes––its **tethered**, now, to the orthographic form. The same goes for the mappings between words and their meanings, or syntactic constructions.
+For this argument to make sense, we have to consider how language change occurs in the first place. Like changes in biological evolution, changes to language arise from a pool of synchronic variation (Ohala, 1989), or "mutations": at any given point in time, a population of speakers might produce the same "word" many different ways. But these small, local decisions made by individual speakers (and comprehenders) can eventually bubble up and change the distribution of sounds and words that other speakers might encounter, which in turn shapes that language.
+
+To return to writing: specific ways of rendering a word in writing (i.e., its orthography) might increase a speaker's understanding of that word as a fixed, stable entity, rather than something ephemeral. Because the word is tethered to its orthographic form, that psychological fixedness could change the rate at which the word changes––either phonologically or even semantically. 
 
 That's not to say written languages don't change! They obviously can, and do. But the argument––if it's correct––is that the use of writing can *slow down* the rate at which language would ordinarily change.
 
-Again, I don't know whether this is true. Assessing it requires an estimate of the pace of language change in the absence of writing, which is difficult to do. And it's worth noting that others disagree with Zengel's argument that literacy is a conservative force in language change (Frawley, 1994). 
-
-But for the purposes of this post, I'm going to accept it as provisionally and probabilistically true.
+Again, I don't know whether this is true. Assessing it requires an estimate of the pace of language change in the absence of writing, which is difficult to do. And it's worth noting that others disagree with Zengel's argument that literacy is a conservative force in language change (Frawley, 1994). The reason I mention it is simply to enumerate how *in principle* a communication technology that's existed for thousands of years could have shaped the course of language change.
 
 # NLMs and Language Change
 
@@ -54,13 +54,23 @@ So how might NLMs change language, if they change it at all? I think there are a
 
 ## H1: NLMs will slow down (or freeze) language change writ large.
 
-This is the strongest view: NLMs will "freeze" a language in place, fossilizing the language as it was originally presented to the NLM.
+This is the strongest view: NLMs will "freeze" a language in place, fossilizing the language as it was originally presented to the NLM, and ultimately **homogenizing** language.
+
+Why would NLMs homogenize language?
+
+First, let's consider how NLMs work. NLMs generate langauge by predicting the most likely word in a given context. For example, if I write, "salt and ___", most people (and most language models) would fill in the blank with "pepper". 
+
+But this isn't just true of common multiword constructions. It applies to the probability of any given word appearing in any given context. If "he went to the store" is more common in a big corpus than "he went to the library", then presenting an NLM with "he went to the ___" would likely elicit a higher probability for *store* than for *library*. 
+
+Now, let's imagine that we train an NLM on a big corpus (e.g., Wikipedia). That *same* NLM is used to mediate linguistic communication in a variety of contexts. Each time the NLM encounters a given context, it's probability distribution over upcoming words will be pretty much the same ([^1]). In other words, the NLM will always be [attracted](https://en.wikipedia.org/wiki/Attractor) to similar sets of words in a given context, which means that across a large number of samples, they'll simply **reinforce** the patterns of use they've observed in the training data ([^2]). Hence: homogenization. 
 
 This scenario likely depends on NLMs pervading society to a very large degree. But in this most extreme version, language change is either halted or slowed to a crawl. 
 
 ## H2: NLMs slow (or freeze) language change selectively.
 
-This is a more nuanced version of H1: NLMs freeze language at a rate proportional to their use, and in particular, only freeze language in the areas of communication *most* mediated by NLMs. I.e., if certain registers (e.g., formal registers) are most mediated by language models, the variants or dialects of language used in those registers should be the most "frozen".
+This is a more nuanced version of H1.
+
+In this scenario, NLMs freeze language at a rate proportional to their use, and in particular, only freeze language in the areas of communication *most* mediated by NLMs. I.e., if certain [registers](https://en.wikipedia.org/wiki/Register_(sociolinguistics)) (e.g., formal registers) are most mediated by language models, the variants or dialects of language used in those registers should be the most "frozen".
 
 One might say that H1 and H2 are distinguished not necessarily by their theoretical mechanism, but rather by the pervasiveness with which NLMs are used.
 
@@ -97,6 +107,8 @@ Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On
 
 Christian, B. (2020). The Alignment Problem: Machine Learning and Human Values. WW Norton & Company.
 
+Homer, B., & Olson, D. R. (1999). Literacy and children's conception of words. Written Language & Literacy, 2(1), 113-140.
+
 Ohala, J. (1989). Sound change is drawn from a pool of synchronic variation. Language Change: Contributions to the Study of Its Causes, 173-198.
 
 Rao, G. S. (1994). Language Change: Lexical Diffusion and Literacy. Academic Foundation.
@@ -104,3 +116,9 @@ Rao, G. S. (1994). Language Change: Lexical Diffusion and Literacy. Academic Fou
 Frawley, W. D. (1994). Literacy, the individual, and the political economy of language change. Language Change: Lexical Diffusion and Literacy. Delhi: Academic Foundation, 61-88.
 
 Zengel, M. S. (1962). Literacy as a factor in language change. In Readings in the Sociology of Language (pp. 296-304). De Gruyter Mouton.
+
+# Footnotes
+
+[^1]: There are some things you can do to ameliorate this, e.g., injecting some amount of noise into the network, but across enough samples, that likely wouldn't really change much about the resulting distribution of selected words. Alternatively, as the "context" window becomes larger and larger––not just a given sentence, say, but an entire paragraph, or even "everything someone has said before"––that could also chagne the probability distribution sufficiently to reduce or prevent this kind of convergence onto particular attractor states.
+
+[^2]: You might make an objection here: isn't this basically what humans do? I.e., reproduce the linguistic input they're "trained on" in various formulations? I think that's not totally wrong. But humans also get lots of other input. And importantly, human language production is driven (at least in part) by wanting to *communicate* certain things. We're not simply choosing the most likely word given the words we've already said. That's *part* of what we're doing, to be sure, but most models of language production assume that we have some "message" in mind that we want to convey. (It's an open question whether language statistics can "override" this message.)
