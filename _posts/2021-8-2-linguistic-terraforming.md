@@ -78,15 +78,31 @@ One might say that H1 and H2 are distinguished not necessarily by their theoreti
 
 In this scenario, NLMs are *flexible*, and their role is really just as a kind of mirror. So human language continues to change as it normally would, and NLMs manage to keep up, because they're adaptable.
 
-Under this account, people innovate new words, constructions, etc., at the pace they always would. NLMs stay up to date by constantly retraining or fine-tuning on a new generation of linguistic data. Perhaps NLMs always lag a little behind the pace of change (like previous generations typically do), but they don't prevent the usual course of innovation.
+Under this account, people innovate new words, constructions, etc., at the pace they always would. NLMs stay up to date by constantly retraining or fine-tuning on a new generation of linguistic data. Perhaps NLMs always lag a little behind the pace of change (like older humans sometimes do), but they don't prevent the usual course of innovation.
 
 ## H4: NLMs create novel linguistic innovations.
 
 So far, I've compared NLMs to writing. But there's a key difference: NLMs are *generative* models. In principle, they're capable of combining linguistic elements into novel expressions––just like humans. Writing is a *conduit* for language use; but NLMs are, in a sense, language users themselves.
 
-And so, according to this account, NLMs could potentially innovate novel expressions as well. The likelihood of this scenario might depend on the manner of their deployment, and the flexibility with which they're used. If all NLM-mediated communication is managed by a single, centralzed model, this scenario seems unlikely; but if each individual human is paired to a *copy* of the original NLM, and that copy changes and adjusts to each person's idiolect, then it's conceivable that the NLMs will come to embody the idiosyncracies of an individual's linguistic usage––and perhaps, in the right circumstances, develop idiosyncracies of their own. 
+And so, according to this account, NLMs could potentially innovate novel expressions as well. The likelihood of this scenario might depend on the manner of their deployment, and the flexibility with which they're used. If all NLM-mediated communication is managed by a single, centralized model, this scenario seems unlikely. But if each individual human is paired to a *copy* of the original NLM, and that copy changes and adjusts to each person's idiolect, then it's conceivable that the NLMs will come to embody the idiosyncracies of an individual's linguistic usage––and perhaps, in the right circumstances, develop idiosyncracies of their own. 
 
-Some might remember the reinforcement learning agents in a [Facebook experiment that "invented" their own language](https://towardsdatascience.com/the-truth-behind-facebook-ai-inventing-a-new-language-37c5d680e5a7). Left to their own devices, NLMs might take language to some weird places. But the natural constraint, of course, is that at the end of the day, humans still have to communicate with each other. So the limits of NLM-induced language change are to some extent the limits of human cognitive and communicative capacities. On the other hand, human cognition and communication is, presumably, shaped to some extent by language itself. So this scenario might result in a **coupled system**, with humans and NLMs continuing to influence each other and the languages they use.
+Some might remember the reinforcement learning agents in a [Facebook experiment that "invented" their own language](https://towardsdatascience.com/the-truth-behind-facebook-ai-inventing-a-new-language-37c5d680e5a7). Left to their own devices, NLMs might take language to some weird places. But the natural constraint, of course, is that at the end of the day, humans still have to communicate with each other. 
+
+So the limits of NLM-induced language change are to some extent the limits of human cognitive and communicative capacities. On the other hand, NLMs could obviate some of those limits: that's explored in H5 below. 
+
+## H5: NLMs make language anti-communicative.
+
+In H4, we considered the possibility that humans and NLMs would a kind of partnership. Each person might have their own Personalized Language Model &trade;, which would assist that person in producing language in different contexts.
+
+But to make it even weirder: let's imagine that these Personalized Language Models &trade; don't just help with *production*––they also help with *comprehension*. So if Bob wants to send a message to Alice, Bob is first assisted with generating this message by his NLM; then Alice's NLM receives that message, and *adjusts* it into a form ideally suited to Alice's idiosyncratic language use. The analogy here might be to using Google Translate to mediate communication between speakers of different languages. Only in this case, Bob and Alice both speak the "same" language. It's just that they never have to encounter different [idiolects](https://en.wikipedia.org/wiki/Idiolect) of that language, because their Personalized Language Model &trade; translates all incoming messages into their own idiolect.
+
+This creates a weird incentive for speakers: they no longer have to produce language that's directly comprehensible by other human speakers. As long as the other NLMs are able to fluidly translate between idiolects, speakers can just produce whatever linguistic expression is easiest for them to produce, and the NLMs handle the rest. 
+
+Now, there's some evidence that this is *partly* what speakers already do: as [Ferreira (2008)](https://www.sciencedirect.com/science/article/pii/S0079742108000066) notes, language production is *hard*. Therefore, speakers might opt for what's easiest for them to produce, as opposed to tailoring their expression to something that's easier to comprehenders to understand.
+
+On the other hand, clearly language production involves *some* aspects of audience design. For example, we often speak to children differently than adults. Similarly, if we're trying to be polite, we might craft our message in a way that doesn't offend our interlocutor [(Ferreira, 2019)](https://www.annualreviews.org/doi/abs/10.1146/annurev-psych-122216-011653). Or to make things even more extreme: we don't simply go around saying "ba ba ba", because even if *we* knew that what we intended was "Yesterday I read an excellent paper about sound change", our comprehender has no way of knowing. As Zipf (1949) famously argued, human language is subject to multiple **pressures**: it has to be easily produced by human speakers, but it also has to be interpretable by human comprehenders.
+
+But the advent of Personalized Language Models &trade; might remove the latter pressure. At the very least, any given linguistic expression just needs to be comprehensible by an *NLM*, such that the *NLM* can tailor the expression to its human partner––thus reducing the need for human speakers to engage in audience design.
 
 # Taking Stock
 
@@ -98,7 +114,7 @@ If I were to take a gamble, I think **H2** seems a pretty safe bet. Many languag
 
 It's also important to note that the biggest (and most effective) NLMs correspond, as you might expect, to [high-resource languages like English](https://datascience.stackexchange.com/questions/62868/high-low-resources-language-what-does-it-mean). There's another, perhaps more worrying, scenario than the ones I described above––which is that NLMs trained on high-resource languages accelerate existing trends in declining linguistic diversity. This wouldn't be the *fault* of NLMs directly, per se, but paired with globalization it could lead to the erosion of languages around the world. I wonder whether there's a way to flip this scenario on its head: could NLMs help *preserve* low-resource languages? I dont know––but this only reinforces the importance of work on documenting low-resource languages. 
 
-A final note: all of these scenarios assume that humans are ultimately the ones trying to communicate, and the question is what role NLMs play in that linguistically-mediated communication. However, for those who believe in AGI, that's not necessarily a valid assumption; perhaps the future involves AGIs communicating with each other, *sans humana*. And *that* world is truly unprecedented.
+A final note: all of these scenarios assume that humans are ultimately the ones trying to communicate, and the question is what role NLMs play in that linguistically-mediated communication. However, for those who believe in [Artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence), that's not necessarily a valid assumption; perhaps the future involves AGIs communicating with each other, *sans humans*. And *that* world is truly unprecedented.
 
 
 # References
@@ -106,6 +122,10 @@ A final note: all of these scenarios assume that humans are ultimately the ones 
 Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?🦜. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (pp. 610-623).
 
 Christian, B. (2020). The Alignment Problem: Machine Learning and Human Values. WW Norton & Company.
+
+Ferreira, V. S. (2008). Ambiguity, accessibility, and a division of labor for communicative success. Psychology of Learning and motivation, 49, 209-246.
+
+Ferreira, V. S. (2019). A mechanistic framework for explaining audience design in language production. Annual review of psychology, 70, 29-51.
 
 Homer, B., & Olson, D. R. (1999). Literacy and children's conception of words. Written Language & Literacy, 2(1), 113-140.
 
@@ -116,6 +136,8 @@ Rao, G. S. (1994). Language Change: Lexical Diffusion and Literacy. Academic Fou
 Frawley, W. D. (1994). Literacy, the individual, and the political economy of language change. Language Change: Lexical Diffusion and Literacy. Delhi: Academic Foundation, 61-88.
 
 Zengel, M. S. (1962). Literacy as a factor in language change. In Readings in the Sociology of Language (pp. 296-304). De Gruyter Mouton.
+
+Zipf, G. K. (1949). Human behavior and the principle of least effort: an introd. to human ecology.
 
 # Footnotes
 
