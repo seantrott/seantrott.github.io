@@ -15,7 +15,7 @@ Proponents of [extended cognition](https://en.wikipedia.org/wiki/Extended_mind_t
 
 To acquire language, we have to become proficient in all sorts of things. We have to produce and recognize the sounds of a language, the morphological structure of that language, and even the art of having a conversation. 
 
-Dove (2020) suggests a few ways in which this acquired competence acts as a **neuroenhancement**. 
+Dove (2020) suggests a few ways in which this acquired competence acts as a **neuroenhancement**. Together, these mechanisms fall under what he calls the LENS theory: Language as an Embodied Neuroenhancement and Scaffold Theory. 
 
 ## Words as glue
 
@@ -53,16 +53,20 @@ Dove (2020) argues that this allows us to make novel connections that would othe
 
 Finally, language is a symbolic system (i.e., words are symbols for their meanings), which allows the recombination of those symbols (i.e., sequences of words can be rearranged in different orders to produce novel meanings). 
 
+A key component of the combinatorial property of linguistic systems is their arbitrariness: word forms are (for the most part) arbitrarily related to the meanings they convey. This **decoupling** of symbols from their meanings allows us to reproduce similar thoughts in different situations.
 
-Ultimately, Dove (2020) suggests that **arbitrariness** is a key component of language's neuroenhancing effect. Word forms are (for the most part) arbitrarily related to the meanings they convey. 
-
-(Arbitrariness --> makes it easier to reproduce similar thoughts in different situations.)
-
+Dove (2020) suggests that the acquisition of this arbitrary symbol system "unlocks" new affordances. Now, he argues, we gain more fluency in the art of symbol manipulation, which we can in turn extend to different, non-linguistic domains. In this sense, then, acquiring language isn't just useful for the direct affordances of language: it brings with it a suite of other, correlated abilities––hence the "neuroenhancement".
 
 
+# Taking Stock
 
-(In a later post, connect to idea of cycles of intelligence: culture/language are an efficient way to bypass adaptation on either the evolutionary or "learning" timescales.)
+I think what Dove (2020) does best is *recast* the relationship between language and thought. By introducing LENS theory, Dove gives us a theoretical tool to help us develop testable hypotheses and ask interesting research questions.
 
+One of the consequences of adopting this framework is that it allows us to fold in other research areas that typically don't fall under the rubric of embodied cognition. Dove's example of this is the relationship between language and [Theory of Mind](https://en.wikipedia.org/wiki/Theory_of_mind). There's a rich body of literature investigating how language acquistion is intertwined with the ability to reason about the mental states of others. And interestingly, this literature seems to be broadly consistent with the predictions of LENS theory. For example, there's some evidence that the acquisition of "mental state verbs" (e.g., "think", "believe", etc.) coincides with Theory of Mind ability (de Villiers & de Villiers, 2014). Now, this relationship may not be causal––but if it is, it suggests that learning *labels* for these mental state concepts helps scaffold the use and deployment of those concepts.
+
+This framework might also be of use in other, more distantly related domains. In research on Artificial Intelligence, for example, there's intense interest in the question of whether and when ["Artificial General Intelligence"](https://en.wikipedia.org/wiki/Artificial_general_intelligence) might be developed, i.e., systems that approximate human-level intelligence on a number of different tasks. Setting aside some of the thornier ethical and philosophical issues with this enterprise ([^4]), it might be fruitful to consider how LENS theory could help inform debates about what it takes to reach human-level intelligence. If we take LENS theory seriously, then *language* could be an important component of any intelligent system we want to build. So rather than merely asking "how can we build systems that understand language?", we should also ask "what other cognitive capacities would such a system acquire?"
+
+In general, many of my research-related thoughts recently have been circling around this question of how much information about the world can be learned through exposure to linguistic input alone. LENS theory is useful because it gives me a *label*, along with a set of conceptual associations, for thinking about how to formulate that question. In this way, I think LENS theory demonstrates its own utility.
 
 # References
 
@@ -71,6 +75,8 @@ Andrews, M., Vigliocco, G., & Vinson, D. (2009). Integrating experiential and di
 Barsalou, L. W. (1999). Perceptual symbol systems. Behavioral and brain sciences, 22(4), 577-660.
 
 Bergen, B. K. (2012). Louder than words: The new science of how the mind makes meaning. Basic Books (AZ).
+
+de Villiers, J. G., & de Villiers, P. A. (2014). The role of language in theory of mind development. Topics in Language Disorders, 34(4), 313-328.
 
 Clark, A., & Chalmers, D. (1998). The extended mind. analysis, 58(1), 7-19.
 
@@ -101,3 +107,4 @@ Sahlgren, M. (2008). The distributional hypothesis. Italian Journal of Disabilit
 
 [^3]: Though I'm sure the determined reader could imagine a number of scenarios in which "scalpel" is more likely to co-occur with "teacher". If there's anything I've learned from studying language, it's that people can construe almost *anything* to make sense.
 
+[^4]: Ethical issues might include: is human-level AI sentient? If so, should it be given rights? Other questions might include: is the notion of dividing human cognition into a relatively modular "task space" somehow fundamentally flawed? 
