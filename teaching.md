@@ -17,6 +17,8 @@ In reverse chronological order:
 
 Classes I've been a TA for:
 
+- **COGS 153**: Language Comprehension (Spring 2021)   
+- **COGS 109**: Data Analysis and Modeling (Spring 2021)   
 - **COGS 101B**: Learning, Memory, and Attention (Winter 2021)   
 - **COGS 14B**: Introduction to Statistical Analysis (Fall 2020, Winter 2020)  
 - **COGS 14A**: Introduction to Research Methods (Winter 2018)  
