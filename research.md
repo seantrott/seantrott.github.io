@@ -23,7 +23,7 @@ Traditionally, words and their meanings as conceived as discrete entries in a me
 
 Relevant papers and projects:
 
-- Trott, S., & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). To appear at ACL-IJCNLP-2021. [[link to paper]](https://arxiv.org/abs/2105.13266) [[link to dataset and code]](https://github.com/seantrott/raw-c) 
+- Trott, S., & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[link to paper]](https://arxiv.org/abs/2105.13266) [[link to dataset and code]](https://github.com/seantrott/raw-c) 
 
 
 
