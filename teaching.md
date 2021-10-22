@@ -9,6 +9,7 @@ permalink: /teaching/
 
 In reverse chronological order:
 
+- **Summer 20201* - COGS 14B: Introduction to Statistical Analysis   
 - **Summer 2020** - COGS 14B: Introduction to Statistical Analysis 
 
 
