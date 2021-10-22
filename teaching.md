@@ -30,7 +30,7 @@ Classes I've been a TA for:
 
 One of my favorite parts of being in science is mentoring students who want to learn more about research. 
 
-So far, I've served on a couple Honors Thesis committees in the department:
+So far, I've been on a couple Honors Thesis committees:
 
 - Alex Liebscher: [do metaphors we use describe experiences with cancer affect charitable donations](https://cogsci.ucsd.edu/undergraduates/honors-program/Liebscher,-Alex_Thesis---Metaphors-on-Charitable-Donations.pdf)  
 - Monica Van: [do memes scaffold learning mathematical concepts](https://cogsci.ucsd.edu/undergraduates/honors-program/Monica-Van_HonorsThesis_-Memes-and-Math-Instruction.pdf)
