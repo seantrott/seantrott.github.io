@@ -16,7 +16,7 @@ For more details on my research, see [my research page](https://seantrott.github
 
 ### More Information
 
-I like to [write music](https://seantrott.bandcamp.com/album/oscillations), [make food](https://seanmakesfood.wordpress.com/), [read books](https://www.goodreads.com/review/list/9359693), and do things outdoors (climb, tennis, soccer). 
+I also like [writing music](https://seantrott.bandcamp.com/album/oscillations), cooking, reading, and more. 
 
 ### Contact me
 
