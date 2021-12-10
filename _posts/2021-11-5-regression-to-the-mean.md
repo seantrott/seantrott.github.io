@@ -27,9 +27,9 @@ Thus, if we were to **sample** a random score from the normal distribution, we'd
 
 What determines a student's score on an exam?
 
-Presumably, many different factors. Their degree of preparation obviously plays some role––but so does something we might call "chance". Here, "chance" might encompass any number of unmeasured factors: how well they slept the night before, whether they're distracted that morning, whether they had a good commute to campus, whether they're stressed about other classes they're taking or events in their personal life, and so on. 
+Presumably, many different factors. Their degree of preparation obviously plays some role, but so does something we might call "chance". Here, "chance" might encompass any number of unmeasured factors: how well they slept the night before, whether they're distracted that morning, whether they had a good commute to campus, whether they're stressed about other classes they're taking or events in their personal life, and so on. 
 
-The same goes for baseball players, as well as pretty much anything we try to measure. There's always some element of randomness––alternatively: "unexplained variance" or "noise"––in any data-generating process. 
+The same goes for baseball players, as well as pretty much anything we try to measure. There's always some element of randomness in any data-generating process. 
 
 Thus, a distribution of scores––a "sample"––is noisy. And any particular score in that sample has been subject to that noise.
 
@@ -37,23 +37,23 @@ Thus, a distribution of scores––a "sample"––is noisy. And any particular
 
 Now let's return to the examples we started with: the top seven batters, or the students with the best and worst exam scores in a class. 
 
-Those scores are part of a larger distribution. And by definition, they're *extreme* scores––they're either very high or very low––which makes them less likely to occur. That is, if you were to randomly sample a score from the entnire distribution of batting averages, it's pretty unlikely you'd end up with one of the top seven.
+Those scores are part of a larger distribution. And by definition, they're *extreme* scores––they're either very high or very low––which makes them less likely to occur. That is, if you were to randomly sample a score from the entire distribution of batting averages, it's pretty unlikely you'd end up with one of the top seven.
 
 Further, each score is the product not just of a player's aptitude (or a student's preparation), but some additional set of factors we're calling "chance". And the thing about chance is that it's *unbiased*: it's just as likely to result in a slightly higher score as a slightly lower score.
 
 If each student's score is partially the product of random, unbiased variation, then we might expect––on average––scores to be equally likely to go up or down on a second exam (holding constant things like their preparation, the exam difficulty, etc.). And that's definitely true of the distribution at large. 
 
-But we're talking about extreme scores specifically. More likely than not, the "noise" responsible for those extreme scores was either unusually positive (for extremely high scores) or unusually negative (for extremely low scores). This means that––on average––we should expect those students' scores to either go down (for extmreely high cores) or up (for extremely low scores) on a subseqnet exam, simply because it's unlikely that such an extreme score would occur twice. 
+But we're talking about extreme scores specifically. More likely than not, the "noise" responsible for those extreme scores was either unusually positive (for extremely high scores) or unusually negative (for extremely low scores). This means that––on average––we should expect those students' scores to either go down (for extremely high cores) or up (for extremely low scores) on a subseqnet exam, simply because it's unlikely that such an extreme score would occur twice. 
 
 In other words, extreme scores have a way of **regressing towards the mean** on subsequent samples.
 
 # The regression fallacy
 
-All this statistical detail actually has real-world relevance. Ignoring regression to the mean can lead people to erroneous conclusions about what caused an increase or decrease in extreme scores. Sometimes, researchers mistake regression to the mean for the effect of some intervention they're trying to assess, and, in turn, means that policymakers might spend lots of money trying to implement that intervention at scale––only to find out that they were essentially just measuring statistical noise.
+All this statistical detail actually has real-world relevance. Ignoring regression to the mean can lead people to erroneous conclusions about what caused an increase or decrease in extreme scores. Sometimes, researchers mistake regression to the mean for the effect of some intervention they're trying to assess, and this, in turn, means that policymakers might spend lots of money trying to implement that intervention at scale––only to find out that they were essentially just measuring statistical noise.
 
 Ignoring regression to the mean––or mistaking it for something else––is called the **regression fallacy**, and it's surprisingly common.
 
-A classic example is described by Tversky & Kahneman (1974). The Israeli Air Force was trying to figure out how to train better pilots, and they were testing a motivational approach: after a good landing, trainees were praised; after a bad landing, trainees were reprimanded. As it turns out, the trainees who were praised ended up doing *worse* on subsequent landings, and trainees who were reprimanded did *better*. Oneinterpretation of this finding is that praise causes worse performance, and reprimands cause better performance––suggesting that the instructors should avoid praise, and focus on reprimands.
+A classic example is described by Tversky & Kahneman (1974). The Israeli Air Force was trying to figure out how to train better pilots, and they were testing a motivational approach: after a good landing, trainees were praised; after a bad landing, trainees were reprimanded. As it turns out, the trainees who were praised ended up doing *worse* on subsequent landings, and trainees who were reprimanded did *better*. One interpretation of this finding is that praise causes worse performance, and reprimands cause better performance––suggesting that the instructors should avoid praise, and focus on reprimands.
 
 This is certainly possible. But presumably, the success of any given landing depends at least a bit on random chance. And so, applying the same logic we applied to the test scores, we expect that pilots with exceptionally good landings might have slightly worse landings later on––and that pilots with exceptionally poor landings might have slightly better landings later on. Before we conclude anything about the causal effects of praise or reprimands, we need to account for regression to the mean. 
 
