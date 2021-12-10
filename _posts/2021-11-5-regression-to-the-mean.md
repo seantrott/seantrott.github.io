@@ -5,7 +5,7 @@ title: Regression to the mean [stats]
 
 Here's a fact that may surprise you: the top seven hitters in 2014 all had *worse* batting averages in 2015. The magnitude of this decrease varied across players, but in some cases was pretty substantial: the top hitter went from .341 in 2014 to .313 in 2015––a score that would've ranked him at about 7, if he'd batted that way in 2014. So it's not as though these players were suddenly performing *poorly*, but all seven experienced a systematic decrease in perforamnce.  
 
-Longtime teaachers may have noticed a similar phenomenon. Often, the students who perfored the very best on the first exam perform slightly worse on the second exam (but still quite well)––and the students who performed the very worse now perform slightly better. 
+Longtime teachers may have noticed a similar phenomenon. Often, the students who performed the very best on the first exam perform slightly worse on the second exam (but still quite well)––and the students who performed the very worse now perform slightly better. 
 
 One intuitive explanation might chalk both findings up to something like motivation. Maybe doing really well makes you complacent, so you don't try as hard in the future. And maybe doing really poorly pushes you into action, so you study harder (or practice more, etc.) and thus improve your grade (or batting average). 
 
@@ -19,7 +19,7 @@ In statistics, we often think of phenomena in terms of **distributions**: a set 
 
 Most distributions have some amount of **variance**. On an exam, this means that some people did well, while others did worse. Similarly, some people are tall, while others are short.
 
-We can also describe a distribution by its **shape**. One common, well-documented shape is the so-called *normal distribution*. In the idealized normal distribution, the mean score is identical to the median score (i.e., the "middle" score), which is also identical to the mode (the most frequent score). This results in a tell-tale "bell" shape, with the most frequent scores clustered around the middle, and the less frequent scores forming the "tails" of the distribution––i.e., the highest and lowest scores.
+We can also describe a distribution by its **shape**. One common, well-documented shape is the so-called [*normal distribution*](https://en.wikipedia.org/wiki/Normal_distribution). In the idealized normal distribution, the mean score is identical to the median score (i.e., the "middle" score), which is also identical to the mode (the most frequent score). This results in a tell-tale "bell" shape, with the most frequent scores clustered around the middle, and the less frequent scores forming the "tails" of the distribution––i.e., the highest and lowest scores.
 
 Thus, if we were to **sample** a random score from the normal distribution, we'd be more likely to sample a score close to the mean. Put another way: extreme scores are less frequent, i.e., less likely to occur.
 
