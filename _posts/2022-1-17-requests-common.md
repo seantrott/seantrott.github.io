@@ -7,7 +7,7 @@ As I've written about [before](https://seantrott.github.io/entitlement/), people
 
 But I didn't put a number on it––not even an order of magnitude. And "often" might mean different things to different people. So how often is often?
 
-Of course, the frequency of indirect requests likely depends on sorts of factors, many of which have been well-studied: the formality of the setting, the relationship between speaker and listener, the "size" of the request, the urgency of the request, the local culture, the language or language variety being spoken, and so on. One might object that the situation is so complex that it's almost beside the point to give a general, context-independent frequency estimate––that when it comes to something like human communication, there's no such thing as "context-independent".
+Of course, the frequency of indirect requests likely depends on all sorts of factors, many of which have been well-studied: the formality of the setting, the relationship between speaker and listener, the "size" of the request, the urgency of the request, the local culture, the language or language variety being spoken, and so on. One might object that the situation is so complex that it's almost beside the point to give a general, context-independent frequency estimate––that when it comes to something like human communication, there's no such thing as "context-independent".
 
 I'm actually quite sympathetic to this view. At the same time, I think that you *can* learn something by trying to estimate the frequency of indirect requests, provided your confidence intervals are wide enough and your claims about generalizability are appropriately couched. 
 
@@ -18,6 +18,8 @@ So the goal of this post is to report estimates from the relevant literature on 
 Frequency estimates obviously vary, sometimes systematically (e.g., whether the requests are naturally-occurring or produced in the lab).
 
 Additionally, the rate of request interpretations depends on how "generous" we are in terms of what counts as indirect. If we count conventional indirect requests like "Can you pass the salt?", then it tends to be quite high; if we only count oblique, non-conventional indirect requests like "It's cold in here", then it's considerably lower.
+
+Note also that I've excluded from this review papers that don't consider the rate of direct requests; thus, any papers comparing the frequency of different indirect forms are not included.
 
 ## [Gibbs (1981)](https://www.sciencedirect.com/science/article/abs/pii/S0022537181905429) 
 
@@ -46,7 +48,7 @@ So again, we have a very large range, which depends entirely on how we define "i
 
 Aijmer (2014) considers 465 naturally-occurring requests in British English. The emphasis is on their contextual and prosodic characteristics, but I'll focus here on the taxonomy provided in *Table 4.1*.
 
-These categories include **ability**, e.g., "Can you ___" (about 28%), **permission**, e.g., "May I ___" (about 17%), **appreciatii**, e.g., "I would love it if ____" (about 1%), and so on. As far as I can tell, there's no category that captures precisely the **imperative** construction. 
+These categories include **ability**, e.g., "Can you ___" (about 28%), **permission**, e.g., "May I ___" (about 17%), **appreciation**, e.g., "I would love it if ____" (about 1%), and so on. As far as I can tell, there's no category that captures precisely the **imperative** construction. 
 
 ( how many ?)
 
