@@ -44,13 +44,6 @@ My main interest is the favor requests themselves. Of the 200 requests, **79%** 
 
 So again, we have a very large range, which depends entirely on how we define "indirect request": **3.5%-79%**. 
 
-## [Aijmer (2014)](https://www.google.com/books/edition/Conversational_Routines_in_English/wGOPBAAAQBAJ?hl=en&gbpv=1&dq=aijmer+2014&pg=PP1&printsec=frontcover)
-
-Aijmer (2014) considers 465 naturally-occurring requests in British English. The emphasis is on their contextual and prosodic characteristics, but I'll focus here on the taxonomy provided in *Table 4.1*.
-
-These categories include **ability**, e.g., "Can you ___" (about 28%), **permission**, e.g., "May I ___" (about 17%), **appreciation**, e.g., "I would love it if ____" (about 1%), and so on. As far as I can tell, there's no category that captures precisely the **imperative** construction. 
-
-( how many ?)
 
 ## [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) 
 
@@ -90,7 +83,6 @@ First, as you'd expect, the inclusive definition yields a much higher rate than 
 | ------ | ------------- | ------------------------------- | --------------------------------- |
 | [Gibbs (1981)](https://www.sciencedirect.com/science/article/abs/pii/S0022537181905429) | No | 95% | 13% |
 | [Goldschmidt (1998)](https://www.sciencedirect.com/science/article/abs/pii/S0378216697000386) | Yes | 79% | 3% |
-| [Aijmer (2014)](https://www.google.com/books/edition/Conversational_Routines_in_English/wGOPBAAAQBAJ?hl=en&gbpv=1&dq=aijmer+2014&pg=PP1&printsec=frontcover) | Yes | ? | ? |
 | [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | Yes | 47%-53% | ? |
 | [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | No | 96%-97% | ? |
 | [Trott & Rossano (2020)](https://www.tandfonline.com/doi/full/10.1080/0163853X.2020.1719796?casa_token=KQSRA6gxK-0AAAAA%3A1QBaVFoB8gw7SoQAiw3RwZKRX9YcjPMdwXSTc3qBuRP61r1HkVj-Za-u1C4lClfDZHmCtn45_Xer) | No | 71%-77% | 3%-12% |
