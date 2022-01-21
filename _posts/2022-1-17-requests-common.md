@@ -55,7 +55,7 @@ The DCT requests exhibited a strikingly different pattern. **97.3%** of American
 
 The estimates from the DCT task are pretty aligned with the Gibbs (1981) result––namely, requests elicited in an experimental setting are extremely likely to be indirect (~**95-97%**). But the naturalistic requests are considerably less indirect (i.e., more direct) on average: between **47%-54%** were indirect, depending on the language variety.
 
-Note that it's a little harder with this data presentation to determine the rate of non-conventional indirect requests. If we define that as the rate of declarative utterances, then it's ....
+Note that it's a little harder with this data presentation to determine the rate of non-conventional indirect requests. But if we define this as the rate of declarative utterances, then it's between 26%-32% for naturalistic utterances, and between 2.7%-13.5% for elicited utterances.
 
 
 ## [Trott & Rossano (2020)](https://www.tandfonline.com/doi/full/10.1080/0163853X.2020.1719796?casa_token=KQSRA6gxK-0AAAAA%3A1QBaVFoB8gw7SoQAiw3RwZKRX9YcjPMdwXSTc3qBuRP61r1HkVj-Za-u1C4lClfDZHmCtn45_Xer)
@@ -83,8 +83,8 @@ First, as you'd expect, the inclusive definition yields a much higher rate than 
 | ------ | ------------- | ------------------------------- | --------------------------------- |
 | [Gibbs (1981)](https://www.sciencedirect.com/science/article/abs/pii/S0022537181905429) | No | 95% | 13% |
 | [Goldschmidt (1998)](https://www.sciencedirect.com/science/article/abs/pii/S0378216697000386) | Yes | 79% | 3% |
-| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | Yes | 47%-53% | ? |
-| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | No | 96%-97% | ? |
+| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | Yes | 47%-53% | 2.7%-13.5% |
+| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | No | 96%-97% | 26.5%-32.3% |
 | [Trott & Rossano (2020)](https://www.tandfonline.com/doi/full/10.1080/0163853X.2020.1719796?casa_token=KQSRA6gxK-0AAAAA%3A1QBaVFoB8gw7SoQAiw3RwZKRX9YcjPMdwXSTc3qBuRP61r1HkVj-Za-u1C4lClfDZHmCtn45_Xer) | No | 71%-77% | 3%-12% |
 
 
