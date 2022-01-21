@@ -76,17 +76,18 @@ Below, I've combined all these estimates into a single summary table. I've tried
 
 Based on these estimates, we can derive a couple tentative conclusions---with the necessary caveat, of course, that this is a limited sample. (Note that I plan to update the table if I find new estimates from other sources; if you know of any, please let me know!)
 
-First, as you'd expect, the inclusive definition yields a much higher rate than the less inclusive definition. This is obvious, from one perspective---but the **size** of this difference is also illuminating: the rate of non-imperative requests is higher by a factor of at least 7x (and in some cases closer to 25x).
+First, as you'd expect, the inclusive definition yields a much higher rate than the less inclusive definition. This is obvious, from one perspective---but the **size** of this difference is also illuminating: in many cases, the rate of non-imperative requests is higher by a factor of at least 7x (the exception is with Flöck (2016), and I'm less confident my operationalization of "non-conventional request" for that study).
 
 
 | Source | Naturalistic? | Rate of non-imperative requests | Rate of non-conventional requests |
 | ------ | ------------- | ------------------------------- | --------------------------------- |
 | [Gibbs (1981)](https://www.sciencedirect.com/science/article/abs/pii/S0022537181905429) | No | 95% | 13% |
 | [Goldschmidt (1998)](https://www.sciencedirect.com/science/article/abs/pii/S0378216697000386) | Yes | 79% | 3% |
-| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | Yes | 47%-53% | 2.7%-13.5% |
-| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | No | 96%-97% | 26.5%-32.3% |
+| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | Yes | 47%-53% | 2.7%-13.5%\* |
+| [Flöck (2016)](https://www.cambridge.org/core/journals/language-in-society/article/ilka-flock-requests-in-american-and-british-english-a-contrastive-multimethod-analysis-amsterdam-john-benjamins-2016-pp-xvi-264-hb-95/B01B373FF6A971EFCD2E4557A4461995) | No | 96%-97% | 26.5%-32.3%\* |
 | [Trott & Rossano (2020)](https://www.tandfonline.com/doi/full/10.1080/0163853X.2020.1719796?casa_token=KQSRA6gxK-0AAAAA%3A1QBaVFoB8gw7SoQAiw3RwZKRX9YcjPMdwXSTc3qBuRP61r1HkVj-Za-u1C4lClfDZHmCtn45_Xer) | No | 71%-77% | 3%-12% |
 
+\* I'm less confident about these rates, because I defined as "non-conventional requests" all the declarative utterances; this would include things like "It's cold in here", but it might also include more conventionalized constructions (maybe even something like "I need a jacket").
 
 Second, in both naturalistic and non-naturalistic settings, the *majority* of English requests are indirect in some way---meaning they use something other than an imperative construction. Together with the first point, this suggests something like: people rarely use imperative constructions, and instead rely on highly conventionalized forms for making a request. These conventionalized forms are pretty transparent as requests: indeed, the default interpretation of "Can you open that window?" is probably as a request, not as a question. 
 
