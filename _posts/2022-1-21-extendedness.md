@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The extended mind [research review]
+title: The extended mind and why it matters for cognitive science research [research review]
 ---
 
 Most answers to "what is the mind" involve the brain and body in some way. Some people assert an identity relation ("the mind *is* the brain"), while others draw a kind of causal or functional connection ("the mind is what the brain *does*"). Some might even expand the definition of "mind" beyond the brain to include our body: perhaps we "think" with our hands, our legs, our torso. 

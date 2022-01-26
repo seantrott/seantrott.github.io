@@ -3,7 +3,7 @@ layout: post
 title: Regression to the mean [stats]
 ---
 
-Here's a fact that may surprise you: the top seven hitters in 2014 all had *worse* batting averages in 2015. The magnitude of this decrease varied across players, but in some cases was pretty substantial: the top hitter went from .341 in 2014 to .313 in 2015––a score that would've ranked him at about 7, if he'd batted that way in 2014. So it's not as though these players were suddenly performing *poorly*, but all seven experienced a systematic decrease in perforamnce.  
+Here's a fact that may surprise you: the top seven hitters in 2014 all had *worse* batting averages in 2015. The magnitude of this decrease varied across players, but in some cases was pretty substantial: the top hitter went from .341 in 2014 to .313 in 2015––a score that would've ranked him at about 7, if he'd batted that way in 2014. So it's not as though these players were suddenly performing *poorly*, but all seven experienced a systematic decrease in performance.  
 
 Longtime teachers may have noticed a similar phenomenon. Often, the students who performed the very best on the first exam perform slightly worse on the second exam (but still quite well)––and the students who performed the very worse now perform slightly better. 
 
