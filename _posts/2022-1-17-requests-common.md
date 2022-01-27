@@ -31,7 +31,7 @@ There are a few ways one could determine how many of these requests were indirec
 
 One objection might be that this estimate includes highly conventional utterances like "Can you..." or "I want...". The maximally conservative approach would be to include only categories like **State of world** (e.g., "I'm dying for a cigarette") and perhaps **Embedded** requests (e.g., "I was wondering if you could..."), which combined constitute about **13%** of the requests produced.
 
-That's a pretty big confidence interval: **13%-95%**. But describing it as an interval is also perhaps misleading, because estimate depends entirely on what counts as an indirect request. If you want to know how often people used a non-imperative construction, it's very often (95%); if you want to know how often they used something *very* indirect like "It's cold in here", then it's non-trivial but a minority of the time (13%).
+That's a pretty big confidence interval: **13%-95%**. But describing it as an interval is also perhaps misleading, because the estimate depends entirely on what counts as an indirect request. If you want to know how often people used a non-imperative construction, it's very often (95%); if you want to know how often they used something *very* indirect like "It's cold in here", then it's non-trivial but a minority of the time (13%).
 
 The other necessary caveat is that this is a laboratory study, conducted on college undergraduates: it may not be representative of how people act in the wild, and the sample may not be representative of the population more generally.
 
