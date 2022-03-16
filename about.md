@@ -12,7 +12,7 @@ I'm interested in:
 * why human languages contain so much ambiguity; and 
 * how to leverage insights from psycholinguistics to improve natural language understanding.
 
-For more details on my research, see [my research page](https://seantrott.github.io/research/) and [my cv](https://seantrott.github.io/cv/). For information about courses I've taught, see my [teaching page](https://seantrott.github.io/teaching/).
+For more details on my research, see [my research page](https://seantrott.github.io/research/) and [my cv](https://seantrott.github.io/cv/). For information about courses I've taught, see my [teaching page](https://seantrott.github.io/teaching/). I also like to create [statistics tutorials](https://seantrott.github.io/stats/) to help people get started with learning a particular statistics concept and implementing it in R or Python.
 
 ### More Information
 
