@@ -17,6 +17,8 @@ In reverse chronological order:
 
 Classes I've been a TA for:
 
+- **COGS 137**: Practical Data Science in R (Fall 2021)   
+- **COGS 101C**: Language (Winter 2022)
 - **COGS 153**: Language Comprehension (Spring 2021)   
 - **COGS 109**: Data Analysis and Modeling (Spring 2021)   
 - **COGS 101B**: Learning, Memory, and Attention (Winter 2021)   
