@@ -21,7 +21,7 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 **Trott, S.**, & Bergen, B. (To appear). Languages are efficient, but for whom? [[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
 
-**Trott, S.**, & Bergen, B. (2020). Why do human languages have homophones?. *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)
+**Trott, S.**, & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)
 
 **Trott, S.**, & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference?. *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)
 

@@ -25,9 +25,9 @@ Traditionally, words and their meanings as conceived as discrete entries in a me
 
 Relevant papers and projects:
 
-- Trott, S., Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[link to arXiv]](https://arxiv.org/abs/2203.05648)[[link to dataset]](https://github.com/seantrott/cs_norms)
+- Trott, S., Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
-- Trott, S., & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[link to paper]](https://arxiv.org/abs/2105.13266) [[link to dataset and code]](https://github.com/seantrott/raw-c) 
+- Trott, S., & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
 
 
 
