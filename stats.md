@@ -13,6 +13,7 @@ Statistics (mostly in R):
 * [Mixed models in R](https://seantrott.github.io/mixed_models_R/)   
 * [Binary classification in R](https://seantrott.github.io/binary_classification_R/)  
 * [Data wrangling and visualization in R](https://seantrott.github.io/data_wrangling_visualization/)  
+* [Data visualization in Python](https://seantrott.github.io/data_visualization_python/)  
 * [Model comparison in R](https://seantrott.github.io/model_comparison/)
 * [Bias, variance, and the bed of Procrustes](https://seantrott.github.io/procrustean_models/)  
 * [P-hacking: a demonstration in R](https://seantrott.github.io/p-hacking/)  
