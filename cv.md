@@ -19,11 +19,12 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Pending Publications
 
-**Trott, S.**, & Bergen, B. (To appear). Languages are efficient, but for whom? [[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
 
 **Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (To appear). The role of prosody in disambiguating English indirect requests. [[Data and code for analysis]](https://github.com/seantrott/pros_scaled)
 
 ### Journal Publications
+
+Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom?. Cognition, 225, 105094. [[Link to paper]](https://www.sciencedirect.com/science/article/pii/S0010027722000828?casa_token=d8CxjIqjJ_4AAAAA:tOfUc2UH-_rIYr9Z8B_yKoyFe_z9hPjyVjiB4VY5SOkEflCzrzWltccWRS3iZ9KJi-cl8WIH)[[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
 
 **Trott, S.**, & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)
 
