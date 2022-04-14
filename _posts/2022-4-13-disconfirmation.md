@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disconfirmation in null hypothesis testing [stats]
+title: Who's afraid of the null hypothesis? [stats]
 ---
 
 I've been thinking a lot about [null hypothesis testing (NHST)](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) recently, and how it intersects with the [**falsificationist**](https://en.wikipedia.org/wiki/Falsifiability) approach to scientific theory. The tl;dr of this post is that I worry that not enough research––including some of my own––adopts a falsificationist approach when applying NHST, and this reduces the epistemological value of experiments. Ultimately, I believe that **thinking with baselines** might be a helpful framework to both illustrate the problem and offer some methodological solutions.
