@@ -136,21 +136,3 @@ In essence: **what's the null hypothesis, and who cares**?
 Maier, M., & Abdel Rahman, R. (2019). No matter how: Top-down effects of verbal and semantic category knowledge on early visual perception. Cognitive, Affective, & Behavioral Neuroscience, 19(4), 859-876.
 
 
-
-
-
-
-
-
-
-Final points to make:
-
-- Often, we don't have a very well-specified or theoretically justified null hypothesis. It's just "the true size of the effect is zero." But unless there's actually a theory that says that, it's not particularly interesting to reject the null hypothesis that "the true size of the effect is zero". And so that just leaves us quibbling about whether the actual size is interesting or not. 
-- (This issue of "is the actual size interesting" is helpfully illuminated by baselines.)
-
-
-Discuss modus ponens and modus tollens, vs logical fallacies.
-
-People often posit theory T and find data D that are consistent, and thus argue for the theory T.
-But that’s not logically sound. 
-
