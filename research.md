@@ -40,6 +40,7 @@ How do comprehenders determine whether a speaker is making a request? Specifical
 
 Relevant papers and projects:
 
+- **Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (2022). The role of prosody in disambiguating English indirect requests. [[Link to paper]](https://journals.sagepub.com/eprint/8UANYNMIMJRECBGSIFF7/full)[[Data and code for analysis]](https://github.com/seantrott/pros_scaled)  
 - **Trott, S.**, & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference? *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)  
 - **Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](http://mindmodeling.org/cogsci2019/papers/0210/0210.pdf) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)  
 - **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)  

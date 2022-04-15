@@ -19,10 +19,14 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Pending Publications
 
+**Trott, S.**, & Bergen, B. (Under Review). Word meanings are both categorical and continuous.
 
-**Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (To appear). The role of prosody in disambiguating English indirect requests. [[Data and code for analysis]](https://github.com/seantrott/pros_scaled)
+Trott, S., Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
+
 
 ### Journal Publications
+
+**Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (2022). The role of prosody in disambiguating English indirect requests. [[Link to paper]](https://journals.sagepub.com/eprint/8UANYNMIMJRECBGSIFF7/full)[[Data and code for analysis]](https://github.com/seantrott/pros_scaled)
 
 Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom?. Cognition, 225, 105094. [[Link to paper]](https://www.sciencedirect.com/science/article/pii/S0010027722000828?casa_token=d8CxjIqjJ_4AAAAA:tOfUc2UH-_rIYr9Z8B_yKoyFe_z9hPjyVjiB4VY5SOkEflCzrzWltccWRS3iZ9KJi-cl8WIH)[[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
 
