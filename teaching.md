@@ -4,29 +4,18 @@ title: Teaching
 permalink: /teaching/
 ---
 
+I am an Assistant Teaching Professor in the [Computational Social Science (CSS) program](https://css.ucsd.edu/) at UC San Diego. This means that I split my time teaching classes for CSS and [Cognitive Science](https://cogsci.ucsd.edu/). 
+
+My teaching focuses on **methods** in particular, such as programming (e.g., in Python), data visualization, statistics, and natural language processing. I also teach classes focused on language and cognition.
 
 ### Instructing Experience
 
 In reverse chronological order:
 
-- **Summer 20201** - COGS 14B: Introduction to Statistical Analysis   
+- **Spring 2022** - COGS 101C: Language    
+- **Summer 2021** - COGS 14B: Introduction to Statistical Analysis   
 - **Summer 2020** - COGS 14B: Introduction to Statistical Analysis 
-
-
-### TA Experience
-
-Classes I've been a TA for:
-
-- **COGS 137**: Practical Data Science in R (Fall 2021)   
-- **COGS 101C**: Language (Winter 2022)
-- **COGS 153**: Language Comprehension (Spring 2021)   
-- **COGS 109**: Data Analysis and Modeling (Spring 2021)   
-- **COGS 101B**: Learning, Memory, and Attention (Winter 2021)   
-- **COGS 14B**: Introduction to Statistical Analysis (Fall 2020, Winter 2020)  
-- **COGS 14A**: Introduction to Research Methods (Winter 2018)  
-- **COGS 100**: Cyborgs Now and in the Future (Fall 2017)  
-- **COGS 101C**: Language (Spring 2017)  
-- **COGS 3**: Introduction to Computer (Winter 2017) 
+ 
 
 ### Mentoring
 
