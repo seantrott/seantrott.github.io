@@ -8,13 +8,11 @@ I am an Assistant Teaching Professor in the [Computational Social Science (CSS) 
 
 My teaching focuses on **methods** in particular, such as programming (e.g., in Python), data visualization, statistics, and natural language processing. I also teach classes focused on language and cognition.
 
-### Instructing Experience
+### Courses I Teach
 
-In reverse chronological order:
+**COGS 101C**: Language 
 
-- **Spring 2022** - COGS 101C: Language    
-- **Summer 2021** - COGS 14B: Introduction to Statistical Analysis   
-- **Summer 2020** - COGS 14B: Introduction to Statistical Analysis 
+**COGS 14B**: Introduction to Statistical Analysis   
  
 
 ### Mentoring
