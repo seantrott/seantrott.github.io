@@ -13,7 +13,10 @@ My teaching focuses on **methods** in particular, such as programming (e.g., in 
 **COGS 101C**: Language 
 
 **COGS 14B**: Introduction to Statistical Analysis   
- 
+
+### Methods tutorials
+
+I also create resources for people interested in learning more about statistics and programming in R or Python: see [this page](https://seantrott.github.io/stats/) for more details. 
 
 ### Mentoring
 
