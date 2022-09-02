@@ -11,4 +11,4 @@ There are a few reasons:
 2. Built-in network effects.  
 3. The newsletter format makes it easier to reach interested readers consistently (and I don't feel like creating my own newsletter script).  
 
-I'll probably still post statistics tutorials and such here, but more philosophical or policy-oriented posts will be on the Substack.
+I'll probably still post statistics tutorials and such here, but more philosophical or policy-oriented posts will be on the [Substack](https://seantrott.substack.com/).
