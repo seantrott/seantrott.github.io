@@ -17,14 +17,20 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ## Research 
 
+### Pre-prints
+
+**Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2022). Do Large Language Models know what humans know?. arXiv preprint arXiv:2209.01515.
+
+**Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
+
 ### Pending Publications
 
 **Trott, S.**, & Bergen, B. (Under Review). Word meanings are both categorical and continuous.
 
-Trott, S., Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
-
 
 ### Journal Publications
+
+DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
 
 **Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (2022). The role of prosody in disambiguating English indirect requests. [[Link to paper]](https://journals.sagepub.com/eprint/8UANYNMIMJRECBGSIFF7/full)[[Data and code for analysis]](https://github.com/seantrott/pros_scaled)
 
