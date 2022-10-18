@@ -30,6 +30,8 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Journal Publications
 
+Ruytenbeek, N., **Trott, S.**, & Bergen, B.  (2022). Prosody and speech act interpretation: The case of French indirect requests. Journal of French Language Studies, 1-23.
+
 DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
 
 **Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (2022). The role of prosody in disambiguating English indirect requests. [[Link to paper]](https://journals.sagepub.com/eprint/8UANYNMIMJRECBGSIFF7/full)[[Data and code for analysis]](https://github.com/seantrott/pros_scaled)
