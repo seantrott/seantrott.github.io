@@ -27,6 +27,8 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 **Trott, S.**, & Bergen, B. (Under Review). Word meanings are both categorical and continuous.
 
+**Trott, S.**, Bergen, B., Wittenberg, E. (Under review.) SCARFS Database: Spontaneous, Controlled Acts of Reference between Friends and Strangers. 
+
 
 ### Journal Publications
 
