@@ -10,6 +10,10 @@ My teaching focuses on **methods** in particular, such as programming (e.g., in 
 
 ## Courses I Teach
 
+**CSS 1**: Introductory Programming for Computational Social Science ([website](https://ucsd-css1-introduction.github.io/overview/intro.html))
+
+**CSS 2**: Data and Model Programming for Computational Social Science ([website](https://ucsd-css2.github.io/ucsd-css2-website/intro.html))
+
 **COGS 101C**: Language 
 
 **COGS 14B**: Introduction to Statistical Analysis   

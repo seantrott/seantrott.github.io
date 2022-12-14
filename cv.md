@@ -4,10 +4,14 @@ title: CV
 permalink: /cv/
 ---
 
+## Employment
+
+**Assistant Teaching Professor** (2022-present)
+*University of California, San Diego*: Jointly appointed in *Cognitive Science* and *Computational Social Science*
 
 ## Education
 
-**Graduate student** (2016-present)  
+**Graduate student** (2016-2022)  
 *University of California, San Diego: Department of Cognitive Science*  
 Advisor: [Benjamin Bergen](http://www.cogsci.ucsd.edu/~bkbergen/)
 
