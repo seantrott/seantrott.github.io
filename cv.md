@@ -6,7 +6,7 @@ permalink: /cv/
 
 ## Employment
 
-**Assistant Teaching Professor** (2022-present)
+**Assistant Teaching Professor** (2022-present)  
 *University of California, San Diego*: Jointly appointed in *Cognitive Science* and *Computational Social Science*
 
 ## Education
