@@ -34,5 +34,4 @@ So far, I've been on a couple Honors Thesis committees:
 
 ## Additional information
 
-In Spring 2019, [Pamela Rivière](https://pdrivier.github.io/about/) and I organized a course and speaker series called: **Data Practices (in the 21st century)**. The course featured speakers from a number of departments, including: Anthropology, Computer Science and Engineering, and History. The syllabus can be found [here](https://cogs200sp2019.wordpress.com/2019/03/30/syllabus/).
-
+In Spring 2019, [Pamela Rivière](https://pdrivier.github.io/about/) and I organized a course and speaker series called: **Data Practices (in the 21st century)**. The course featured speakers from a number of departments, including: Anthropology, Computer Science and Engineering, and History. 
