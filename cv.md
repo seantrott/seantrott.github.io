@@ -31,10 +31,11 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 **Trott, S.**, & Bergen, B. (Under Review). Word meanings are both categorical and continuous.
 
-**Trott, S.**, Bergen, B., Wittenberg, E. (Under review.) SCARFS Database: Spontaneous, Controlled Acts of Reference between Friends and Strangers. 
 
 
 ### Journal Publications
+
+**Trott, S.**, Bergen, B., & Wittenberg, E. (2022). Spontaneous, controlled acts of reference between friends and strangers. Language Resources and Evaluation, 1-25.
 
 Ruytenbeek, N., **Trott, S.**, & Bergen, B.  (2022). Prosody and speech act interpretation: The case of French indirect requests. Journal of French Language Studies, 1-23.
 
@@ -53,6 +54,8 @@ Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom?. Cognitio
 **Trott, S.**, & Bergen, B. (2018). Individual Differences in Mentalizing Capacity Predict Indirect Request Comprehension. *Discourse Processes*. [[Link]](https://www.tandfonline.com/doi/pdf/10.1080/0163853X.2018.1548219) [[Link to experimental materials]](https://github.com/seantrott/mentalizing_experimental_materials)
 
 ### Conference Proceedings 
+
+Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distrubutional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
 
 **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021*. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[link to dataset and code]](https://github.com/seantrott/raw-c) 
 
