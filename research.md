@@ -26,6 +26,8 @@ Traditionally, words and their meanings as conceived as discrete entries in a me
 
 Relevant papers and projects:
 
+- DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
+
 - Trott, S., Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
 - Trott, S., & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
