@@ -27,13 +27,10 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
-### Pending Publications
-
-**Trott, S.**, & Bergen, B. (Under Review). Word meanings are both categorical and continuous.
-
-
 
 ### Journal Publications
+
+Trott, S., & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
 
 **Trott, S.**, Bergen, B., & Wittenberg, E. (2022). Spontaneous, controlled acts of reference between friends and strangers. Language Resources and Evaluation, 1-25.
 
