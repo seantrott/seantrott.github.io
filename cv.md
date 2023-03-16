@@ -52,6 +52,8 @@ Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom?. Cognitio
 
 ### Conference Proceedings 
 
+Trott, S., & Bergen, B. (2022). Can a pressure against homophones explain phonological neighborhoods?. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
+
 Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distrubutional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
 
 **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021*. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[link to dataset and code]](https://github.com/seantrott/raw-c) 
