@@ -54,7 +54,7 @@ Morey, R. D., Kaschak, M. P., Díez-Álamo, A. M., Glenberg, A. M., Zwaan, R. A.
 
 ### Conference Proceedings 
 
-Trott, S., & Bergen, B. (2022). Can a pressure against homophones explain phonological neighborhoods?. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
+**Trott, S.**, & Bergen, B. (2022). Can a pressure against homophones explain phonological neighborhoods?. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
 
 Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distrubutional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
 
