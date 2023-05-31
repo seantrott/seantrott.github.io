@@ -30,7 +30,7 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Journal Publications
 
-Trott, S., & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
+**Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
 
 **Trott, S.**, Bergen, B., & Wittenberg, E. (2022). Spontaneous, controlled acts of reference between friends and strangers. Language Resources and Evaluation, 1-25.
 
@@ -40,7 +40,9 @@ DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmati
 
 **Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (2022). The role of prosody in disambiguating English indirect requests. [[Link to paper]](https://journals.sagepub.com/eprint/8UANYNMIMJRECBGSIFF7/full)[[Data and code for analysis]](https://github.com/seantrott/pros_scaled)
 
-Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom?. Cognition, 225, 105094. [[Link to paper]](https://www.sciencedirect.com/science/article/pii/S0010027722000828?casa_token=d8CxjIqjJ_4AAAAA:tOfUc2UH-_rIYr9Z8B_yKoyFe_z9hPjyVjiB4VY5SOkEflCzrzWltccWRS3iZ9KJi-cl8WIH)[[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
+Morey, R. D., Kaschak, M. P., Díez-Álamo, A. M., Glenberg, A. M., Zwaan, R. A., Lakens, D., ...**Trott, S.,**.... & Ziv-Crispel, N. (2022). A pre-registered, multi-lab non-replication of the action-sentence compatibility effect (ACE). Psychonomic Bulletin & Review, 29(2), 613-626. [[Link to paper]](https://link.springer.com/article/10.3758/s13423-021-01927-8)
+
+**Trott, S.**, & Bergen, B. (2022). Languages are efficient, but for whom?. Cognition, 225, 105094. [[Link to paper]](https://www.sciencedirect.com/science/article/pii/S0010027722000828?casa_token=d8CxjIqjJ_4AAAAA:tOfUc2UH-_rIYr9Z8B_yKoyFe_z9hPjyVjiB4VY5SOkEflCzrzWltccWRS3iZ9KJi-cl8WIH)[[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
 
 **Trott, S.**, & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations)
 
