@@ -23,12 +23,12 @@ Thesis advisor: [Terry Regier](http://lclab.berkeley.edu/regier/)
 
 ### Pre-prints
 
-**Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2022). Do Large Language Models know what humans know?. arXiv preprint arXiv:2209.01515.
-
 **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
 
 ### Journal Publications
+
+**Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science*
 
 **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
 
@@ -56,7 +56,7 @@ Morey, R. D., Kaschak, M. P., Díez-Álamo, A. M., Glenberg, A. M., Zwaan, R. A.
 
 **Trott, S.**, & Bergen, B. (2022). Can a pressure against homophones explain phonological neighborhoods?. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
 
-Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distrubutional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
+Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distributional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44).
 
 **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021*. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[link to dataset and code]](https://github.com/seantrott/raw-c) 
 

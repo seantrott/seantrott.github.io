@@ -4,6 +4,19 @@ title: Research Interests
 permalink: /research/
 ---
 
+## LLM-ology: probing the "black box" of Large Language Models.
+
+Large Language Models (LLMs) like ChatGPT are seeing widespread use. But how exactly do LLMs work?
+
+Part of my research focuses on [**LLM-ology**](https://seantrott.substack.com/p/in-cautious-defense-of-llm-ology), the study of how LLMs work "under the hood". So far, this has focused on applying methods from Cognitive Science to probe the capabilities and limitations of LLMs through the lens of cognitive psychology and neuroscience. Ultimately, I believe that research on LLMs can also inform our understanding of human cognition.
+
+Relevant papers and projects:
+
+- **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science* [[Link to paper]](https://arxiv.org/abs/2209.01515)
+
+- Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distributional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44). [[Link to paper]](https://escholarship.org/uc/item/44z7r3j3)
+
+
 ## Why are languages so ambiguous?
 
 Human lexica are rife with ambiguity––words with the same *form*, but different *meanings*. Sometimes these meanings are entirely unrelated, as is the case for **homophony** (e.g., the *bark* of a dog vs. the *bark* of a tree); sometimes they are closely related, as in **polysemy** (e.g., the *chicken* in the yard vs. the *chicken* on the plate).
