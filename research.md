@@ -18,13 +18,15 @@ Relevant papers and projects:
 
 
 
-## Ambiguity in the mental lexicon
+## How are ambiguous words represented?
 
 The prevalence of lexical ambiguity also raises the question of how human minds *process* and *represent* the meanings of ambiguous words.
 
-Traditionally, words and their meanings as conceived as discrete entries in a mental dictionary. But meaning is often dynamically modulated in different contexts. We've been exploring an alternative account, in which word meanings are viewed as attractors in a continuous state-space---and then asking whether there is evidence for category boundaries atop this continuous space.
+Traditionally, words and their meanings as conceived as discrete entries in a mental dictionary. But meaning is often dynamically modulated in different contexts. We've been exploring an alternative account, in which word meanings are viewed as attractors in a continuous state-space---and then asking whether there is evidence for category boundaries atop this continuous space. [Recent work](https://psycnet.apa.org/record/2023-51926-001) suggests word meaning may be **both categorical and continuous**.
 
 Relevant papers and projects:
+
+- **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
 
 - DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
 
