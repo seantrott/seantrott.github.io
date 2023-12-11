@@ -25,7 +25,7 @@ Why would a communication system ostensibly evolved for efficient communication 
 
 Relevant papers and projects:  
 
-- Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom?. Cognition, 225, 105094. [[Link to paper]](https://www.sciencedirect.com/science/article/pii/S0010027722000828?casa_token=d8CxjIqjJ_4AAAAA:tOfUc2UH-_rIYr9Z8B_yKoyFe_z9hPjyVjiB4VY5SOkEflCzrzWltccWRS3iZ9KJi-cl8WIH)[[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
+- Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom? *Cognition*, 225, 105094. [[Link to paper]](https://www.sciencedirect.com/science/article/pii/S0010027722000828?casa_token=d8CxjIqjJ_4AAAAA:tOfUc2UH-_rIYr9Z8B_yKoyFe_z9hPjyVjiB4VY5SOkEflCzrzWltccWRS3iZ9KJi-cl8WIH)[[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
 
 - Trott, S., & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations) 
 
@@ -43,9 +43,9 @@ Relevant papers and projects:
 
 - DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
 
-- Trott, S., Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
+- **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
-- Trott, S., & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
+- **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
 
 
 
@@ -58,6 +58,7 @@ How do comprehenders determine whether a speaker is making a request? Specifical
 
 Relevant papers and projects:
 
+- Ruytenbeek, N., Bergen, B., & **Trott, S.** (2023). Prosody and speech act interpretation: The case of French indirect requests. Journal of French Language Studies, 33(1), 103-125.  
 - **Trott, S.**, Reed, S., Kaliblotzky, D., Ferreira, V., & Bergen, B. (2022). The role of prosody in disambiguating English indirect requests. [[Link to paper]](https://journals.sagepub.com/eprint/8UANYNMIMJRECBGSIFF7/full)[[Data and code for analysis]](https://github.com/seantrott/pros_scaled)  
 - **Trott, S.**, & Bergen, B. (2020). When do comprehenders mentalize for pragmatic inference? *Discourse Processes*. [[Link to preprint]](https://psyarxiv.com/v5hbs/)[[Data and code for analysis]](https://github.com/seantrott/trott_bergen_mentalizing_paper2)  
 - **Trott, S.**, Reed, S., Ferreira, V., & Bergen, B. (2019) Prosodic cues signal the intent of potential indirect requests. *Proceedings of the 41st Annual Meeting of the Cognitive Science Society*. [[Link]](http://mindmodeling.org/cogsci2019/papers/0210/0210.pdf) [[Data and code for analysis]](https://github.com/seantrott/prosody_indirect_requests)  
