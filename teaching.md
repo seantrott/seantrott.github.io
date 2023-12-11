@@ -16,9 +16,15 @@ My teaching focuses on **methods** in particular, such as programming (e.g., in 
 
 **COGS 101C**: Language 
 
+**COGS 153**: Language Comprehension
+
+**COGS 150**: Large Language Models and Cognitive Science 
+
 **COGS 14A**: Introduction to Research Methods  
 
 **COGS 14B**: Introduction to Statistical Analysis   
+
+
 
 ## Methods tutorials
 
