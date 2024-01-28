@@ -30,7 +30,7 @@ Relevant papers and projects:
 
 Human lexica are rife with ambiguity––words with the same *form*, but different *meanings*. Sometimes these meanings are entirely unrelated, as is the case for **homophony** (e.g., the *bark* of a dog vs. the *bark* of a tree); sometimes they are closely related, as in **polysemy** (e.g., the *chicken* in the yard vs. the *chicken* on the plate).
 
-Why would a communication system ostensibly evolved for efficient communication allow the reuse of the same signal for multiple meanings? Do homophones offer a benefit to languages and language users, or are they simply a (mostly harmless) "bug" in the system? And is polysemy subject to distinct selection pressures?
+Language is ostensibly evolved for efficient communication. Why would such a system tolerate such rampant ambiguity? 
 
 Relevant papers and projects:  
 
