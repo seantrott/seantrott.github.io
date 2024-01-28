@@ -4,11 +4,20 @@ title: Research Interests
 permalink: /research/
 ---
 
+## Using LLMs to accelerate scientific progress
+
+Large Language Models (LLMs) like ChatGPT represent an exciting opportunity to accelerate scientific progress. My research asks how and whether these systems can be used to improve different parts of the scientific process, from hypothesis generation to data collection.
+
+Relevant papers and projects:
+
+- **Trott, S.** (2024). Can large language models help augment English psycholinguistic datasets?. Behavior Research Methods, 1-19. [[Link to paper]](https://link.springer.com/article/10.3758/s13428-024-02337-z)
+
+
 ## LLM-ology: probing the "black box" of Large Language Models.
 
-Large Language Models (LLMs) like ChatGPT are seeing widespread use. But how exactly do LLMs work?
+LLMs are seeing widespread use. But how exactly do LLMs work?
 
-Part of my research focuses on [**LLM-ology**](https://seantrott.substack.com/p/in-cautious-defense-of-llm-ology), the study of how LLMs work "under the hood". So far, this has focused on applying methods from Cognitive Science to probe the capabilities and limitations of LLMs through the lens of cognitive psychology and neuroscience. Ultimately, I believe that research on LLMs can also inform our understanding of human cognition.
+Part of my research focuses on [**LLM-ology**](https://seantrott.substack.com/p/in-cautious-defense-of-llm-ology), the study of how LLMs work "under the hood". So far, this has focused on applying methods from Cognitive Science to probe the capabilities and limitations of LLMs through the lens of cognitive psychology and neuroscience.
 
 Relevant papers and projects:
 
