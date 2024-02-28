@@ -10,7 +10,7 @@ Large Language Models (LLMs) like ChatGPT represent an exciting opportunity to a
 
 Relevant papers and projects:
 
-- **Trott, S.** (2024). Can large language models help augment English psycholinguistic datasets?. Behavior Research Methods, 1-19. [[Link to paper]](https://link.springer.com/article/10.3758/s13428-024-02337-z)
+- **Trott, S.** (2024). Can large language models help augment English psycholinguistic datasets? *Behavior Research Methods, 1-19.* [[Link to paper]](https://link.springer.com/article/10.3758/s13428-024-02337-z)
 
 
 ## LLM-ology: probing the "black box" of Large Language Models.
