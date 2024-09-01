@@ -14,6 +14,8 @@ My teaching focuses on **methods** in particular, such as programming (e.g., in 
 
 **CSS 2**: Data and Model Programming for Computational Social Science ([website](https://ucsd-css2.github.io/ucsd-css2-website/intro.html))
 
+**CSS 100**: Advanced Programming for Computational Social Science 
+
 **COGS 101C**: Language 
 
 **COGS 153**: Language Comprehension
