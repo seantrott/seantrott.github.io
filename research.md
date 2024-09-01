@@ -4,26 +4,16 @@ title: Research Interests
 permalink: /research/
 ---
 
-## Using LLMs to accelerate scientific progress
 
-Large Language Models (LLMs) like ChatGPT represent an exciting opportunity to accelerate scientific progress. My research asks how and whether these systems can be used to improve different parts of the scientific process, from hypothesis generation to data collection.
+## Using LLMs to understand human language and cognition
 
-Relevant papers and projects:
+Large Language Models (LLM) are trained to predict tokens based on their linguistic context. Despite this seemingly simple training objective, they generate surprisingly fluent language. How can the abilities (and limits) of LLMs inform theories of language learning and processing? Moreover, how can methods from cognitive psychology and psycholinguistics help us probe the "black box" of LLMs? And finally, how can LLMs help accelerate research progress in areas like psycholinguistics, e.g., by augmenting datasets of psycholinguistic "norms"?
 
-- **Trott, S.** (2024). Can large language models help augment English psycholinguistic datasets? *Behavior Research Methods, 1-19.* [[Link to paper]](https://link.springer.com/article/10.3758/s13428-024-02337-z)
-
-
-## LLM-ology: probing the "black box" of Large Language Models.
-
-LLMs are seeing widespread use. But how exactly do LLMs work?
-
-Part of my research focuses on [**LLM-ology**](https://seantrott.substack.com/p/in-cautious-defense-of-llm-ology), the study of how LLMs work "under the hood". So far, this has focused on applying methods from Cognitive Science to probe the capabilities and limitations of LLMs through the lens of cognitive psychology and neuroscience.
-
-Relevant papers and projects:
-
+- Jones, C., Bergen, B., & **Trott, S.** (2024). Do Multimodal Large Language Models and Humans Ground Language Similarly? Computational Linguistics, 1-25.
+- **Trott, S.** (2024). Can large language models help augment English psycholinguistic datasets? *Behavior Research Methods, 1-19.* [[Link to paper]](https://link.springer.com/article/10.3758/s13428-024-02337-z)[[Link to code]](https://github.com/seantrott/llm_norms)
+- **Trott, S.** (2024). Large Language Models and the Wisdom of Small Crowds. Open Mind, 8, 723-738. [[Link to paper]](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00144/121179)[[Link to code]](https://github.com/seantrott/llm_clt/)
 - **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science* [[Link to paper]](https://arxiv.org/abs/2209.01515)
-
-- Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distributional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44). [[Link to paper]](https://escholarship.org/uc/item/44z7r3j3)
+- Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distributional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44). [[Link to paper]](https://escholarship.org/uc/item/44z7r3j3)[[Link to pre-registration]](https://osf.io/agqwv/)
 
 
 ## Why are languages so ambiguous?
@@ -44,7 +34,7 @@ Relevant papers and projects:
 
 The prevalence of lexical ambiguity also raises the question of how human minds *process* and *represent* the meanings of ambiguous words.
 
-Traditionally, words and their meanings as conceived as discrete entries in a mental dictionary. But meaning is often dynamically modulated in different contexts. We've been exploring an alternative account, in which word meanings are viewed as attractors in a continuous state-space---and then asking whether there is evidence for category boundaries atop this continuous space. [Recent work](https://psycnet.apa.org/record/2023-51926-001) suggests word meaning may be **both categorical and continuous**.
+Traditionally, words and their meanings as conceived as discrete entries in a mental dictionary. But meaning is often dynamically modulated in different contexts. I've been exploring an alternative account, in which word meanings are viewed as attractors in a continuous state-space---and then asking whether there is evidence for category boundaries atop this continuous space. [Recent work](https://psycnet.apa.org/record/2023-51926-001) suggests word meaning may be **both categorical and continuous**. This work has also resulted in publicly available datasets of human judgments about ambiguous words in both English and Spanish.
 
 Relevant papers and projects:
 
