@@ -9,7 +9,7 @@ permalink: /research/
 
 Large Language Models (LLM) are trained to predict tokens based on their linguistic context. Despite this seemingly simple training objective, they generate surprisingly fluent language. How can the abilities (and limits) of LLMs inform theories of language learning and processing? Moreover, how can methods from cognitive psychology and psycholinguistics help us probe the "black box" of LLMs? And finally, how can LLMs help accelerate research progress in areas like psycholinguistics, e.g., by augmenting datasets of psycholinguistic "norms"?
 
-- Jones, C., Bergen, B., & **Trott, S.** (2024). Do Multimodal Large Language Models and Humans Ground Language Similarly? Computational Linguistics, 1-25.
+- Jones, C., Bergen, B., & **Trott, S.** (2024). Do Multimodal Large Language Models and Humans Ground Language Similarly? Computational Linguistics, 1-25. [[Link to paper]](https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00531/123786/Do-Multimodal-Large-Language-Models-and-Humans)[[Link to pre-registration]](https://osf.io/37pqv)
 - **Trott, S.** (2024). Can large language models help augment English psycholinguistic datasets? *Behavior Research Methods, 1-19.* [[Link to paper]](https://link.springer.com/article/10.3758/s13428-024-02337-z)[[Link to code]](https://github.com/seantrott/llm_norms)
 - **Trott, S.** (2024). Large Language Models and the Wisdom of Small Crowds. Open Mind, 8, 723-738. [[Link to paper]](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00144/121179)[[Link to code]](https://github.com/seantrott/llm_clt/)
 - **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science* [[Link to paper]](https://arxiv.org/abs/2209.01515)
