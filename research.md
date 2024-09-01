@@ -38,6 +38,8 @@ Traditionally, words and their meanings as conceived as discrete entries in a me
 
 Relevant papers and projects:
 
+- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2024). Bidirectional Transformer Representations of (Spanish) Ambiguous Words in Context: A New Lexical Resource and Empirical Analysis. arXiv preprint arXiv:2406.14678. [[Link to paper]](https://arxiv.org/abs/2406.14678)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
+
 - **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
 
 - DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
