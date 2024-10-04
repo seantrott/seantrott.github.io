@@ -21,11 +21,8 @@ permalink: /stats/
 ### Large Language Models and NLP
 
 * [Jargon-free introduction to Large Language Models](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/). *Ars Technica*. 
-
 * [So you want to be an LLM-ologist?](https://seantrott.substack.com/p/so-you-want-to-be-an-llm-ologist). Blog post.
-
 * [Mechanistic interpretability for LLMs, explained](https://seantrott.substack.com/p/mechanistic-interpretability-for). Blog post.  
-
 * [Tokenization for LLMs, explained](https://seantrott.substack.com/p/tokenization-in-large-language-models). Blog post.
 
 
