@@ -29,5 +29,5 @@ I write a number of tutorials and explainers about concepts in Statistics, Large
 
 ### Cognitive Science
 
-* Does GPT-3 have a Theory of Mind? *CogSci Blog*, 2023. [[Link]](https://cognitivesciencesociety.org/does-gpt-3-have-a-theory-of-mind/). 
-* As language evolves, who wins out: speakers or listeners? *Psyche*, 2022.[[Link]](https://psyche.co/ideas/as-language-evolves-who-wins-out-speakers-or-listeners). 
+* [Does GPT-3 have a Theory of Mind?](https://cognitivesciencesociety.org/does-gpt-3-have-a-theory-of-mind/). *CogSci Blog*, 2023.
+* [As language evolves, who wins out: speakers or listeners?](https://psyche.co/ideas/as-language-evolves-who-wins-out-speakers-or-listeners). *Psyche*, 2022.
