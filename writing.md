@@ -21,7 +21,7 @@ I write a number of tutorials and explainers about concepts in Statistics, Large
 
 ### Large Language Models and NLP
 
-* [Jargon-free introduction to Large Language Models](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/). *Ars Technica*. 
+* [Jargon-free introduction to Large Language Models](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/). *Ars Technica*, 2023. 
 * [So you want to be an LLM-ologist?](https://seantrott.substack.com/p/so-you-want-to-be-an-llm-ologist). Blog post.
 * [Mechanistic interpretability for LLMs, explained](https://seantrott.substack.com/p/mechanistic-interpretability-for). Blog post.  
 * [Tokenization for LLMs, explained](https://seantrott.substack.com/p/tokenization-in-large-language-models). Blog post.
@@ -29,4 +29,5 @@ I write a number of tutorials and explainers about concepts in Statistics, Large
 
 ### Cognitive Science
 
-* As language evolves, who wins out: speakers or listeners? *Psyche*. [[Link]](https://psyche.co/ideas/as-language-evolves-who-wins-out-speakers-or-listeners). 
+* Does GPT-3 have a Theory of Mind? *CogSci Blog*, 2023. [[Link]](https://cognitivesciencesociety.org/does-gpt-3-have-a-theory-of-mind/). 
+* As language evolves, who wins out: speakers or listeners? *Psyche*, 2022.[[Link]](https://psyche.co/ideas/as-language-evolves-who-wins-out-speakers-or-listeners). 
