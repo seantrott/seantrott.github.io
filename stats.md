@@ -5,8 +5,6 @@ permalink: /stats/
 ---
 
 
-
-
 ### Statistics
 
 * [Introduction to correlations and linear regression in R](https://seantrott.github.io/correlations/)   
@@ -22,12 +20,13 @@ permalink: /stats/
 
 ### Large Language Models and NLP
 
-* [Text processing in Python (tutorial)](https://seantrott.github.io/nlp_basics/) [slides](https://seantrott.github.io/nlp_basics/slides#/)  
-* [Jargon-free introduction to Large Language Models](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/)  
+* [Jargon-free introduction to Large Language Models](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/). *Ars Technica*. 
 
-* [So you want to be an LLM-ologist?](https://seantrott.substack.com/p/so-you-want-to-be-an-llm-ologist)
+* [So you want to be an LLM-ologist?](https://seantrott.substack.com/p/so-you-want-to-be-an-llm-ologist). Blog post.
 
-* [Mechanistic interpretability for LLMs, explained](https://seantrott.substack.com/p/mechanistic-interpretability-for)
+* [Mechanistic interpretability for LLMs, explained](https://seantrott.substack.com/p/mechanistic-interpretability-for). Blog post.  
+
+* [Tokenization for LLMs, explained](https://seantrott.substack.com/p/tokenization-in-large-language-models). Blog post.
 
 
 ### Cognitive Science
