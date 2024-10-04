@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Tutorials and Explainers
-permalink: /stats/
+permalink: /writing/
 ---
 
+I write a number of tutorials and explainers about concepts in Statistics, Large Language Models, and Cognitive Science, some of which have been published in venues like *Psyche* or *Ars Technica*. Links to select writing can be found below. 
 
 ### Statistics
 
