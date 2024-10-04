@@ -19,12 +19,12 @@ I write a number of tutorials and explainers about concepts in Statistics, Large
 ### Large Language Models and NLP
 
 * [Jargon-free introduction to Large Language Models](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/). *Ars Technica*, 2023. 
-* [So you want to be an LLM-ologist?](https://seantrott.substack.com/p/so-you-want-to-be-an-llm-ologist). Blog post.
+* [So you want to be an LLM-ologist?](https://seantrott.substack.com/p/so-you-want-to-be-an-llm-ologist) Blog post.
 * [Mechanistic interpretability for LLMs, explained](https://seantrott.substack.com/p/mechanistic-interpretability-for). Blog post.  
 * [Tokenization for LLMs, explained](https://seantrott.substack.com/p/tokenization-in-large-language-models). Blog post.
 
 
 ### Cognitive Science
 
-* [Does GPT-3 have a Theory of Mind?](https://cognitivesciencesociety.org/does-gpt-3-have-a-theory-of-mind/). *CogSci Blog*, 2023.
-* [As language evolves, who wins out: speakers or listeners?](https://psyche.co/ideas/as-language-evolves-who-wins-out-speakers-or-listeners). *Psyche*, 2022.
+* [Does GPT-3 have a Theory of Mind?](https://cognitivesciencesociety.org/does-gpt-3-have-a-theory-of-mind/) *CogSci Blog*, 2023.
+* [As language evolves, who wins out: speakers or listeners?](https://psyche.co/ideas/as-language-evolves-who-wins-out-speakers-or-listeners) *Psyche*, 2022.
