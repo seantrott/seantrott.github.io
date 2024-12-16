@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 
-## Using LLMs to understand human language and cognition
+## LLMs as model organisms
 
 Large Language Models (LLM) are trained to predict tokens based on their linguistic context. Despite this seemingly simple training objective, they generate surprisingly fluent language. How can the abilities (and limits) of LLMs inform theories of language learning and processing? Moreover, how can methods from cognitive psychology and psycholinguistics help us probe the "black box" of LLMs? And finally, how can LLMs help accelerate research progress in areas like psycholinguistics, e.g., by augmenting datasets of psycholinguistic "norms"?
 
@@ -17,9 +17,29 @@ Selected papers:
 
 - **Trott, S.** (2024). Large Language Models and the Wisdom of Small Crowds. Open Mind, 8, 723-738. [[Link to paper]](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00144/121179)[[Link to code]](https://github.com/seantrott/llm_clt/)
 
-- **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science* [[Link to paper]](https://arxiv.org/abs/2209.01515)
+- **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science* [[Link to paper]](https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.13309)
 
-- Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distributional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44). [[Link to paper]](https://escholarship.org/uc/item/44z7r3j3)[[Link to pre-registration]](https://osf.io/agqwv/)
+- Jones, C. R., Chang, T. A., Coulson, S., Michaelov, J. A., **Trott, S.**, & Bergen, B. (2022). Distributional Semantics Still Can't Account for Affordances. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 44, No. 44). [[Link to paper]](https://escholarship.org/uc/item/44z7r3j3)[[Link to pre-registration]](https://osf.io/agqwv/)[[Link to pre-registration]](https://osf.io/zp6q8)
+
+
+
+## How are ambiguous words represented?
+
+The prevalence of lexical ambiguity raises the question of how human minds *process* and *represent* the meanings of ambiguous words.
+
+Traditionally, words and their meanings as conceived as discrete entries in a mental dictionary. But meaning is often dynamically modulated in different contexts. I've been exploring an alternative account, in which word meanings are viewed as attractors in a continuous state-space---and then asking whether there is evidence for category boundaries atop this continuous space. 
+
+Selected papers:
+
+- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2024). Bidirectional Transformer Representations of (Spanish) Ambiguous Words in Context: A New Lexical Resource and Empirical Analysis. arXiv preprint arXiv:2406.14678. [[Link to paper]](https://arxiv.org/abs/2406.14678)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
+
+- **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
+
+- DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
+
+- **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
+
+- **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[Link to paper]](https://aclanthology.org/2021.acl-long.550/) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
 
 
 ## Why are languages so ambiguous?
@@ -33,26 +53,6 @@ Selected papers:
 - Trott, S., & Bergen, B. (2022). Languages are efficient, but for whom? *Cognition*, 225, 105094. [[Link to paper]](https://www.sciencedirect.com/science/article/pii/S0010027722000828?casa_token=d8CxjIqjJ_4AAAAA:tOfUc2UH-_rIYr9Z8B_yKoyFe_z9hPjyVjiB4VY5SOkEflCzrzWltccWRS3iZ9KJi-cl8WIH)[[Data and code for analysis]](https://github.com/seantrott/homophony_delta) 
 
 - Trott, S., & Bergen, B. (2020). Why do human languages have homophones? *Cognition*, 205, 104449. [[Link to paper]](http://www.cogsci.ucsd.edu/~bkbergen/papers/trott_bergen_2020.pdf)[[Link to preprint]](https://psyarxiv.com/yrjfc/)[[Data and code for analysis]](https://github.com/seantrott/homophone_simulations) 
-
-
-
-## How are ambiguous words represented?
-
-The prevalence of lexical ambiguity also raises the question of how human minds *process* and *represent* the meanings of ambiguous words.
-
-Traditionally, words and their meanings as conceived as discrete entries in a mental dictionary. But meaning is often dynamically modulated in different contexts. I've been exploring an alternative account, in which word meanings are viewed as attractors in a continuous state-space---and then asking whether there is evidence for category boundaries atop this continuous space. [Recent work](https://psycnet.apa.org/record/2023-51926-001) suggests word meaning may be **both categorical and continuous**. This work has also resulted in publicly available datasets of human judgments about ambiguous words in both English and Spanish.
-
-Selected papers:
-
-- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2024). Bidirectional Transformer Representations of (Spanish) Ambiguous Words in Context: A New Lexical Resource and Empirical Analysis. arXiv preprint arXiv:2406.14678. [[Link to paper]](https://arxiv.org/abs/2406.14678)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
-
-- **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
-
-- DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
-
-- **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
-
-- **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[Link to paper]](https://arxiv.org/abs/2105.13266) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
 
 
 
