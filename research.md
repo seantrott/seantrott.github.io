@@ -52,11 +52,11 @@ The availability and ease-of-use of LLMs has led to excitement about the prospec
 
 LLMs can be trained with additional input modalities, such as vision. Just as LLMs trained on text alone can be used as operationalizations of the distributional semantic hypothesis, these vision-language models (VLMs) can be used to systematically test theories about the necessity (or lack thereof) of sensorimotor grounding of semantic representations. 
 
-- Jones, C., Bergen, B., & **Trott, S.** (2024). Do Multimodal Large Language Models and Humans Ground Language Similarly? Computational Linguistics, 1-25. [[Link to paper]](https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00531/123786/Do-Multimodal-Large-Language-Models-and-Humans)[[Link to pre-registration]](https://osf.io/37pqv)  
+- Jones, C., Bergen, B., & **Trott, S.** (2024). Do Multimodal Large Language Models and Humans Ground Language Similarly? *Computational Linguistics*, 1-25. [[Link to paper]](https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00531/123786/Do-Multimodal-Large-Language-Models-and-Humans)[[Link to pre-registration]](https://osf.io/37pqv)  
 
-- Jones, C. R., & **Trott, S.** (2024, May). Multimodal Language Models Show Evidence of Embodied Simulation. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) (pp. 11928-11933).[[Link to paper]](https://aclanthology.org/2024.lrec-main.1041/)  
+- Jones, C. R., & **Trott, S.** (2024, May). Multimodal Language Models Show Evidence of Embodied Simulation. In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)* (pp. 11928-11933).[[Link to paper]](https://aclanthology.org/2024.lrec-main.1041/)  
 
-- Vinaya, H., **Trott, S.**, Pecher, D., Zeelenberg, R., & Coulson, S. (2024). Context-dependent and Dynamic Effects of Distributional and Sensorimotor Distance Measures on EEG. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 46).[[Link to paper]](https://escholarship.org/uc/item/4hp6g01b)
+- Vinaya, H., **Trott, S.**, Pecher, D., Zeelenberg, R., & Coulson, S. (2024). Context-dependent and Dynamic Effects of Distributional and Sensorimotor Distance Measures on EEG. In *Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 46)*.[[Link to paper]](https://escholarship.org/uc/item/4hp6g01b)
 
 
 
