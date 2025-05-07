@@ -45,7 +45,7 @@ The availability and ease-of-use of LLMs has led to excitement about the prospec
 
 - **Trott, S.** (2024). Can large language models help augment English psycholinguistic datasets? *Behavior Research Methods, 1-19.* [[Link to paper]](https://link.springer.com/article/10.3758/s13428-024-02337-z)[[Link to data and code]](https://github.com/seantrott/llm_norms)
 
-- **Trott, S.** (2024). Large Language Models and the Wisdom of Small Crowds. Open Mind, 8, 723-738. [[Link to paper]](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00144/121179)[[Link to data and ode]](https://github.com/seantrott/llm_clt/)
+- **Trott, S.** (2024). Large Language Models and the Wisdom of Small Crowds. *Open Mind*, 8, 723-738. [[Link to paper]](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00144/121179)[[Link to data and ode]](https://github.com/seantrott/llm_clt/)
 
 
 ## Vision-language models and sensorimotor grounding
