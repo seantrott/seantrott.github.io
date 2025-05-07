@@ -17,7 +17,7 @@ Traditionally, words and their meanings as conceived as discrete entries in a me
 
 Selected papers:
 
-- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2024). Bidirectional Transformer Representations of (Spanish) Ambiguous Words in Context: A New Lexical Resource and Empirical Analysis. arXiv preprint arXiv:2406.14678. [[Link to paper]](https://aclanthology.org/2025.naacl-long.422/)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
+- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2025). Bidirectional Transformer Representations of (Spanish) Ambiguous Words in Context: A New Lexical Resource and Empirical Analysis. NAACL 2025. [[Link to paper]](https://aclanthology.org/2025.naacl-long.422/)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
 
 - **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
 
