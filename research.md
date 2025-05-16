@@ -34,7 +34,7 @@ Theory of Mind—the ability to model the mental states of others—is generally
 
 Selected papers:
 
-- **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science* [[Link to paper]](https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.13309)[[Link to pre-registration]](https://osf.io/agqwv)
+- **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know? *Cognitive Science.* [[Link to paper]](https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.13309)[[Link to pre-registration]](https://osf.io/agqwv)
 
 - Jones, C. R., **Trott, S.**, & Bergen, B. (2024). Comparing Humans and Large Language Models on an Experimental Protocol Inventory for Theory of Mind Evaluation (EPITOME). *Transactions of the Association for Computational Linguistics, 12, 803-819.*[[Link to paper]](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00674/122721)
 
