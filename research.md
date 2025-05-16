@@ -21,7 +21,7 @@ Selected papers:
 
 - **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. *Psychological Review.* [[Link]](https://www.researchgate.net/profile/Sean-Trott/publication/369116867_Word_meaning_is_both_categorical_and_continuous/links/656dfb46a760eb7cc748b026/Word-Meaning-Is-Both-Categorical-and-Continuous.pdf) 
 
-- DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). *Behavior Research Methods*, 1-21. [[Link to paper]](https://link.springer.com/article/10.3758/s13428-022-01869-6)[[Link to data]](https://osf.io/g7fmv/files/osfstorage)
+- DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). *Behavior Research Methods*, 1-21. [[Link to paper]](https://link.springer.com/article/10.3758/s13428-022-01869-6)[[Link to code and data]](https://github.com/seantrott/zeugma_norms)
 
 - **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
