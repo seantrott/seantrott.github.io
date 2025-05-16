@@ -17,15 +17,15 @@ Traditionally, words and their meanings as conceived as discrete entries in a me
 
 Selected papers:
 
-- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2025). Evaluating Contextualized Representations of (Spanish) Ambiguous Words: A New Lexical Resource and Empirical Analysis. NAACL 2025. [[Link to paper]](https://aclanthology.org/2025.naacl-long.422/)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
+- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2025). Evaluating Contextualized Representations of (Spanish) Ambiguous Words: A New Lexical Resource and Empirical Analysis. *NAACL 2025*. [[Link to paper]](https://aclanthology.org/2025.naacl-long.422/)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
 
-- **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. Psychological Review. [[Link]](https://psycnet.apa.org/record/2023-51926-001)
+- **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. *Psychological Review.* [[Link]](https://psycnet.apa.org/record/2023-51926-001)
 
-- DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). Behavior Research Methods, 1-21.
+- DeLong, K. A., **Trott, S.**, & Kutas, M. (2022). Offline dominance and zeugmatic similarity normings of variably ambiguous words assessed against a neural language model (BERT). *Behavior Research Methods*, 1-21.
 
 - **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
-- **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). ACL-IJCNLP-2021. [[Link to paper]](https://aclanthology.org/2021.acl-long.550/) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
+- **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021.* [[Link to paper]](https://aclanthology.org/2021.acl-long.550/) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
 
 
 ## The origins and mechanisms of Theory of Mind
@@ -36,7 +36,7 @@ Selected papers:
 
 - **Trott, S.**, Jones, C., Chang, T., Michaelov, J., & Bergen, B. (2023). Do Large Language Models know what humans know?. *Cognitive Science* [[Link to paper]](https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.13309)[[Link to pre-registration]](https://osf.io/agqwv)
 
-- Jones, C. R., **Trott, S.**, & Bergen, B. (2024). Comparing Humans and Large Language Models on an Experimental Protocol Inventory for Theory of Mind Evaluation (EPITOME). Transactions of the Association for Computational Linguistics, 12, 803-819.[[Link to paper]](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00674/122721)
+- Jones, C. R., **Trott, S.**, & Bergen, B. (2024). Comparing Humans and Large Language Models on an Experimental Protocol Inventory for Theory of Mind Evaluation (EPITOME). *Transactions of the Association for Computational Linguistics, 12, 803-819.*[[Link to paper]](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00674/122721)
 
 
 ## Using LLM-generated data in the research pipeline
