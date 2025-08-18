@@ -17,7 +17,7 @@ Traditionally, words and their meanings as conceived as discrete entries in a me
 
 Selected papers:
 
-- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2025). Evaluating Contextualized Representations of (Spanish) Ambiguous Words: A New Lexical Resource and Empirical Analysis. *NAACL 2025*. [[Link to paper]](https://aclanthology.org/2025.naacl-long.422/)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)
+- Rivière, P. D., Beatty-Martínez, A. L., & **Trott, S.** (2025, April). Evaluating Contextualized Representations of (Spanish) Ambiguous Words: A New Lexical Resource and Empirical Analysis. In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) (pp. 8322-8338). [[Link to paper]](https://aclanthology.org/2025.naacl-long.422/)[[Link to GitHub code]](https://github.com/seantrott/spanish_norms)[[Link to HuggingFace dataset]](https://huggingface.co/datasets/seantrott/sawc)
 
 - **Trott, S.**, & Bergen, B. (2023). Word meaning is both categorical and continuous. *Psychological Review.* [[Link]](https://www.researchgate.net/profile/Sean-Trott/publication/369116867_Word_meaning_is_both_categorical_and_continuous/links/656dfb46a760eb7cc748b026/Word-Meaning-Is-Both-Categorical-and-Continuous.pdf) 
 
@@ -25,7 +25,7 @@ Selected papers:
 
 - **Trott, S.**, Bergen, B. (2022). Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context. [[Link to arXiv]](https://arxiv.org/abs/2203.05648)[[Link to dataset]](https://github.com/seantrott/cs_norms)
 
-- **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021.* [[Link to paper]](https://aclanthology.org/2021.acl-long.550/) [[Link to dataset and code]](https://github.com/seantrott/raw-c) 
+- **Trott, S.**, & Bergen, B. (2021). RAW-C: Relatedness of Ambiguous Words, in Context (A New Lexical Resource for English). *ACL-IJCNLP-2021.* [[Link to paper]](https://aclanthology.org/2021.acl-long.550/) [[Link to dataset and code]](https://github.com/seantrott/raw-c)[[Link to HuggingFace dataset]](https://huggingface.co/datasets/seantrott/rawc)
 
 
 ## The origins and mechanisms of Theory of Mind
