@@ -54,11 +54,11 @@ LLMs can be trained with additional input modalities, such as vision. Just as LL
 
 - Rivière, P. D., Parkinson-Coombs, O., Jones, C., & **Trott, S.** (2025, July). Does Language Stabilize Quantity Representations in Vision Transformers? *In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 47, No. 47)*. [[Link to paper]](https://escholarship.org/uc/item/8f03g251)
 
+- Vinaya, H., **Trott, S.**, & Coulson, S. (2025, September). Vision Language Model Representations Predict EEG Response to Visual and Auditory Attributes in Property Verification. *Architectures and Mechanisms for Language Processing*.
+
 - Jones, C., Bergen, B., & **Trott, S.** (2024). Do Multimodal Large Language Models and Humans Ground Language Similarly? *Computational Linguistics*, 1-25. [[Link to paper]](https://direct.mit.edu/coli/article/doi/10.1162/coli_a_00531/123786/Do-Multimodal-Large-Language-Models-and-Humans)[[Link to pre-registration]](https://osf.io/37pqv)  
 
 - Jones, C. R., & **Trott, S.** (2024, May). Multimodal Language Models Show Evidence of Embodied Simulation. In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)* (pp. 11928-11933).[[Link to paper]](https://aclanthology.org/2024.lrec-main.1041/)  
-
-- Vinaya, H., **Trott, S.**, Pecher, D., Zeelenberg, R., & Coulson, S. (2024). Context-dependent and Dynamic Effects of Distributional and Sensorimotor Distance Measures on EEG. In *Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 46)*.[[Link to paper]](https://escholarship.org/uc/item/4hp6g01b)
 
 
 
