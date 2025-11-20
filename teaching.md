@@ -16,6 +16,8 @@ My teaching focuses on **methods** in particular, such as programming (e.g., in 
 
 **CSS 100**: Advanced Programming for Computational Social Science 
 
+**CSS 211**: Statistical Methods for Computational Social Science ([website](https://seantrott.github.io/ucsd_css211/))
+
 **COGS 101C**: Language 
 
 **COGS 153**: Language Comprehension
