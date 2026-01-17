@@ -4,11 +4,14 @@ title: Teaching
 permalink: /teaching/
 ---
 
-I am an Assistant Teaching Professor in the [Cognitive Science department](https://cogsci.ucsd.edu/) and [Computational Social Science (CSS) program](https://css.ucsd.edu/) at UC San Diego. This means that I split my time teaching classes for both departments.
 
-My teaching focuses on **methods** in particular, such as programming (e.g., in Python), data visualization, statistics, and natural language processing. I also teach classes focused on language and cognition.
+## UCSD Teaching
 
-## Courses I Teach
+I worked as an Assistant Teaching Professor in the [Cognitive Science department](https://cogsci.ucsd.edu/) and [Computational Social Science (CSS) program](https://css.ucsd.edu/) at UC San Diego for several years. This means that I split my time teaching classes for both departments.
+
+My teaching focused on **methods** in particular, such as programming (e.g., in Python), data visualization, statistics, and natural language processing. I also taught classes focused on language and cognition.
+
+### Courses I Taught
 
 **CSS 1**: Introductory Programming for Computational Social Science ([website](https://ucsd-css1-introduction.github.io/overview/intro.html))
 
