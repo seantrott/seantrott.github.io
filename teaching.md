@@ -17,7 +17,7 @@ My teaching focused on **methods** in particular, such as programming (e.g., in 
 
 **CSS 2**: Data and Model Programming for Computational Social Science ([website](https://ucsd-css2.github.io/ucsd-css2-website/intro.html))
 
-**CSS 100**: Advanced Programming for Computational Social Science 
+**CSS 100**: Advanced Programming for Computational Social Science ([website](https://seantrott.github.io/ucsd_css211/))
 
 **CSS 211**: Statistical Methods for Computational Social Science ([website](https://seantrott.github.io/ucsd_css211/))
 
